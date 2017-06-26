@@ -1,4 +1,0 @@
-Lab/CS15B011/lab1_1.c: In function ‘main’:
-Lab/CS15B011/lab1_1.c:29:12: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]
-   case 0 : exit(0);
-            ^

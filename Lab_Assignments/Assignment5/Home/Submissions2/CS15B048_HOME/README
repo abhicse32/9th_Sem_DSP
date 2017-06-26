@@ -1,4 +1,0 @@
-stack.c - return INT_MIN for pop during empty stack
-queue.c - return INT_MIN for dequeue empty queue
-q3_2.c - modify break condition to work for testcase 2 ( single element case)
-stack_a.c - return INT_MIN for pop during empty stack

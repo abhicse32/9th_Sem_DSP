@@ -1,2 +1,0 @@
-1) In queue.c, Line no. 28 (dequeue function) I added 
-	"if(queue_is_empty(q)) return -2147483648;"

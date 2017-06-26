@@ -1,2 +1,0 @@
-stack.c : if stack is empty then i didnot check and directly did pop operation ,now i added the additional condition
-queue_using_stack.c : i changed the printf statement,initially i removed the elements and printed them now i corrected it,removed extra newline
