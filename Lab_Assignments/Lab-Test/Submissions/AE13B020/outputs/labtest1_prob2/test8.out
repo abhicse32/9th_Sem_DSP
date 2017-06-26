@@ -1,0 +1,54 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push V in stack 2. New stack : _______________________________V
+Iteration   2 : Push v in stack 1. New stack : v______________________________V
+Iteration   3 : Push Y in stack 2. New stack : v_____________________________YV
+Iteration   4 : Push p in stack 1. New stack : vp____________________________YV
+Iteration   5 : Push N in stack 2. New stack : vp___________________________NYV
+Iteration   6 : Push L in stack 2. New stack : vp__________________________LNYV
+Iteration   7 : Push M in stack 2. New stack : vp_________________________MLNYV
+Iteration   8 : Push q in stack 1. New stack : vpq________________________MLNYV
+Iteration   9 : Push n in stack 1. New stack : vpqn_______________________MLNYV
+Iteration  10 : Push j in stack 1. New stack : vpqnj______________________MLNYV
+Iteration  11 : Push Q in stack 2. New stack : vpqnj_____________________QMLNYV
+Iteration  12 : Push i in stack 1. New stack : vpqnji____________________QMLNYV
+Iteration  13 : Push p in stack 1. New stack : vpqnjip___________________QMLNYV
+Iteration  14 : Push t in stack 1. New stack : vpqnjipt__________________QMLNYV
+Iteration  15 : Push x in stack 1. New stack : vpqnjiptx_________________QMLNYV
+Iteration  16 : Pop    in stack 1. New stack : vpqnjipt__________________QMLNYV
+Iteration  17 : Pop    in stack 1. New stack : vpqnjip___________________QMLNYV
+Iteration  18 : Pop    in stack 1. New stack : vpqnji____________________QMLNYV
+Iteration  19 : Push D in stack 2. New stack : vpqnji___________________DQMLNYV
+Iteration  20 : Pop    in stack 1. New stack : vpqnj____________________DQMLNYV
+Iteration  21 : Push C in stack 2. New stack : vpqnj___________________CDQMLNYV
+Iteration  22 : Push F in stack 2. New stack : vpqnj__________________FCDQMLNYV
+Iteration  23 : Pop    in stack 1. New stack : vpqn___________________FCDQMLNYV
+Iteration  24 : Pop    in stack 1. New stack : vpq____________________FCDQMLNYV
+Iteration  25 : Pop    in stack 1. New stack : vp_____________________FCDQMLNYV
+Iteration  26 : Push f in stack 1. New stack : vpf____________________FCDQMLNYV
+Iteration  27 : Pop    in stack 1. New stack : vp_____________________FCDQMLNYV
+Iteration  28 : Pop    in stack 2. New stack : vp______________________CDQMLNYV
+Iteration  29 : Push k in stack 1. New stack : vpk_____________________CDQMLNYV
+Iteration  30 : Push j in stack 1. New stack : vpkj____________________CDQMLNYV
+Iteration  31 : Push H in stack 2. New stack : vpkj___________________HCDQMLNYV
+Iteration  32 : Push d in stack 1. New stack : vpkjd__________________HCDQMLNYV
+Iteration  33 : Pop    in stack 1. New stack : vpkj___________________HCDQMLNYV
+Iteration  34 : Push v in stack 1. New stack : vpkjv__________________HCDQMLNYV
+Iteration  35 : Pop    in stack 1. New stack : vpkj___________________HCDQMLNYV
+Iteration  36 : Push V in stack 2. New stack : vpkj__________________VHCDQMLNYV
+Iteration  37 : Push B in stack 2. New stack : vpkj_________________BVHCDQMLNYV
+Iteration  38 : Pop    in stack 1. New stack : vpk__________________BVHCDQMLNYV
+Iteration  39 : Push T in stack 2. New stack : vpk_________________TBVHCDQMLNYV
+Iteration  40 : Push n in stack 1. New stack : vpkn________________TBVHCDQMLNYV
+Iteration  41 : Pop    in stack 2. New stack : vpkn_________________BVHCDQMLNYV
+Iteration  42 : Pop    in stack 1. New stack : vpk__________________BVHCDQMLNYV
+Iteration  43 : Pop    in stack 1. New stack : vp___________________BVHCDQMLNYV
+Iteration  44 : Push f in stack 1. New stack : vpf__________________BVHCDQMLNYV
+Iteration  45 : Pop    in stack 1. New stack : vp___________________BVHCDQMLNYV
+Iteration  46 : Pop    in stack 1. New stack : v____________________BVHCDQMLNYV
+Iteration  47 : Pop    in stack 1. New stack : _____________________BVHCDQMLNYV
+Iteration  48 : Push i in stack 1. New stack : i____________________BVHCDQMLNYV
+Iteration  49 : Pop    in stack 2. New stack : i_____________________VHCDQMLNYV
+Iteration  50 : Pop    in stack 1. New stack : ______________________VHCDQMLNYV
+Iteration  51 : Pop    in stack 2. New stack : _______________________HCDQMLNYV
+Iteration  52 : Push Z in stack 2. New stack : ______________________ZHCDQMLNYV
+Iteration  53 : Pop    in stack 1. New stack : Error: Underflow in Stack 1.

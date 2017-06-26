@@ -1,0 +1,69 @@
+1. Extract all the program files of the students assigned to you in the Submissions directory included in the attachments 
+
+2. run the test_creator script which will create directories with names as students' roll numbers and put their corresponding program files in the directories with their roll numbers.
+
+3. In program files for q2 of each student do the following
+	
+	a) change MAX_SIZE to 50
+	b) replace the main function with following main function
+
+	int main (){
+	   int i, option, which, action;
+	   char what;
+
+	   srand((unsigned int)time(NULL));
+
+	   printf("Enter strategy -- 0 (odd-even) or 1 (colliding) : ");
+	   scanf("%d",&option);
+	   printf("%d\n",option);
+	   initStack(option);
+
+	   i = 0;
+	   int times,letter;
+	   scanf("%d",&times);
+	   while (i<times) {
+	      ++i;
+	      printf("Iteration %3d : ", i); fflush(stdout);
+
+	      /* Initially make push. Then make push twice as likely as pop. */
+	      // if (i <= 8) action = 1;
+	      // else action = rand() % 3;
+	      scanf("%d",&action);
+
+	      /* Make Stack 1 twice more active than Stack 2 */
+	      // which = (rand() % 3) ? 1 : 2;
+	      scanf("%d",&which);
+	      scanf("%d",&letter);
+	      if (action) { /* Push */
+	         what = ((which == 1) ? 'a' : 'A') + letter;
+	         printf("Push %c in stack %d. New stack : ",what,which); fflush(stdout);
+	         pushStack(which,what,option);
+	      } else {      /* Pop */
+	         printf("Pop    in stack %d. New stack : ",which); fflush(stdout);
+	         popStack(which,option);
+	      }
+	      printStack();
+	   }
+   return(0);
+}
+
+
+5. In program files for q1 of each student, do following
+	
+	a) in function genRandList() comment the first two lines and add scanf as following
+
+	  // q -> x = 1000 + rand() % 9000;
+      // q -> y = 1000 + rand() % 9000;
+      scanf("%d%d",&(q->x),&(q->y));
+
+    b) in main, add the first two lines of the following 3 lines and change the parameter passed to genRandList to n 
+
+   	int n;
+   	scanf("%d",&n);
+   	L = genRandList(n);
+
+6. finally run the "run" script which will generate the results of each student in the directories with their roll numbers in the file named "results.txt"
+
+7. Update the results in the moodle
+
+8. Notify in the groupy, when done :P

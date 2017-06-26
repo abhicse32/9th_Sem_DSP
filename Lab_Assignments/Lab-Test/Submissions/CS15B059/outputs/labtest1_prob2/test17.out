@@ -1,0 +1,139 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push p in stack 1. New stack : p_________________________________________________
+Iteration   2 : Push f in stack 1. New stack : pf________________________________________________
+Iteration   3 : Push j in stack 1. New stack : pfj_______________________________________________
+Iteration   4 : Push J in stack 2. New stack : pfj______________________________________________J
+Iteration   5 : Push x in stack 1. New stack : pfjx_____________________________________________J
+Iteration   6 : Push H in stack 2. New stack : pfjx____________________________________________HJ
+Iteration   7 : Push j in stack 1. New stack : pfjxj___________________________________________HJ
+Iteration   8 : Push x in stack 1. New stack : pfjxjx__________________________________________HJ
+Iteration   9 : Push p in stack 1. New stack : pfjxjxp_________________________________________HJ
+Iteration  10 : Push Y in stack 2. New stack : pfjxjxp________________________________________YHJ
+Iteration  11 : Push W in stack 2. New stack : pfjxjxp_______________________________________WYHJ
+Iteration  12 : Push t in stack 1. New stack : pfjxjxpt______________________________________WYHJ
+Iteration  13 : Push z in stack 1. New stack : pfjxjxptz_____________________________________WYHJ
+Iteration  14 : Push P in stack 2. New stack : pfjxjxptz____________________________________PWYHJ
+Iteration  15 : Push r in stack 1. New stack : pfjxjxptzr___________________________________PWYHJ
+Iteration  16 : Push o in stack 1. New stack : pfjxjxptzro__________________________________PWYHJ
+Iteration  17 : Push z in stack 1. New stack : pfjxjxptzroz_________________________________PWYHJ
+Iteration  18 : Push u in stack 1. New stack : pfjxjxptzrozu________________________________PWYHJ
+Iteration  19 : Push I in stack 2. New stack : pfjxjxptzrozu_______________________________IPWYHJ
+Iteration  20 : Pop    in stack 1. New stack : pfjxjxptzroz________________________________IPWYHJ
+Iteration  21 : Pop    in stack 2. New stack : pfjxjxptzroz_________________________________PWYHJ
+Iteration  22 : Push a in stack 1. New stack : pfjxjxptzroza________________________________PWYHJ
+Iteration  23 : Pop    in stack 1. New stack : pfjxjxptzroz_________________________________PWYHJ
+Iteration  24 : Push h in stack 1. New stack : pfjxjxptzrozh________________________________PWYHJ
+Iteration  25 : Pop    in stack 1. New stack : pfjxjxptzroz_________________________________PWYHJ
+Iteration  26 : Push g in stack 1. New stack : pfjxjxptzrozg________________________________PWYHJ
+Iteration  27 : Pop    in stack 2. New stack : pfjxjxptzrozg_________________________________WYHJ
+Iteration  28 : Push p in stack 1. New stack : pfjxjxptzrozgp________________________________WYHJ
+Iteration  29 : Pop    in stack 1. New stack : pfjxjxptzrozg_________________________________WYHJ
+Iteration  30 : Pop    in stack 2. New stack : pfjxjxptzrozg__________________________________YHJ
+Iteration  31 : Push R in stack 2. New stack : pfjxjxptzrozg_________________________________RYHJ
+Iteration  32 : Pop    in stack 1. New stack : pfjxjxptzroz__________________________________RYHJ
+Iteration  33 : Push L in stack 2. New stack : pfjxjxptzroz_________________________________LRYHJ
+Iteration  34 : Push E in stack 2. New stack : pfjxjxptzroz________________________________ELRYHJ
+Iteration  35 : Push s in stack 1. New stack : pfjxjxptzrozs_______________________________ELRYHJ
+Iteration  36 : Push T in stack 2. New stack : pfjxjxptzrozs______________________________TELRYHJ
+Iteration  37 : Pop    in stack 2. New stack : pfjxjxptzrozs_______________________________ELRYHJ
+Iteration  38 : Push o in stack 1. New stack : pfjxjxptzrozso______________________________ELRYHJ
+Iteration  39 : Pop    in stack 1. New stack : pfjxjxptzrozs_______________________________ELRYHJ
+Iteration  40 : Pop    in stack 1. New stack : pfjxjxptzroz________________________________ELRYHJ
+Iteration  41 : Push d in stack 1. New stack : pfjxjxptzrozd_______________________________ELRYHJ
+Iteration  42 : Pop    in stack 1. New stack : pfjxjxptzroz________________________________ELRYHJ
+Iteration  43 : Pop    in stack 1. New stack : pfjxjxptzro_________________________________ELRYHJ
+Iteration  44 : Pop    in stack 2. New stack : pfjxjxptzro__________________________________LRYHJ
+Iteration  45 : Pop    in stack 1. New stack : pfjxjxptzr___________________________________LRYHJ
+Iteration  46 : Push v in stack 1. New stack : pfjxjxptzrv__________________________________LRYHJ
+Iteration  47 : Push i in stack 1. New stack : pfjxjxptzrvi_________________________________LRYHJ
+Iteration  48 : Pop    in stack 1. New stack : pfjxjxptzrv__________________________________LRYHJ
+Iteration  49 : Push r in stack 1. New stack : pfjxjxptzrvr_________________________________LRYHJ
+Iteration  50 : Push g in stack 1. New stack : pfjxjxptzrvrg________________________________LRYHJ
+Iteration  51 : Pop    in stack 1. New stack : pfjxjxptzrvr_________________________________LRYHJ
+Iteration  52 : Push p in stack 1. New stack : pfjxjxptzrvrp________________________________LRYHJ
+Iteration  53 : Pop    in stack 2. New stack : pfjxjxptzrvrp_________________________________RYHJ
+Iteration  54 : Pop    in stack 1. New stack : pfjxjxptzrvr__________________________________RYHJ
+Iteration  55 : Push M in stack 2. New stack : pfjxjxptzrvr_________________________________MRYHJ
+Iteration  56 : Pop    in stack 1. New stack : pfjxjxptzrv__________________________________MRYHJ
+Iteration  57 : Pop    in stack 1. New stack : pfjxjxptzr___________________________________MRYHJ
+Iteration  58 : Push c in stack 1. New stack : pfjxjxptzrc__________________________________MRYHJ
+Iteration  59 : Push P in stack 2. New stack : pfjxjxptzrc_________________________________PMRYHJ
+Iteration  60 : Push t in stack 1. New stack : pfjxjxptzrct________________________________PMRYHJ
+Iteration  61 : Push H in stack 2. New stack : pfjxjxptzrct_______________________________HPMRYHJ
+Iteration  62 : Pop    in stack 1. New stack : pfjxjxptzrc________________________________HPMRYHJ
+Iteration  63 : Push y in stack 1. New stack : pfjxjxptzrcy_______________________________HPMRYHJ
+Iteration  64 : Push n in stack 1. New stack : pfjxjxptzrcyn______________________________HPMRYHJ
+Iteration  65 : Push O in stack 2. New stack : pfjxjxptzrcyn_____________________________OHPMRYHJ
+Iteration  66 : Push s in stack 1. New stack : pfjxjxptzrcyns____________________________OHPMRYHJ
+Iteration  67 : Pop    in stack 2. New stack : pfjxjxptzrcyns_____________________________HPMRYHJ
+Iteration  68 : Pop    in stack 1. New stack : pfjxjxptzrcyn______________________________HPMRYHJ
+Iteration  69 : Push U in stack 2. New stack : pfjxjxptzrcyn_____________________________UHPMRYHJ
+Iteration  70 : Pop    in stack 1. New stack : pfjxjxptzrcy______________________________UHPMRYHJ
+Iteration  71 : Push b in stack 1. New stack : pfjxjxptzrcyb_____________________________UHPMRYHJ
+Iteration  72 : Push t in stack 1. New stack : pfjxjxptzrcybt____________________________UHPMRYHJ
+Iteration  73 : Push O in stack 2. New stack : pfjxjxptzrcybt___________________________OUHPMRYHJ
+Iteration  74 : Push R in stack 2. New stack : pfjxjxptzrcybt__________________________ROUHPMRYHJ
+Iteration  75 : Push t in stack 1. New stack : pfjxjxptzrcybtt_________________________ROUHPMRYHJ
+Iteration  76 : Push G in stack 2. New stack : pfjxjxptzrcybtt________________________GROUHPMRYHJ
+Iteration  77 : Pop    in stack 1. New stack : pfjxjxptzrcybt_________________________GROUHPMRYHJ
+Iteration  78 : Push m in stack 1. New stack : pfjxjxptzrcybtm________________________GROUHPMRYHJ
+Iteration  79 : Pop    in stack 1. New stack : pfjxjxptzrcybt_________________________GROUHPMRYHJ
+Iteration  80 : Pop    in stack 1. New stack : pfjxjxptzrcyb__________________________GROUHPMRYHJ
+Iteration  81 : Pop    in stack 1. New stack : pfjxjxptzrcy___________________________GROUHPMRYHJ
+Iteration  82 : Push t in stack 1. New stack : pfjxjxptzrcyt__________________________GROUHPMRYHJ
+Iteration  83 : Pop    in stack 2. New stack : pfjxjxptzrcyt___________________________ROUHPMRYHJ
+Iteration  84 : Push L in stack 2. New stack : pfjxjxptzrcyt__________________________LROUHPMRYHJ
+Iteration  85 : Pop    in stack 2. New stack : pfjxjxptzrcyt___________________________ROUHPMRYHJ
+Iteration  86 : Pop    in stack 2. New stack : pfjxjxptzrcyt____________________________OUHPMRYHJ
+Iteration  87 : Pop    in stack 1. New stack : pfjxjxptzrcy_____________________________OUHPMRYHJ
+Iteration  88 : Pop    in stack 1. New stack : pfjxjxptzrc______________________________OUHPMRYHJ
+Iteration  89 : Push e in stack 1. New stack : pfjxjxptzrce_____________________________OUHPMRYHJ
+Iteration  90 : Pop    in stack 1. New stack : pfjxjxptzrc______________________________OUHPMRYHJ
+Iteration  91 : Push a in stack 1. New stack : pfjxjxptzrca_____________________________OUHPMRYHJ
+Iteration  92 : Push x in stack 1. New stack : pfjxjxptzrcax____________________________OUHPMRYHJ
+Iteration  93 : Push g in stack 1. New stack : pfjxjxptzrcaxg___________________________OUHPMRYHJ
+Iteration  94 : Push c in stack 1. New stack : pfjxjxptzrcaxgc__________________________OUHPMRYHJ
+Iteration  95 : Pop    in stack 1. New stack : pfjxjxptzrcaxg___________________________OUHPMRYHJ
+Iteration  96 : Pop    in stack 1. New stack : pfjxjxptzrcax____________________________OUHPMRYHJ
+Iteration  97 : Push Y in stack 2. New stack : pfjxjxptzrcax___________________________YOUHPMRYHJ
+Iteration  98 : Pop    in stack 1. New stack : pfjxjxptzrca____________________________YOUHPMRYHJ
+Iteration  99 : Push j in stack 1. New stack : pfjxjxptzrcaj___________________________YOUHPMRYHJ
+Iteration 100 : Pop    in stack 2. New stack : pfjxjxptzrcaj____________________________OUHPMRYHJ
+Iteration 101 : Pop    in stack 1. New stack : pfjxjxptzrca_____________________________OUHPMRYHJ
+Iteration 102 : Pop    in stack 1. New stack : pfjxjxptzrc______________________________OUHPMRYHJ
+Iteration 103 : Pop    in stack 1. New stack : pfjxjxptzr_______________________________OUHPMRYHJ
+Iteration 104 : Push a in stack 1. New stack : pfjxjxptzra______________________________OUHPMRYHJ
+Iteration 105 : Pop    in stack 1. New stack : pfjxjxptzr_______________________________OUHPMRYHJ
+Iteration 106 : Push f in stack 1. New stack : pfjxjxptzrf______________________________OUHPMRYHJ
+Iteration 107 : Push m in stack 1. New stack : pfjxjxptzrfm_____________________________OUHPMRYHJ
+Iteration 108 : Pop    in stack 1. New stack : pfjxjxptzrf______________________________OUHPMRYHJ
+Iteration 109 : Push r in stack 1. New stack : pfjxjxptzrfr_____________________________OUHPMRYHJ
+Iteration 110 : Push n in stack 1. New stack : pfjxjxptzrfrn____________________________OUHPMRYHJ
+Iteration 111 : Push a in stack 1. New stack : pfjxjxptzrfrna___________________________OUHPMRYHJ
+Iteration 112 : Pop    in stack 2. New stack : pfjxjxptzrfrna____________________________UHPMRYHJ
+Iteration 113 : Push P in stack 2. New stack : pfjxjxptzrfrna___________________________PUHPMRYHJ
+Iteration 114 : Push c in stack 1. New stack : pfjxjxptzrfrnac__________________________PUHPMRYHJ
+Iteration 115 : Pop    in stack 1. New stack : pfjxjxptzrfrna___________________________PUHPMRYHJ
+Iteration 116 : Pop    in stack 2. New stack : pfjxjxptzrfrna____________________________UHPMRYHJ
+Iteration 117 : Push j in stack 1. New stack : pfjxjxptzrfrnaj___________________________UHPMRYHJ
+Iteration 118 : Push P in stack 2. New stack : pfjxjxptzrfrnaj__________________________PUHPMRYHJ
+Iteration 119 : Pop    in stack 1. New stack : pfjxjxptzrfrna___________________________PUHPMRYHJ
+Iteration 120 : Push H in stack 2. New stack : pfjxjxptzrfrna__________________________HPUHPMRYHJ
+Iteration 121 : Pop    in stack 2. New stack : pfjxjxptzrfrna___________________________PUHPMRYHJ
+Iteration 122 : Push Y in stack 2. New stack : pfjxjxptzrfrna__________________________YPUHPMRYHJ
+Iteration 123 : Push a in stack 1. New stack : pfjxjxptzrfrnaa_________________________YPUHPMRYHJ
+Iteration 124 : Push q in stack 1. New stack : pfjxjxptzrfrnaaq________________________YPUHPMRYHJ
+Iteration 125 : Push Q in stack 2. New stack : pfjxjxptzrfrnaaq_______________________QYPUHPMRYHJ
+Iteration 126 : Pop    in stack 1. New stack : pfjxjxptzrfrnaa________________________QYPUHPMRYHJ
+Iteration 127 : Pop    in stack 2. New stack : pfjxjxptzrfrnaa_________________________YPUHPMRYHJ
+Iteration 128 : Push p in stack 1. New stack : pfjxjxptzrfrnaap________________________YPUHPMRYHJ
+Iteration 129 : Push A in stack 2. New stack : pfjxjxptzrfrnaap_______________________AYPUHPMRYHJ
+Iteration 130 : Pop    in stack 1. New stack : pfjxjxptzrfrnaa________________________AYPUHPMRYHJ
+Iteration 131 : Pop    in stack 2. New stack : pfjxjxptzrfrnaa_________________________YPUHPMRYHJ
+Iteration 132 : Push T in stack 2. New stack : pfjxjxptzrfrnaa________________________TYPUHPMRYHJ
+Iteration 133 : Pop    in stack 1. New stack : pfjxjxptzrfrna_________________________TYPUHPMRYHJ
+Iteration 134 : Push o in stack 1. New stack : pfjxjxptzrfrnao________________________TYPUHPMRYHJ
+Iteration 135 : Pop    in stack 1. New stack : pfjxjxptzrfrna_________________________TYPUHPMRYHJ
+Iteration 136 : Pop    in stack 2. New stack : pfjxjxptzrfrna__________________________YPUHPMRYHJ
+Iteration 137 : Push U in stack 2. New stack : pfjxjxptzrfrna_________________________UYPUHPMRYHJ
+Iteration 138 : Push g in stack 1. New stack : pfjxjxptzrfrnag________________________UYPUHPMRYHJ

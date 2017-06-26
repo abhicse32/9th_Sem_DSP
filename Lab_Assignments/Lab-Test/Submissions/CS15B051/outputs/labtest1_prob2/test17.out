@@ -1,0 +1,11 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push p in stack 1. New stack : p_________________________________________________
+Iteration   2 : Push f in stack 1. New stack : pf________________________________________________
+Iteration   3 : Push j in stack 1. New stack : pfj_______________________________________________
+Iteration   4 : Push J in stack 2. New stack : pfj_______________________________________________
+Iteration   5 : Push x in stack 1. New stack : pfjx______________________________________________
+Iteration   6 : Push H in stack 2. New stack : pfjx______________________________________________
+Iteration   7 : Push j in stack 1. New stack : pfjxj_____________________________________________
+Iteration   8 : Push x in stack 1. New stack : pfjxjx____________________________________________
+Iteration   9 : Push p in stack 1. New stack : pfjxjxp___________________________________________
+Iteration  10 : Push Y in stack 2. New stack : 

@@ -1,0 +1,1 @@
+diff <(sed '1q;d' '../../../testcases/output/q1/19') <(sed '1q;d' 'result.delme')

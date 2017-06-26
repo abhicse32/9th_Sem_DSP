@@ -1,0 +1,9 @@
+Do the following to compile and run your code.
+
+1. Download the resources containing this ReadMe file :P 
+
+2. place your program directory, i.e. "CS15B0XX_HOME" in the directory "Submissions"
+
+3. type $./run    - this will compile your programs and create executables in the directory named "executables", outputs in the directory named "outputs" and results(for each line/testcase) in the file "result.txt" and all inside "Code" directory
+
+4. type $./run2    - same as above, except this will generate results in the file "results.txt" which will contains the final results and will be created in the current working directory 

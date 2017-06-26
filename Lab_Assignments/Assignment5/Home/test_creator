@@ -1,0 +1,108 @@
+#!/usr/bin/env python
+from random import randint,choice,uniform
+import random
+from subprocess import call,Popen,PIPE
+from string import ascii_lowercase
+import os
+
+solDir="solutions"
+testDir="testcases"
+progDir="CS12B032_HOME/Code"
+execs="executables"
+
+def gen_out(infile):
+    noext=os.path.splitext(infile)[0]
+    testPath= os.path.join(testDir,noext+".in")
+    execPath=os.path.join(execs,noext)
+    ansPath= os.path.join(solDir,noext+".ans")
+    progPath= os.path.join(progDir,infile)
+    sortPath= os.path.join(progDir,"q2_sort.c")
+    # print progPath,ansPath,execPath,testPath
+    if noext=='q1':
+        os.system("gcc -o "+execPath+" "+progPath+" -lm")
+    else:
+        os.system("gcc -o "+execPath+" "+progPath+" "+sortPath+" -lm")
+
+    with open(testPath,"r") as reader:
+        with open(ansPath,"w") as writer:
+            if noext=='q2' or noext=='q3':
+                ps= Popen("./"+execPath, stdin= PIPE, stdout= PIPE, stderr= PIPE)
+                out,err= ps.communicate(os.linesep.join([lines for lines in reader]))
+                writer.write(out)
+            else:
+                lines= int(reader.readline())
+                for i in range(lines):
+                    ps=Popen("./"+execPath, stdin=PIPE,stdout=PIPE,stderr=PIPE)
+                    lst=[reader.readline() for k in range(2)]
+                    out,err=ps.communicate(os.linesep.join(lst))
+                    writer.write(out)
+
+def aux2(w,terms,range_):
+    w.write(str(terms)+"\n")
+    lst=sorted(random.sample(range(0,range_),terms))
+    w.write(' '.join(map(str,lst))+"\n")
+    lst,i=[],0
+    while i<terms:
+        coeff= randint(-15,15)
+        if coeff!=0:
+            lst.append(coeff)
+            i+=1
+    w.write(' '.join(map(str,lst))+"\n")
+
+def create2_queue(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        lst=["enqueue","dequeue","size","enqueue","is_empty"]
+        for i in range(500):
+            ind=randint(0,len(lst)-1)
+            if lst[ind]=="enqueue":
+                w.write(lst[ind]+" "+str(randint(-1000,1000))+"\n")
+            else:
+                w.write(lst[ind]+"\n")
+
+def create1_stack(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        lst=["push","pop","size","push","is_empty"]
+        for i in range(500):
+            ind=randint(0,len(lst)-1)
+            if lst[ind]=="push":
+                w.write(lst[ind]+" "+str(randint(-1000,1000))+"\n")
+            else:
+                w.write(lst[ind]+"\n")
+
+def create1_stack_a(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        lst=["push","pop","size","push","is_empty","push","is_full"]
+        for i in range(500):
+            ind=randint(0,len(lst)-1)
+            if lst[ind]=="push":
+                w.write(lst[ind]+" "+str(randint(-1000,1000))+"\n")
+            else:
+                w.write(lst[ind]+"\n")
+
+def create2_queue_a(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        lst=["enqueue","dequeue","size","enqueue","is_empty","is_full"]
+        for i in range(500):
+            ind=randint(0,len(lst)-1)
+            if lst[ind]=="enqueue":
+                w.write(lst[ind]+" "+str(randint(-1000,1000))+"\n")
+            else:
+                w.write(lst[ind]+"\n")
+
+
+if __name__=='__main__':
+        if not os.path.exists(solDir):
+            os.system("mkdir -p "+solDir)
+        if not os.path.exists(testDir):
+            os.system("mkdir -p "+testDir)
+        if not os.path.exists(execs):
+            os.system("mkdir -p "+execs)
+        create1_stack("q1_stack")
+        create1_stack_a("q1_stack_a")
+        create2_queue("q2_queue")
+        create2_queue_a("q2_queue_a")
+

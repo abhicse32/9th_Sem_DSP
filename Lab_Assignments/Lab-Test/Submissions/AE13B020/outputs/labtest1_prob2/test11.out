@@ -1,0 +1,46 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push h in stack 1. New stack : h_______________________________
+Iteration   2 : Push s in stack 1. New stack : h_s_____________________________
+Iteration   3 : Push F in stack 2. New stack : hFs_____________________________
+Iteration   4 : Push U in stack 2. New stack : hFsU____________________________
+Iteration   5 : Push o in stack 1. New stack : hFsUo___________________________
+Iteration   6 : Push f in stack 1. New stack : hFsUo_f_________________________
+Iteration   7 : Push n in stack 1. New stack : hFsUo_f_n_______________________
+Iteration   8 : Push k in stack 1. New stack : hFsUo_f_n_k_____________________
+Iteration   9 : Push b in stack 1. New stack : hFsUo_f_n_k_b___________________
+Iteration  10 : Push D in stack 2. New stack : hFsUoDf_n_k_b___________________
+Iteration  11 : Push f in stack 1. New stack : hFsUoDf_n_k_b_f_________________
+Iteration  12 : Push I in stack 2. New stack : hFsUoDfIn_k_b_f_________________
+Iteration  13 : Push n in stack 1. New stack : hFsUoDfIn_k_b_f_n_______________
+Iteration  14 : Push B in stack 2. New stack : hFsUoDfInBk_b_f_n_______________
+Iteration  15 : Push s in stack 1. New stack : hFsUoDfInBk_b_f_n_s_____________
+Iteration  16 : Pop    in stack 2. New stack : hFsUoDfIn_k_b_f_n_s_____________
+Iteration  17 : Push w in stack 1. New stack : hFsUoDfIn_k_b_f_n_s_w___________
+Iteration  18 : Push p in stack 1. New stack : hFsUoDfIn_k_b_f_n_s_w_p_________
+Iteration  19 : Push a in stack 1. New stack : hFsUoDfIn_k_b_f_n_s_w_p_a_______
+Iteration  20 : Push p in stack 1. New stack : hFsUoDfIn_k_b_f_n_s_w_p_a_p_____
+Iteration  21 : Push d in stack 1. New stack : hFsUoDfIn_k_b_f_n_s_w_p_a_p_d___
+Iteration  22 : Push K in stack 2. New stack : hFsUoDfInKk_b_f_n_s_w_p_a_p_d___
+Iteration  23 : Pop    in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_a_p_____
+Iteration  24 : Pop    in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_a_______
+Iteration  25 : Pop    in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_________
+Iteration  26 : Push v in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_v_______
+Iteration  27 : Push l in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_v_l_____
+Iteration  28 : Push y in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_v_l_y___
+Iteration  29 : Pop    in stack 1. New stack : hFsUoDfInKk_b_f_n_s_w_p_v_l_____
+Iteration  30 : Push A in stack 2. New stack : hFsUoDfInKkAb_f_n_s_w_p_v_l_____
+Iteration  31 : Pop    in stack 1. New stack : hFsUoDfInKkAb_f_n_s_w_p_v_______
+Iteration  32 : Push s in stack 1. New stack : hFsUoDfInKkAb_f_n_s_w_p_v_s_____
+Iteration  33 : Push g in stack 1. New stack : hFsUoDfInKkAb_f_n_s_w_p_v_s_g___
+Iteration  34 : Pop    in stack 1. New stack : hFsUoDfInKkAb_f_n_s_w_p_v_s_____
+Iteration  35 : Push V in stack 2. New stack : hFsUoDfInKkAbVf_n_s_w_p_v_s_____
+Iteration  36 : Push O in stack 2. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_s_____
+Iteration  37 : Push P in stack 2. New stack : hFsUoDfInKkAbVfOnPs_w_p_v_s_____
+Iteration  38 : Pop    in stack 2. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_s_____
+Iteration  39 : Push N in stack 2. New stack : hFsUoDfInKkAbVfOnNs_w_p_v_s_____
+Iteration  40 : Pop    in stack 2. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_s_____
+Iteration  41 : Pop    in stack 1. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_______
+Iteration  42 : Push h in stack 1. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_h_____
+Iteration  43 : Push v in stack 1. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_h_v___
+Iteration  44 : Push d in stack 1. New stack : hFsUoDfInKkAbVfOn_s_w_p_v_h_v_d_
+Iteration  45 : Push p in stack 1. New stack : Error: Overflow in Stack 1.

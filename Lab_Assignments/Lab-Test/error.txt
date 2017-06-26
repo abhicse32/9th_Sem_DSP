@@ -1,0 +1,200 @@
+Makefile:20: target 'Submissions/CS15B052/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B054/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B056/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/AE13B020/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B060/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B053/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B059/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B058/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B057/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B061/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B051/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS12B032/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B052/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B054/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B056/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/AE13B020/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B060/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B053/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B059/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B058/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B057/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B061/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS15B051/outputs/' given more than once in the same rule
+Makefile:20: target 'Submissions/CS12B032/outputs/' given more than once in the same rule
+Submissions/CS15B052/CS15B052_labtest1_prob2.c: In function ‘pushStack’:
+Submissions/CS15B052/CS15B052_labtest1_prob2.c:79:20: warning: too many arguments for format [-Wformat-extra-args]
+             printf("Error: Overflow in stack.\n", which);
+                    ^
+Submissions/CS15B052/CS15B052_labtest1_prob2.c:93:20: warning: too many arguments for format [-Wformat-extra-args]
+             printf("Error: Overflow in stack.\n", which);
+                    ^
+Submissions/CS15B052/CS15B052_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B052/CS15B052_labtest1_prob2.c:173:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B054/CS15B054_labtest1_prob1.c: In function ‘printList’:
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:50:4: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘n’
+    n = L // semicolon absent
+    ^
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:50:4: error: ‘n’ undeclared (first use in this function)
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:50:4: note: each undeclared identifier is reported only once for each function it appears in
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:51:4: error: expected ‘;’ before ‘if’
+    if(flag == 0)
+    ^
+Submissions/CS15B054/CS15B054_labtest1_prob1.c: In function ‘bubbleSortX’:
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:86:16: error: ‘node {aka struct _node}’ has no member named ‘next’
+            if(n->next->x > n->x)
+                ^
+Submissions/CS15B054/CS15B054_labtest1_prob1.c: In function ‘bubbleSortY’:
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:121:16: error: ‘node {aka struct _node}’ has no member named ‘next’
+            if(n->next->y > n->y)
+                ^
+Submissions/CS15B054/CS15B054_labtest1_prob1.c:134:14: error: ‘node {aka struct _node}’ has no member named ‘next’
+         n = n->next;
+              ^
+make: [Submissions/CS15B054/executables/CS15B054_labtest1_prob1] Error 1 (ignored)
+Submissions/CS15B054/CS15B054_labtest1_prob2.c: In function ‘pushStack’:
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:38:16: error: invalid initializer
+       int A1[]=(int*)malloc(sizeof(int));
+                ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:39:16: error: invalid initializer
+       int A2[]=(int*)malloc(sizeof(int));
+                ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:57:16: error: expected ‘;’ before ‘)’ token
+          i =i+2)
+                ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:57:16: error: expected statement before ‘)’ token
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:70:25: error: expected ‘;’ before ‘)’ token
+          store[i] =A2[i]);
+                         ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:70:25: error: expected statement before ‘)’ token
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:78:17: error: ‘A1’ undeclared (first use in this function)
+           while(A1[i] != '_' && i<32)
+                 ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:78:17: note: each undeclared identifier is reported only once for each function it appears in
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:90:11: error: expected ‘;’ before ‘while’
+           while(A2[i] != '_' && i>0)
+           ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:102:25: error: ‘A2’ undeclared (first use in this function)
+         else  store[i]= A2[i];
+                         ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c: In function ‘popStack’:
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:112:7: error: expected ‘,’ or ‘;’ before ‘if’
+       if(which == 1)
+       ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:124:7: error: expected ‘}’ before ‘else’
+       else
+       ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:126:17: error: ‘A1’ undeclared (first use in this function)
+           while(A1[j+2] != '_',j<32)
+                 ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:126:20: error: ‘j’ undeclared (first use in this function)
+           while(A1[j+2] != '_',j<32)
+                    ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:126:19: error: array subscript is not an integer
+           while(A1[j+2] != '_',j<32)
+                   ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:126:25: warning: comparison between pointer and integer
+           while(A1[j+2] != '_',j<32)
+                         ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:126:33: warning: comparison between pointer and integer
+           while(A1[j+2] != '_',j<32)
+                                 ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:130:15: warning: comparison between pointer and integer
+           if(j<32)
+               ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:132:17: error: array subscript is not an integer
+               A1[j] == '_';
+                 ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:132:21: warning: comparison between pointer and integer
+               A1[j] == '_';
+                     ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c: At top level:
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:136:4: error: expected identifier or ‘(’ before ‘else’
+    else { // for colliding strategy
+    ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:163:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+Submissions/CS15B054/CS15B054_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B054/CS15B054_labtest1_prob2.c:170:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+make: [Submissions/CS15B054/executables/CS15B054_labtest1_prob2] Error 1 (ignored)
+Submissions/CS15B056/CS15B056_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B056/CS15B056_labtest1_prob2.c:178:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/AE13B020/AE13B020_labtest1_prob2.c: In function ‘main’:
+Submissions/AE13B020/AE13B020_labtest1_prob2.c:131:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B060/CS15B060_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B060/CS15B060_labtest1_prob2.c:147:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B053/CS15B053_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B053/CS15B053_labtest1_prob2.c:146:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B059/CS15B059_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B059/CS15B059_labtest1_prob2.c:174:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B058/CS15B058_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B058/CS15B058_labtest1_prob2.c:167:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B057/CS15B057_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B057/CS15B057_labtest1_prob2.c:124:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B061/CS15B061_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B061/CS15B061_labtest1_prob2.c:89:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS15B051/CS15B051_labtest1_prob2.c: In function ‘main’:
+Submissions/CS15B051/CS15B051_labtest1_prob2.c:278:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Submissions/CS12B032/CS12B032_labtest1_prob2.c: In function ‘main’:
+Submissions/CS12B032/CS12B032_labtest1_prob2.c:117:24: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+    srand((unsigned int)time(NULL));
+                        ^
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault

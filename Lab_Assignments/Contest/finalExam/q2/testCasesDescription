@@ -1,0 +1,7 @@
+1,2,3 : given by you.
+4 : insufficent number of input lines "ERROR"
+5,6 : negative input "ERROR"
+7 : finish time < start time "ERROR"
+8 : conatins time windows of size 1
+9 : random input
+10,11 : random large input size 100 each

@@ -1,0 +1,97 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push n in stack 1. New stack : n_________________________________________________
+Iteration   2 : Push c in stack 1. New stack : n_c_______________________________________________
+Iteration   3 : Push n in stack 1. New stack : n_c_n_____________________________________________
+Iteration   4 : Push z in stack 1. New stack : n_c_n_z___________________________________________
+Iteration   5 : Push H in stack 2. New stack : nHc_n_z___________________________________________
+Iteration   6 : Push o in stack 1. New stack : nHc_n_z_o_________________________________________
+Iteration   7 : Push D in stack 2. New stack : nHcDn_z_o_________________________________________
+Iteration   8 : Push P in stack 2. New stack : nHcDnPz_o_________________________________________
+Iteration   9 : Push o in stack 1. New stack : nHcDnPz_o_o_______________________________________
+Iteration  10 : Push q in stack 1. New stack : nHcDnPz_o_o_q_____________________________________
+Iteration  11 : Push M in stack 2. New stack : nHcDnPzMo_o_q_____________________________________
+Iteration  12 : Push y in stack 1. New stack : nHcDnPzMo_o_q_y___________________________________
+Iteration  13 : Push T in stack 2. New stack : nHcDnPzMoTo_q_y___________________________________
+Iteration  14 : Push r in stack 1. New stack : nHcDnPzMoTo_q_y_r_________________________________
+Iteration  15 : Push h in stack 1. New stack : nHcDnPzMoTo_q_y_r_h_______________________________
+Iteration  16 : Push m in stack 1. New stack : nHcDnPzMoTo_q_y_r_h_m_____________________________
+Iteration  17 : Pop    in stack 1. New stack : nHcDnPzMoTo_q_y_r_h_______________________________
+Iteration  18 : Pop    in stack 2. New stack : nHcDnPzMo_o_q_y_r_h_______________________________
+Iteration  19 : Push Q in stack 2. New stack : nHcDnPzMoQo_q_y_r_h_______________________________
+Iteration  20 : Push G in stack 2. New stack : nHcDnPzMoQoGq_y_r_h_______________________________
+Iteration  21 : Push g in stack 1. New stack : nHcDnPzMoQoGq_y_r_h_g_____________________________
+Iteration  22 : Push P in stack 2. New stack : nHcDnPzMoQoGqPy_r_h_g_____________________________
+Iteration  23 : Push g in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g___________________________
+Iteration  24 : Push q in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g_q_________________________
+Iteration  25 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g___________________________
+Iteration  26 : Push r in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g_r_________________________
+Iteration  27 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g___________________________
+Iteration  28 : Push o in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g_o_________________________
+Iteration  29 : Push k in stack 1. New stack : nHcDnPzMoQoGqPy_r_h_g_g_o_k_______________________
+Iteration  30 : Push U in stack 2. New stack : nHcDnPzMoQoGqPyUr_h_g_g_o_k_______________________
+Iteration  31 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUr_h_g_g_o_________________________
+Iteration  32 : Push P in stack 2. New stack : nHcDnPzMoQoGqPyUrPh_g_g_o_________________________
+Iteration  33 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPh_g_g___________________________
+Iteration  34 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPh_g_____________________________
+Iteration  35 : Push v in stack 1. New stack : nHcDnPzMoQoGqPyUrPh_g_v___________________________
+Iteration  36 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPh_g_____________________________
+Iteration  37 : Push V in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVg_____________________________
+Iteration  38 : Push j in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVg_j___________________________
+Iteration  39 : Push g in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVg_j_g_________________________
+Iteration  40 : Push U in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVgUj_g_________________________
+Iteration  41 : Push J in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVgUjJg_________________________
+Iteration  42 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVgUjJ__________________________
+Iteration  43 : Push I in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVgUjJ_I________________________
+Iteration  44 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVgUjJ__________________________
+Iteration  45 : Push z in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVgUjJz_________________________
+Iteration  46 : Push s in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVgUjJz_s_______________________
+Iteration  47 : Push v in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVgUjJz_s_v_____________________
+Iteration  48 : Push t in stack 1. New stack : nHcDnPzMoQoGqPyUrPhVgUjJz_s_v_t___________________
+Iteration  49 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVgUj_z_s_v_t___________________
+Iteration  50 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhVg_j_z_s_v_t___________________
+Iteration  51 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPh_g_j_z_s_v_t___________________
+Iteration  52 : Push X in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t___________________
+Iteration  53 : Push p in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_p_________________
+Iteration  54 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t___________________
+Iteration  55 : Push v in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_________________
+Iteration  56 : Push k in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_______________
+Iteration  57 : Push d in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_____________
+Iteration  58 : Push h in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h___________
+Iteration  59 : Push h in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_h_________
+Iteration  60 : Push F in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgFj_z_s_v_t_v_k_d_h_h_________
+Iteration  61 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_h_________
+Iteration  62 : Push u in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_h_u_______
+Iteration  63 : Push V in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgVj_z_s_v_t_v_k_d_h_h_u_______
+Iteration  64 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_h_u_______
+Iteration  65 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_h_________
+Iteration  66 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h___________
+Iteration  67 : Push g in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h_g_________
+Iteration  68 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_h___________
+Iteration  69 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_____________
+Iteration  70 : Push e in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_e___________
+Iteration  71 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_____________
+Iteration  72 : Push l in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_l___________
+Iteration  73 : Push N in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgNj_z_s_v_t_v_k_d_l___________
+Iteration  74 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_l___________
+Iteration  75 : Push l in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_l_l_________
+Iteration  76 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXg_j_z_s_v_t_v_k_d_l___________
+Iteration  77 : Push H in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHj_z_s_v_t_v_k_d_l___________
+Iteration  78 : Push z in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHj_z_s_v_t_v_k_d_l_z_________
+Iteration  79 : Push N in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNz_s_v_t_v_k_d_l_z_________
+Iteration  80 : Push Q in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQs_v_t_v_k_d_l_z_________
+Iteration  81 : Push D in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsDv_t_v_k_d_l_z_________
+Iteration  82 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsDv_t_v_k_d_l___________
+Iteration  83 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQs_v_t_v_k_d_l___________
+Iteration  84 : Push e in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQs_v_t_v_k_d_l_e_________
+Iteration  85 : Push W in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWv_t_v_k_d_l_e_________
+Iteration  86 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWv_t_v_k_d_l___________
+Iteration  87 : Push G in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_l___________
+Iteration  88 : Pop    in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_____________
+Iteration  89 : Push g in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g___________
+Iteration  90 : Push b in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g_b_________
+Iteration  91 : Push c in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g_b_c_______
+Iteration  92 : Push z in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g_b_c_z_____
+Iteration  93 : Push v in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g_b_c_z_v___
+Iteration  94 : Push f in stack 1. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWvGt_v_k_d_g_b_c_z_v_f_
+Iteration  95 : Pop    in stack 2. New stack : nHcDnPzMoQoGqPyUrPhXgHjNzQsWv_t_v_k_d_g_b_c_z_v_f_
+Iteration  96 : Push o in stack 1. New stack : Error: Overflow in stack 1.

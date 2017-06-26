@@ -1,0 +1,100 @@
+insert 0 3
+insert 0 45
+append -36
+insert 2 -2
+append -7
+prepend -30
+insert 6 47
+insert 5 -34
+insert 3 -30
+append -3
+prepend -31
+insert 1 -9
+prepend 27
+append -18
+append -15
+prepend 25
+prepend -44
+prepend -25
+prepend -2
+append -45
+insert 0 39
+append 6
+insert 1 10
+remove 1
+get 3
+get 3
+remove_last
+insert 0 1
+size
+size
+insert 1 -23
+append 9
+prepend 3
+remove_first
+insert 1 -23
+insert 7 3
+prepend 29
+remove 8
+remove_first
+prepend -4
+size
+size
+insert 6 -39
+size
+insert 7 -19
+remove 7
+remove_first
+prepend 30
+remove_last
+remove_last
+insert 1 -50
+insert 6 -43
+remove_last
+prepend 11
+insert 17 23
+remove_last
+remove_last
+size
+append 10
+size
+remove 12
+prepend -29
+prepend 1
+remove 10
+remove_first
+prepend 47
+remove_first
+insert 18 -19
+prepend -46
+prepend 29
+remove 17
+prepend -20
+prepend -18
+insert 19 23
+insert 19 -11
+remove_first
+insert 2 -15
+remove_first
+get 11
+size
+prepend 37
+prepend -38
+remove_last
+remove 28
+size
+remove 13
+remove_first
+size
+append 19
+size
+get 1
+remove_last
+insert 30 40
+size
+prepend -46
+remove_last
+append -7
+remove_last
+remove 14
+size

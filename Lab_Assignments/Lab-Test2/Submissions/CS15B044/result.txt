@@ -1,0 +1,13 @@
+labtest2_prob2
+testcase 1(test5): failed
+testcase 2(test6): failed
+testcase 3(test4): failed
+testcase 4(test3): failed
+testcase 5(test10): failed
+testcase 6(test7): failed
+testcase 7(test9): failed
+testcase 8(test1): failed
+testcase 9(test8): failed
+testcase 10(test2): failed
+
+result: 0/10

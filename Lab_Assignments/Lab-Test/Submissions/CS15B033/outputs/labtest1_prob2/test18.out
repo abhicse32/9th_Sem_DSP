@@ -1,0 +1,50 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push f in stack 1. New stack : f_________________________________________________
+Iteration   2 : Push z in stack 1. New stack : f_z_______________________________________________
+Iteration   3 : Push p in stack 1. New stack : f_z_p_____________________________________________
+Iteration   4 : Push f in stack 1. New stack : f_z_p_f___________________________________________
+Iteration   5 : Push J in stack 2. New stack : fJz_p_f___________________________________________
+Iteration   6 : Push X in stack 2. New stack : fJzXp_f___________________________________________
+Iteration   7 : Push m in stack 1. New stack : fJzXp_f_m_________________________________________
+Iteration   8 : Push g in stack 1. New stack : fJzXp_f_m_g_______________________________________
+Iteration   9 : Push z in stack 1. New stack : fJzXp_f_m_g_z_____________________________________
+Iteration  10 : Push K in stack 2. New stack : fJzXpKf_m_g_z_____________________________________
+Iteration  11 : Push d in stack 1. New stack : fJzXpKf_m_g_z_d___________________________________
+Iteration  12 : Push o in stack 1. New stack : fJzXpKf_m_g_z_d_o_________________________________
+Iteration  13 : Push y in stack 1. New stack : fJzXpKf_m_g_z_d_o_y_______________________________
+Iteration  14 : Push c in stack 1. New stack : fJzXpKf_m_g_z_d_o_y_c_____________________________
+Iteration  15 : Push p in stack 1. New stack : fJzXpKf_m_g_z_d_o_y_c_p___________________________
+Iteration  16 : Push u in stack 1. New stack : fJzXpKf_m_g_z_d_o_y_c_p_u_________________________
+Iteration  17 : Pop    in stack 2. New stack : fJzXp_f_m_g_z_d_o_y_c_p_u_________________________
+Iteration  18 : Pop    in stack 1. New stack : fJzXp_f_m_g_z_d_o_y_c_p___________________________
+Iteration  19 : Push U in stack 2. New stack : fJzXpUf_m_g_z_d_o_y_c_p___________________________
+Iteration  20 : Pop    in stack 1. New stack : fJzXpUf_m_g_z_d_o_y_c_____________________________
+Iteration  21 : Pop    in stack 2. New stack : fJzXp_f_m_g_z_d_o_y_c_____________________________
+Iteration  22 : Pop    in stack 1. New stack : fJzXp_f_m_g_z_d_o_y_______________________________
+Iteration  23 : Pop    in stack 2. New stack : fJz_p_f_m_g_z_d_o_y_______________________________
+Iteration  24 : Pop    in stack 1. New stack : fJz_p_f_m_g_z_d_o_________________________________
+Iteration  25 : Pop    in stack 1. New stack : fJz_p_f_m_g_z_d___________________________________
+Iteration  26 : Pop    in stack 1. New stack : fJz_p_f_m_g_z_____________________________________
+Iteration  27 : Pop    in stack 1. New stack : fJz_p_f_m_g_______________________________________
+Iteration  28 : Pop    in stack 1. New stack : fJz_p_f_m_________________________________________
+Iteration  29 : Pop    in stack 1. New stack : fJz_p_f___________________________________________
+Iteration  30 : Pop    in stack 1. New stack : fJz_p_____________________________________________
+Iteration  31 : Pop    in stack 1. New stack : fJz_______________________________________________
+Iteration  32 : Pop    in stack 1. New stack : fJ________________________________________________
+Iteration  33 : Pop    in stack 1. New stack : _J________________________________________________
+Iteration  34 : Push i in stack 1. New stack : iJ________________________________________________
+Iteration  35 : Pop    in stack 2. New stack : i_________________________________________________
+Iteration  36 : Push Z in stack 2. New stack : iZ________________________________________________
+Iteration  37 : Pop    in stack 1. New stack : _Z________________________________________________
+Iteration  38 : Push P in stack 2. New stack : _Z_P______________________________________________
+Iteration  39 : Push d in stack 1. New stack : dZ_P______________________________________________
+Iteration  40 : Pop    in stack 1. New stack : _Z_P______________________________________________
+Iteration  41 : Push O in stack 2. New stack : _Z_P_O____________________________________________
+Iteration  42 : Push z in stack 1. New stack : zZ_P_O____________________________________________
+Iteration  43 : Pop    in stack 2. New stack : zZ_P______________________________________________
+Iteration  44 : Push o in stack 1. New stack : zZoP______________________________________________
+Iteration  45 : Push s in stack 1. New stack : zZoPs_____________________________________________
+Iteration  46 : Push n in stack 1. New stack : zZoPs_n___________________________________________
+Iteration  47 : Pop    in stack 2. New stack : zZo_s_n___________________________________________
+Iteration  48 : Pop    in stack 2. New stack : z_o_s_n___________________________________________
+Iteration  49 : Pop    in stack 2. New stack : Error: Underflow in stack 2.

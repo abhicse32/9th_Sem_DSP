@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+import sys,re,os
+from subprocess import Popen, PIPE
+
+testDir,outDir,execDir,solDir="testcases","outputs","executables","solutions"
+root_dir='Submissions'
+dirs= [os.path.join(root_dir, file) for file in os.listdir(root_dir)\
+if os.path.isdir(os.path.join(root_dir,file))]
+def evaluate():
+    for dir_ in dirs:
+        final_res=0
+        execs,res_file=os.path.join(dir_,execDir),os.path.join(dir_,'result.txt')
+        # with open(res_file,"w") as res_writer
+        for file in os.listdir(execs):
+            print "evaluating: "+file+".c"
+            passed,total=0,0
+            outfile,solfile=os.path.join(os.path.join(dir_,outDir),file+".out"),os.path.join(solDir,file+".ans")
+            # print outfile,solfile
+            with open(res_file,"")
+            with open(outfile,"r") as out_reader:
+                with open(solfile,"r") as sol_reader:
+                    total,passed=0,0
+                    if file=='hw2_3' or file=='hw2_2':
+                        pattern1,pattern2= "([ABC] ?-> ?[ABC])?([\d+ ])+",'[ >|-]+'
+                        compiled1,compiled2,flag = re.compile(pattern1),re.compile(pattern2),True
+                        for sol_line in sol_reader:
+                            out_line= out_reader.readline().strip()
+                            sol_line2= sol_line.strip()
+                            obj1= compiled1.match(out_line)
+                            obj2= compiled1.match(sol_line2)
+                            if obj1 and obj2:
+                                if compiled2.split(out_line) != compiled2.split(sol_line2):
+                                    flag=False
+                            else:
+                                total+=1
+                                if flag:
+                                    print "testcase %d: passed"%(total)
+                                    passed+=1
+                                else:
+                                    print "testcase %d: failed"%(total)
+                                flag=True
+                    else:
+                        for sol_line in sol_reader:
+                            out_line= out_reader.readline()
+                            lst_out,lst_sol= out_line.strip().split(),sol_line.strip().split()
+                            lst_out.sort(),lst_sol.sort()
+                            total+=1
+                            if lst_sol==lst_out:
+                                print "testcase %d: passed"%(total)
+                                passed+=1
+                            else:
+                                print "testcase %d: failed"%(total)
+            peace=(passed*100.0)/total
+            final_res+=peace
+            print "result: %.2f/%.2f\n"%(peace,100.0)
+        print (final_res/300)
+
+
+def execute(opts):
+    os.system("make clean")
+    os.system("make "+opts)
+
+    for dir_ in dirs:
+        print "executing "+os.path.basename(dir_)
+        exec_dir, out_dir= os.path.join(dir_,execDir), os.path.join(dir_,outDir)
+        for execs in os.listdir(exec_dir):
+            exec_path,out_path, test_path= os.path.join(exec_dir,execs),os.path.join(out_dir,execs+".out"),\
+            os.path.join(testDir,execs+".in")
+            # print exec_path, out_path,test_path
+
+            with open(test_path,"r") as test_reader:
+                with open(out_path,"w") as out_writer:
+                    cases= int(test_reader.readline().strip())
+                    for i in range(cases):
+                        ps= Popen("./"+exec_path, stdin=PIPE, stdout= PIPE, stderr=PIPE)
+                        lst=[test_reader.readline().strip()]
+                        if execs=='hw2_1':
+                            N=int(lst[0])
+                            lst+=[test_reader.readline() for j in range(N)]
+
+                        out,err=ps.communicate(os.linesep.join(lst))
+                        out_writer.write(out.strip()+"\n")
+                        if execs=='hw2_2' or execs=='hw2_3':
+                            out_writer.write("\n")
+    
+
+if __name__=='__main__':
+    opts="all"
+    if len(sys.argv)>1:
+        opts=' '.join(sys.argv[1:])
+    execute(opts)
+    evaluate()

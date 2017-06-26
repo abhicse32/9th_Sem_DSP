@@ -1,0 +1,50 @@
+Please follow the following instruction to get things done as expected-
+
+1. Suppose your current working directory is "Curr_Dir"
+
+2. As mentioned in the updated submissions-format guidelines, you must have created a directory named as <YOUR_ROLL_NUM>_HOME in "Curr_Dir" and subdirectory "Code" inside this and placed your c program files in "Code" directory
+
+3. Extract the downloaded archive, i.e. archive containing this file :P, in "Curr_Dir".
+
+4. After extracting, move "q2_sort.h" and "q2_sort.c" to your "Code" directory.
+
+5. Next, in "q2_sort.c" implement the sorting-functions declared in "q2_sort.h" and include "q2_sort.h" in "q2.c" and implement the task as mentioned in the problem statement
+
+6. Again for question 3, include "q2_sort.h" in your "q3.c" and use the functions implemented in q2_sort.c to complete it.
+
+7. Finally your directory structure must look like this, assuming your roll num to be "CS15B073"
+
+	+Curr_Dir
+	|
+	|___+CS15B073_HOME
+	|	|
+	|	|__+Code
+	|	   |__q1.c
+	|	   |__q2.c
+	|	   |__q2_sort.c
+	|      |__q2_sort.h
+	|      |__q3.c
+	|
+	|___+testcases
+	|___+solutions
+	|___run
+	|___Makefile
+	|___plot2.py
+	|___plot3.py
+
+
+8. Replace my roll_number,i.e. CS12B032 with yours in "Makefile" and "run" script. Note: You can also change the executable path at your own risk, and to do so, repace the "executables" with new_path in both "Makefile" and "run"
+
+9. Executables must be named as q1,q2,q3
+
+10. After finishing a certain question/number of questions,say q2 and q3, you can directly compile it/them from "Curr_Dir" by typing: "make <executables_path>/q2 <executables_path>/q3"
+
+Note: When you do make, if specified executables directory doesn't exist it will be created before compilation starts
+
+Ex: suppose you name your executables' directory as 'exec_dir' and you want to compile q2 and q3 then type: "make exec_dir/q2 exec_dir/q3"
+
+11: To compile all the programs at the same time, type: "make all"
+
+12. To remove everything from executables directory/precompiled binaries, type: "make clean"
+
+13. Finally, to execute and evaluate your code on public testcases and to generate plots type: "./run exec_path/q1 exec_path/q2" and so on     

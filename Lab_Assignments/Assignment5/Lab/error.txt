@@ -1,0 +1,5 @@
+sh: line 1: 13210 Segmentation fault      (core dumped) ./Submissions/CS15B060_LAB/Code/executables/q3 < testcases/q3.in > Submissions/CS15B060_LAB/Code/outputs/q3.out
+sh: line 1: 13215 Segmentation fault      (core dumped) ./Submissions/CS15B060_LAB/Code/executables/q1 < testcases/q1.in > Submissions/CS15B060_LAB/Code/outputs/q1.out
+sh: line 1: 13220 Segmentation fault      (core dumped) ./Submissions/CS15B060_LAB/Code/executables/q2 < testcases/q2.in > Submissions/CS15B060_LAB/Code/outputs/q2.out
+sh: line 1: 13251 Aborted                 (core dumped) ./Submissions/CS15B039_LAB/Code/executables/q1 < testcases/q1.in > Submissions/CS15B039_LAB/Code/outputs/q1.out
+sh: line 1: 13256 Aborted                 (core dumped) ./Submissions/CS15B039_LAB/Code/executables/q2 < testcases/q2.in > Submissions/CS15B039_LAB/Code/outputs/q2.out

@@ -1,0 +1,91 @@
+#!/usr/bin/env python
+from random import randint,choice,uniform
+from subprocess import call,Popen,PIPE
+from string import ascii_lowercase
+import os
+
+solDir="solutions"
+testDir="testcases"
+progDir="CS12B032_HOME_2"
+execs="executables"
+
+def gen_out(infile,testfile):
+	noext=os.path.splitext(infile)[0]
+	execPath=os.path.join(execs,noext)
+	ansPath= os.path.join(solDir,noext+".ans")
+	progPath= os.path.join(progDir,infile)
+	os.system("gcc -o "+execPath+" "+progPath+" -lm")
+	with open(testfile,"r") as reader:
+		with open(ansPath,"w") as writer:
+			lines= int(reader.readline())
+			for i in range(lines):
+				ps=Popen("./"+execPath, stdin=PIPE,stdout=PIPE,stderr=PIPE)
+				if noext=='hw2_1':
+					lst=[reader.readline()]
+					N=int(lst[0])
+					lst+=[reader.readline() for j in range(N)]
+				elif noext=='lab2_2':
+					lst=[reader.readline() for j in range(2)]
+				else:
+					lst=[reader.readline()]
+				out,err=ps.communicate(os.linesep.join(lst))
+				writer.write(out)
+				if noext=='hw2_2' or noext=='hw2_3':
+					writer.write("\n")
+
+
+
+def create1(infile):
+	testfile=os.path.join(testDir,os.path.splitext(infile)[0]+".in")
+	with open(testfile,"w") as w:
+		w.write("20\n")
+		for i in range(20):
+			size=randint(1,10)
+			w.write(str(size)+"\n")
+			for j in range(size):
+				lst=[]
+				for k in range(size):
+					lst.append(randint(-10,10))
+				w.write(' '.join(map(str,lst))+"\n")
+	gen_out(infile,testfile)
+
+def create2(infile):
+	testfile=os.path.join(testDir,os.path.splitext(infile)[0]+".in")
+	with open(testfile,"w") as w:
+		w.write("12\n")
+		for i in range(1,13):
+			w.write(str(i)+"\n")
+	gen_out(infile,testfile)
+
+def create3(infile):
+	testfile=os.path.join(testDir,os.path.splitext(infile)[0]+".in")
+	with open(testfile,"w") as w:
+		w.write("15\n");
+		for i in range(1,16):
+			w.write(str(i)+"\n")
+	gen_out(infile,testfile)
+
+def create_lab2(infile):
+	testfile=os.path.join(testDir,os.path.splitext(infile)[0]+".in")
+	with open(testfile,"w") as w:
+		w.write("20\n")
+		for i in range(20):
+			size= randint(1,8)
+			w.write(str(size)+"\n")
+			lst=[randint(1,100) for j in range(size)]
+			w.write(' '.join(map(str,lst))+"\n")
+	gen_out(infile,testfile)	
+
+if __name__=='__main__':
+	if not os.path.exists(solDir):
+		os.system("mkdir "+solDir)
+	if not os.path.exists(testDir):
+		os.system("mkdir "+testDir)
+	if not os.path.exists(execs):
+		os.system("mkdir "+execs)
+	
+#uncomment these lines to create testcases and the corresponding solutions for respective questions 
+# create1("hw2_1.c")
+create2("hw2_2.c")
+create3("hw2_3.c")
+# create_lab2("lab2_2.c")

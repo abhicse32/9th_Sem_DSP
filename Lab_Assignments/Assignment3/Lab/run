@@ -1,0 +1,56 @@
+#! /usr/bin/env python
+import  sys,os
+from subprocess import call,Popen,PIPE
+solDir,outDir,execDir,testDir="solutions","outputs","executables","testcases"
+def execute(dir_name):
+    codePath= os.path.join(dir_name,"Code")
+    files_lst= os.listdir(codePath)
+    for prog in files_lst:
+        noext= os.path.splitext(prog)[0]
+        outPath= os.path.join(outDir,noext+".out")
+        execPath= os.path.join(execDir,noext)
+        testPath=os.path.join(testDir,noext+".in")
+        os.system("gcc -lm -o "+execPath+" "+os.path.join(codePath,prog))
+        with open(testPath,"r") as reader:
+            with open(outPath,"w") as writer:
+                lines=int(reader.readline())
+                for i in range(lines):
+                    ps=Popen("./"+execPath,stdin=PIPE,stdout=PIPE,stderr=PIPE)
+                    if noext=='q1':
+                        lst=[reader.readline() for k in range(3)]
+                    else:
+                        lst=[reader.readline() for k in range(4)]
+                    out,err= ps.communicate(os.linesep.join(lst))
+                    writer.write(out)
+
+def evaluate():
+    out_list= os.listdir(outDir)
+    for outs in out_list:
+        noext=os.path.splitext(outs)[0]
+        sol_path= os.path.join(solDir,noext+".ans")
+        out_path=os.path.join(outDir,outs)
+        with open(out_path,"r") as out_reader:
+            with open(sol_path,"r") as sol_reader:
+                passed,total=0,0
+                for i in range(10):
+                    sol_line1,sol_line2=sol_reader.readline().strip().replace(',',' '),sol_reader.readline().strip().replace(',',' ')
+                    out_line1,out_line2= out_reader.readline().strip().replace(',',' '),out_reader.readline().strip().replace(',',' ')
+                    total+=1
+                    if (noext=='q1' and sol_line1==out_line1) or (noext=='q2' and sol_line1==out_line1 and sol_line2==out_line2):
+                        print "testcase %d: passed"%(total)
+                        passed+=1
+                    else:
+                        print "testcase %d: failed"%(total)
+                print "result:%d/%d"%(passed,total)
+
+if __name__=='__main__':
+    dir_name=sys.argv[1]+"_LAB"
+    if not os.path.exists(outDir):
+        os.system("mkdir "+outDir)
+    if not os.path.exists(execDir):
+        os.system("mkdir "+execDir)
+    execute(dir_name)
+    evaluate()
+
+
+

@@ -1,0 +1,24 @@
+// Please ignore if not required
+Submission by : G.Kavya CS15B048
+
+Programs 
+1. Converting infix to postfix q3_1.c
+2. Evaluating Postfix Expression q3_2.c
+3. Simulating Stack Using Queue q4_stack.c
+4. Simulating Queue Using Stack q4_queue.c
+5. Stack: same as provided
+6. Queue: same as provided
+7. Stack using Array : same as provided
+8. Queue using Array : same as provided
+
+Dependencies needed to compile and run: 
+1. stack.c stack.h List.c List.h
+2. stack.c stack.h List.c List.h
+2. stack_using_queue.c stack_using_queue.h queue.c queue.h List.c List.h
+4. queue_using_stack.c queue_using_stack.h stack.c stack.h List.c List.h
+5. stack.c stack.h List.c List.h
+6. queue.c queue.h List.c List.h
+7. stack_a.c stack_a.h
+8. queue_a.c queue_a.h
+
+Program runs and passes all the testcases provided

@@ -1,0 +1,80 @@
+Press any key to continue... Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+Code/q2.c: In function ‘maketree’:
+Code/q2.c:43:12: warning: implicit declaration of function ‘isalnum’ [-Wimplicit-function-declaration]
+   else if(!isalnum(infix[i]))   //if s[i] is an operator
+            ^
+Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+Code/q3.c: In function ‘itoa’:
+Code/q3.c:12:12: warning: embedded ‘\0’ in format [-Wformat-contains-nul]
+  sprintf(s,"%d\0",x); 
+            ^
+Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+/tmp/ccLW13ss.o: In function `main':
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:72: undefined reference to `queue_new'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:73: undefined reference to `queue_new'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:75: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:78: undefined reference to `dequeue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:81: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:83: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:85: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:89: undefined reference to `queue_print'
+collect2: error: ld returned 1 exit status
+make: [executables/q3] Error 1 (ignored)
+Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+Code/q2.c: In function ‘maketree’:
+Code/q2.c:43:12: warning: implicit declaration of function ‘isalnum’ [-Wimplicit-function-declaration]
+   else if(!isalnum(infix[i]))   //if s[i] is an operator
+            ^
+Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+Code/q3.c: In function ‘itoa’:
+Code/q3.c:12:12: warning: embedded ‘\0’ in format [-Wformat-contains-nul]
+  sprintf(s,"%d\0",x); 
+            ^
+Code/binary_tree1.c: In function ‘new_node’:
+Code/binary_tree1.c:18:15: warning: implicit declaration of function ‘strdup’ [-Wimplicit-function-declaration]
+  node->data = strdup(data);
+               ^
+Code/binary_tree1.c:18:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  node->data = strdup(data);
+             ^
+/tmp/ccGfs6iO.o: In function `main':
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:72: undefined reference to `queue_new'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:73: undefined reference to `queue_new'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:75: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:78: undefined reference to `dequeue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:81: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:83: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:85: undefined reference to `enqueue'
+/home/abhisheky/Documents/DSP/Lab_Assignments/Assignment6/Home/Week6_eval/Home/submissions/CS15B058_HOME/Code/q3.c:89: undefined reference to `queue_print'
+collect2: error: ld returned 1 exit status
+make: [executables/q3] Error 1 (ignored)

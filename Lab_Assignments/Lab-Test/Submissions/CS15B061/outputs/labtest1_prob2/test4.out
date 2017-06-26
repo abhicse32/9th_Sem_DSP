@@ -1,0 +1,49 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push g in stack 1. New stack : g_________________________________________________
+Iteration   2 : Push k in stack 1. New stack : g_k_______________________________________________
+Iteration   3 : Push t in stack 1. New stack : g_k_t_____________________________________________
+Iteration   4 : Push K in stack 2. New stack : gKk_t_____________________________________________
+Iteration   5 : Push v in stack 1. New stack : gKk_t_v___________________________________________
+Iteration   6 : Push e in stack 1. New stack : gKk_t_v_e_________________________________________
+Iteration   7 : Push N in stack 2. New stack : gKkNt_v_e_________________________________________
+Iteration   8 : Push H in stack 2. New stack : gKkNtHv_e_________________________________________
+Iteration   9 : Push h in stack 1. New stack : gKkNtHv_e_h_______________________________________
+Iteration  10 : Push N in stack 2. New stack : gKkNtHvNe_h_______________________________________
+Iteration  11 : Push V in stack 2. New stack : gKkNtHvNeVh_______________________________________
+Iteration  12 : Push q in stack 1. New stack : gKkNtHvNeVh_q_____________________________________
+Iteration  13 : Push a in stack 1. New stack : gKkNtHvNeVh_q_a___________________________________
+Iteration  14 : Push P in stack 2. New stack : gKkNtHvNeVhPq_a___________________________________
+Iteration  15 : Push g in stack 1. New stack : gKkNtHvNeVhPq_a_g_________________________________
+Iteration  16 : Push w in stack 1. New stack : gKkNtHvNeVhPq_a_g_w_______________________________
+Iteration  17 : Pop    in stack 1. New stack : gKkNtHvNeVhPq_a_g_________________________________
+Iteration  18 : Pop    in stack 1. New stack : gKkNtHvNeVhPq_a___________________________________
+Iteration  19 : Pop    in stack 1. New stack : gKkNtHvNeVhPq_____________________________________
+Iteration  20 : Pop    in stack 2. New stack : gKkNtHvNeVh_q_____________________________________
+Iteration  21 : Pop    in stack 1. New stack : gKkNtHvNeVh_______________________________________
+Iteration  22 : Pop    in stack 1. New stack : gKkNtHvNeV________________________________________
+Iteration  23 : Push F in stack 2. New stack : gKkNtHvNeV_F______________________________________
+Iteration  24 : Push U in stack 2. New stack : gKkNtHvNeV_F_U____________________________________
+Iteration  25 : Pop    in stack 1. New stack : gKkNtHvN_V_F_U____________________________________
+Iteration  26 : Push h in stack 1. New stack : gKkNtHvNhV_F_U____________________________________
+Iteration  27 : Push u in stack 1. New stack : gKkNtHvNhVuF_U____________________________________
+Iteration  28 : Pop    in stack 2. New stack : gKkNtHvNhVuF______________________________________
+Iteration  29 : Pop    in stack 2. New stack : gKkNtHvNhVu_______________________________________
+Iteration  30 : Pop    in stack 1. New stack : gKkNtHvNhV________________________________________
+Iteration  31 : Pop    in stack 2. New stack : gKkNtHvNh_________________________________________
+Iteration  32 : Pop    in stack 2. New stack : gKkNtHv_h_________________________________________
+Iteration  33 : Push N in stack 2. New stack : gKkNtHvNh_________________________________________
+Iteration  34 : Pop    in stack 1. New stack : gKkNtHvN__________________________________________
+Iteration  35 : Pop    in stack 2. New stack : gKkNtHv___________________________________________
+Iteration  36 : Push y in stack 1. New stack : gKkNtHv_y_________________________________________
+Iteration  37 : Pop    in stack 1. New stack : gKkNtHv___________________________________________
+Iteration  38 : Pop    in stack 1. New stack : gKkNtH____________________________________________
+Iteration  39 : Pop    in stack 2. New stack : gKkNt_____________________________________________
+Iteration  40 : Pop    in stack 1. New stack : gKkN______________________________________________
+Iteration  41 : Pop    in stack 2. New stack : gKk_______________________________________________
+Iteration  42 : Push j in stack 1. New stack : gKk_j_____________________________________________
+Iteration  43 : Push e in stack 1. New stack : gKk_j_e___________________________________________
+Iteration  44 : Pop    in stack 1. New stack : gKk_j_____________________________________________
+Iteration  45 : Push j in stack 1. New stack : gKk_j_j___________________________________________
+Iteration  46 : Pop    in stack 2. New stack : g_k_j_j___________________________________________
+Iteration  47 : Pop    in stack 1. New stack : g_k_j_____________________________________________
+Iteration  48 : Pop    in stack 2. New stack : Error: Underflow in Stack 2

@@ -1,0 +1,7 @@
+In question q3_2, I have not included the case to solve the sum when it is given a single number 
+	as input.	Because of this mistake, the program is entering an infinite loop and
+	not generating output for the rest of the cases also.
+Now I am sending the folder with new q3_2 after adding an if condition in the 59th line to solve this    
+    special case. 
+You can check my previous code in the folder outside Evaluation_Resources and the changed code in 
+	Submissions folder.

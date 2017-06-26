@@ -1,0 +1,65 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push W in stack 2. New stack : _W________________________________________________
+Iteration   2 : Push L in stack 2. New stack : _W_L______________________________________________
+Iteration   3 : Push j in stack 1. New stack : jW_L______________________________________________
+Iteration   4 : Push c in stack 1. New stack : jWcLc_____________________________________________
+Iteration   5 : Push A in stack 2. New stack : jWcLcA____________________________________________
+Iteration   6 : Push R in stack 2. New stack : jWcLcA_R__________________________________________
+Iteration   7 : Push r in stack 1. New stack : jWcLcr_r__________________________________________
+Iteration   8 : Push K in stack 2. New stack : jWcLcr_r_K________________________________________
+Iteration   9 : Push S in stack 2. New stack : jWcLcr_r_K_S______________________________________
+Iteration  10 : Push B in stack 2. New stack : jWcLcr_r_K_S_B____________________________________
+Iteration  11 : Push e in stack 1. New stack : jWcLcr_reKeS_B____________________________________
+Iteration  12 : Push x in stack 1. New stack : jWcLcr_reKex_x____________________________________
+Iteration  13 : Push m in stack 1. New stack : jWcLcr_reKex_xm_m_________________________________
+Iteration  14 : Push Q in stack 2. New stack : jWcLcr_reKex_xmQm_________________________________
+Iteration  15 : Push r in stack 1. New stack : jWcLcr_reKex_xmQmr_r______________________________
+Iteration  16 : Push u in stack 1. New stack : jWcLcr_reKex_xmQmr_ru_u___________________________
+Iteration  17 : Push s in stack 1. New stack : jWcLcr_reKex_xmQmr_ru_us_s________________________
+Iteration  18 : Push A in stack 2. New stack : jWcLcr_reKex_xmQmA_ru_us_s________________________
+Iteration  19 : Push T in stack 2. New stack : jWcLcr_reKex_xmQmA_Tu_us_s________________________
+Iteration  20 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_Tu_us_s________________________
+Iteration  21 : Push n in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_Tu_us_n________________________
+Iteration  22 : Push v in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_Tu_us_n_v______________________
+Iteration  23 : Push x in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_Tu_us_n_v_x____________________
+Iteration  24 : Push w in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_Tu_us_n_v_x_w__________________
+Iteration  25 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_Tu_us_n_v_x_w__________________
+Iteration  26 : Push x in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_Tu_us_n_v_x_w_x________________
+Iteration  27 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_Tu_us_n_v_x_w_x________________
+Iteration  28 : Push A in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAus_n_v_x_w_x________________
+Iteration  29 : Push L in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_n_v_x_w_x________________
+Iteration  30 : Push R in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_v_x_w_x________________
+Iteration  31 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_v_x_w_x________________
+Iteration  32 : Push S in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_x________________
+Iteration  33 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_x________________
+Iteration  34 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_x________________
+Iteration  35 : Push k in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_k________________
+Iteration  36 : Push e in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_k_e______________
+Iteration  37 : Push c in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_k_e_c____________
+Iteration  38 : Push u in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_x_w_k_e_c_u__________
+Iteration  39 : Push K in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_w_k_e_c_u__________
+Iteration  40 : Push J in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_k_e_c_u__________
+Iteration  41 : Push A in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_e_c_u__________
+Iteration  42 : Push h in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_e_c_u_h________
+Iteration  43 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_e_c_u_h________
+Iteration  44 : Push l in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_e_c_u_h_l______
+Iteration  45 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_e_c_u_h_l______
+Iteration  46 : Push Y in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_c_u_h_l______
+Iteration  47 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_c_u_h_l______
+Iteration  48 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_c_u_h_l______
+Iteration  49 : Push O in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_u_h_l______
+Iteration  50 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_u_h_l______
+Iteration  51 : Push O in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_h_l______
+Iteration  52 : Push p in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_hpl______
+Iteration  53 : Push a in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_hpla_____
+Iteration  54 : Push S in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_____
+Iteration  55 : Push m in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m___
+Iteration  56 : Push n in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  57 : Push i in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  58 : Push v in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  59 : Push h in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  60 : Pop    in stack 2. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  61 : Push f in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  62 : Push x in stack 1. New stack : Error: Overflow in Stack 1.jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  63 : Pop    in stack 1. New stack : jWcLcr_reKex_xmQmA_TuAuL_R_S_K_J_A_Y_O_O_Spla_m_n_
+Iteration  64 : Push M in stack 2. New stack : 

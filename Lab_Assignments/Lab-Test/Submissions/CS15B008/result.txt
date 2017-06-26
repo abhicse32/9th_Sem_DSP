@@ -1,0 +1,25 @@
+labtest1_prob2
+testcase 1(test5): failed
+testcase 2(test17): passed
+testcase 3(test6): passed
+testcase 4(test4): passed
+testcase 5(test3): passed
+testcase 6(test20): passed
+testcase 7(test10): passed
+testcase 8(test7): passed
+testcase 9(test9): passed
+testcase 10(test13): passed
+testcase 11(test19): passed
+testcase 12(test11): passed
+testcase 13(test18): passed
+testcase 14(test14): passed
+testcase 15(test1): passed
+testcase 16(test15): passed
+testcase 17(test8): passed
+testcase 18(test2): passed
+testcase 19(test16): passed
+testcase 20(test12): passed
+
+result: 19/20
+score 95.00
+

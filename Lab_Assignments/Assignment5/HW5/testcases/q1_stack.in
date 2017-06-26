@@ -1,0 +1,100 @@
+push 50
+push -53
+push 87
+push 17
+push -69
+is_empty
+pop
+push 68
+size
+push 63
+push 97
+pop
+push -27
+pop
+is_empty
+push 1
+size
+push 41
+pop
+push 7
+push -48
+push 20
+pop
+push 11
+push -8
+is_empty
+size
+pop
+pop
+size
+pop
+pop
+size
+push 79
+push 61
+size
+push -96
+is_empty
+is_empty
+is_empty
+is_empty
+pop
+push 77
+pop
+pop
+size
+pop
+is_empty
+size
+push 18
+push -36
+size
+push -50
+size
+is_empty
+size
+size
+size
+is_empty
+size
+is_empty
+push 14
+size
+push -90
+pop
+is_empty
+is_empty
+is_empty
+push -46
+push 12
+size
+size
+size
+push -62
+size
+pop
+is_empty
+size
+is_empty
+size
+is_empty
+push -19
+pop
+size
+push -11
+is_empty
+push-32
+pop
+pop
+size
+push 80
+pop
+push 27
+pop
+pop
+pop
+push 32
+pop
+size
+pop

@@ -1,0 +1,100 @@
+enqueue -86
+enqueue 14
+enqueue 50
+enqueue 19
+enqueue -93
+is_full
+enqueue -10
+dequeue
+enqueue -88
+enqueue -65
+is_full
+dequeue
+size
+size
+dequeue
+enqueue -29
+is_empty
+is_full
+dequeue
+enqueue -65
+is_full
+enqueue 6
+is_empty
+dequeue
+is_full
+dequeue
+size
+is_empty
+size
+dequeue
+dequeue
+enqueue 78
+enqueue -20
+is_full
+enqueue 32
+size
+is_full
+dequeue
+dequeue
+is_empty
+size
+dequeue
+enqueue -97
+enqueue 2
+is_empty
+is_empty
+enqueue -87
+size
+size
+is_full
+enqueue 55
+is_empty
+enqueue 65
+enqueue -9
+dequeue
+is_full
+size
+dequeue
+size
+is_empty
+size
+enqueue -67
+size
+enqueue -12
+is_full
+is_empty
+enqueue 100
+enqueue 39
+dequeue
+is_empty
+enqueue 57
+dequeue
+size
+enqueue -80
+is_empty
+is_full
+enqueue -51
+size
+dequeue
+is_empty
+size
+enqueue -21
+enqueue -11
+enqueue -39
+enqueue 18
+is_empty
+is_empty
+dequeue
+is_empty
+enqueue -50
+enqueue -44
+enqueue -76
+enqueue -88
+dequeue
+is_full
+enqueue -13
+enqueue 15
+dequeue
+enqueue -91
+is_empty

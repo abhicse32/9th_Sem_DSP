@@ -1,0 +1,102 @@
+11
+2 10 9 8 1 6 7 4 5 3 11 
+union 1 2
+union 1 6
+union 7 5
+union 3 4
+union 11 11
+findWithPathCompression 7
+findWithPathCompression 9
+printMap
+cardinality 4
+printNode 7
+cardinality 1
+find 4
+union 4 10
+union 9 4
+find 11
+printMap
+isMember 3 3
+find 2
+union 9 10
+findWithPathCompression 11
+isMember 8 2
+isMember 2 9
+union 5 5
+printNode 8
+findWithPathCompression 10
+printMap
+cardinality 5
+find 8
+union 10 9
+findWithPathCompression 8
+findWithPathCompression 10
+findWithPathCompression 11
+printMap
+union 5 5
+cardinality 10
+findWithPathCompression 2
+findWithPathCompression 9
+union 6 5
+find 6
+cardinality 2
+printNode 5
+printMap
+findWithPathCompression 4
+find 3
+printNode 10
+findWithPathCompression 1
+find 2
+printMap
+cardinality 4
+findWithPathCompression 2
+printMap
+isMember 3 10
+findWithPathCompression 9
+printNode 8
+cardinality 6
+printMap
+cardinality 4
+find 6
+cardinality 2
+find 5
+cardinality 5
+union 10 4
+printMap
+union 11 2
+findWithPathCompression 2
+isMember 2 4
+cardinality 1
+isMember 11 8
+find 1
+printMap
+printNode 9
+findWithPathCompression 10
+union 2 8
+cardinality 11
+cardinality 2
+findWithPathCompression 7
+union 8 9
+isMember 9 6
+cardinality 9
+isMember 6 6
+union 7 3
+cardinality 2
+printMap
+findWithPathCompression 11
+find 5
+printNode 10
+union 8 2
+cardinality 6
+isMember 4 5
+findWithPathCompression 7
+isMember 9 1
+isMember 7 1
+printNode 9
+isMember 10 1
+find 9
+printMap
+find 3
+union 3 9
+find 7
+cardinality 4

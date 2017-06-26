@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+import sys,re,os
+from subprocess import Popen, PIPE
+
+testDir,outDir,execs,solDir="testcases","outputs","executables","solutions"
+def evaluate():
+	lst=os.listdir(execs)
+	lst.sort()
+	for file in lst:
+		print "evaluating: "+file+".c"
+		passed,total=0,0
+		outfile,solfile= os.path.join(outDir,file+".out"),os.path.join(solDir,file+".ans")
+		with open(outfile,"r") as out_reader:
+			with open(solfile,"r") as sol_reader:
+				total,passed=0,0
+				if file=='hw2_3' or file=='hw2_2':
+					pattern1,pattern2= "([ABC] ?-> ?[ABC])?([\d+ ])+",'[ >|-]+'
+					compiled1,compiled2,flag = re.compile(pattern1),re.compile(pattern2),True
+					for sol_line in sol_reader:
+						out_line= out_reader.readline().strip()
+						sol_line2= sol_line.strip()
+						obj1= compiled1.match(out_line)
+						obj2= compiled1.match(sol_line2)
+						if obj1 and obj2:
+							if compiled2.split(out_line) != compiled2.split(sol_line2):
+								flag=False
+						else:
+							total+=1
+							if flag:
+								print "testcase %d: passed"%(total)
+								passed+=1
+							else:
+								print "testcase %d: failed"%(total)
+							flag=True
+				else:
+					for sol_line in sol_reader:
+						out_line= out_reader.readline()
+						lst_out,lst_sol= out_line.strip().split(),sol_line.strip().split()
+						lst_out.sort(),lst_sol.sort()
+						total+=1
+						if lst_sol==lst_out:
+							print "testcase %d: passed"%(total)
+							passed+=1
+						else:
+							print "testcase %d: failed"%(total)
+
+		print "result: %d/%d\n"%(passed,total)
+
+
+def execute(dir_name):
+	if not os.path.exists(outDir):
+		os.system("mkdir "+outDir)
+	if not os.path.exists(execs):
+		os.system("mkdir "+execs)
+
+	#start execution
+	for file in os.listdir(dir_name):
+		noext= os.path.splitext(file)[0]
+		execPath=os.path.join(execs,noext)
+		os.system("gcc -o "+execPath+" "+os.path.join(dir_name,file)+" -lm")
+		#compilation finished
+		testfile=os.path.join(testDir,noext+".in")
+		outfile=os.path.join(outDir,noext+".out")
+		if os.path.exists(testfile):
+			with open(testfile,"r") as reader:
+				with open(outfile,"w") as writer:
+					lines=int(reader.readline())
+					for i in range(lines):
+						ps= Popen("./"+execPath, stdin=PIPE, stdout= PIPE, stderr=PIPE)
+						if noext=='hw2_1':
+							lst=[reader.readline()]
+							N=int(lst[0])
+							lst+=[reader.readline() for j in range(N)]
+						elif noext=='lab2_2':
+							lst=[reader.readline() for j in range(2)]
+						else:
+							lst=[reader.readline()]
+						out,err=ps.communicate(os.linesep.join(lst))
+						writer.write(out)
+						if noext=='hw2_3' or noext=='hw2_2':
+							writer.write("\n")
+		else:
+			print "input file not named correctly!"
+	
+
+if __name__=='__main__':
+	rollno= sys.argv[1]
+	dir_name= rollno+"_HOME_2"
+	if not os.path.exists(dir_name):
+		tarname=dir_name+".tar.gz"
+		zipname=dir_name+".zip"
+		if os.path.exists(tarname):
+			os.system("tar -xvf "+tarname)
+		elif os.path.exists(zipname):
+			os.system("unzip "+zipname)
+
+	if not os.path.exists(dir_name):
+		print "directory doesn't exist"
+	else:
+		# execute(dir_name)
+		evaluate()

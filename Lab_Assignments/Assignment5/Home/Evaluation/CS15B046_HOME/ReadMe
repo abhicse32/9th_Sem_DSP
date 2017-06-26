@@ -1,0 +1,39 @@
+1.The Code directory under CS15B046_HOME contains following files:
+
+	a. stack.c
+	b. stack.h for implementing stack functions using a linked list
+	c. stack_a.c
+	d. stack_a.h for implementing stack functions using an array data structure
+	e. queue.c
+	f. queue.h for implementing queue functions using a linked list
+	g. queue_a.c
+	h. queue_a.h for implementing queue functions using an array data structure
+	i. q3_1.c for converting an infix to postfix expression
+	j. q3_2.c for evaluating a postfix expression
+	k. queue_using_stack.c
+	l. queue_using_stack.h for simulating a queue using stack
+	m. stack_using_queue.c
+	n. stack_using_queue.h for simulating a stack using queue
+	o. List.c
+	p. List.h for implementing basic linked list functions
+
+	DRIVER PROGRAMS
+	
+	q. q2_queue.c
+	r. q2_queue_a.c
+	s. q4_stack.c
+	t. q4_queue.c
+	u. q1_stack.c
+	v. q1_stack_a.c
+
+2. The edited Makefile is present in the CS15B046_HOME directory.
+
+3. To compile : make all
+
+4. To run : ./run all
+
+5. Assumptions made for q3_1.c and q3_2.c
+	Operators allowed :+ - / % * & | ^
+	Variable names are assumed to be alphanumeric.
+
+

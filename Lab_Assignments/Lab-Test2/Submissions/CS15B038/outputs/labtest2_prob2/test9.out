@@ -1,0 +1,128 @@
+
++++ MedHeap initialized
+
++++ Going to insert elements one by one in MedHeap
+    Insert(1427) done. Current median = 1427.
+    Insert(4941) done. Current median = 1427.
+    Insert( 730) done. Current median = 1427.
+    Insert(8313) done. Current median = 1427.
+    Insert(5433) done. Current median = 4941.
+    Insert(9254) done. Current median = 4941.
+    Insert(8859) done. Current median = 5433.
+    Insert(3094) done. Current median = 4941.
+    Insert(5268) done. Current median = 5268.
+    Insert(7348) done. Current median = 5268.
+    Insert(5324) done. Current median = 5324.
+    Insert(4330) done. Current median = 5268.
+    Insert(9525) done. Current median = 5324.
+    Insert(2737) done. Current median = 5268.
+    Insert(7309) done. Current median = 5324.
+    Insert(4245) done. Current median = 5268.
+    Insert(3073) done. Current median = 5268.
+    Insert(6870) done. Current median = 5268.
+    Insert(5750) done. Current median = 5324.
+    Insert(9221) done. Current median = 5324.
+    Insert( 418) done. Current median = 5324.
+    Insert(5491) done. Current median = 5324.
+    Insert(5048) done. Current median = 5324.
+    Insert(3029) done. Current median = 5268.
+    Insert(1254) done. Current median = 5268.
+    Insert(9088) done. Current median = 5268.
+    Insert(1617) done. Current median = 5268.
+    Insert(9512) done. Current median = 5268.
+    Insert(1758) done. Current median = 5268.
+    Insert( 545) done. Current median = 5048.
+    Insert(4860) done. Current median = 5048.
+    Insert(4882) done. Current median = 4941.
+    Insert(1882) done. Current median = 4941.
+    Insert(4108) done. Current median = 4882.
+    Insert(7703) done. Current median = 4941.
+    Insert(9277) done. Current median = 4941.
+    Insert( 402) done. Current median = 4941.
+    Insert(9520) done. Current median = 4941.
+    Insert(1780) done. Current median = 4941.
+    Insert(8452) done. Current median = 4941.
+    Insert(6930) done. Current median = 5048.
+    Insert(1476) done. Current median = 4941.
+    Insert(7305) done. Current median = 5048.
+    Insert(6975) done. Current median = 5048.
+    Insert(5967) done. Current median = 5268.
+    Insert(5622) done. Current median = 5268.
+    Insert(1722) done. Current median = 5268.
+    Insert(7799) done. Current median = 5268.
+    Insert(1823) done. Current median = 5268.
+    Insert(7723) done. Current median = 5268.
+    Insert(1447) done. Current median = 5268.
+    Insert(8840) done. Current median = 5268.
+    Insert( 712) done. Current median = 5268.
+    Insert(6066) done. Current median = 5268.
+    Insert(5926) done. Current median = 5324.
+    Insert(1693) done. Current median = 5268.
+    Insert(5418) done. Current median = 5324.
+    Insert(9543) done. Current median = 5324.
+    Insert(6390) done. Current median = 5418.
+    Insert(8641) done. Current median = 5418.
+    Insert( 624) done. Current median = 5418.
+    Insert(1884) done. Current median = 5324.
+    Insert(1167) done. Current median = 5324.
+    Insert(4998) done. Current median = 5268.
+    Insert(7746) done. Current median = 5324.
+    Insert(3285) done. Current median = 5268.
+    Insert(9192) done. Current median = 5324.
+    Insert(1981) done. Current median = 5268.
+    Insert(1784) done. Current median = 5268.
+    Insert(7016) done. Current median = 5268.
+    Insert(5576) done. Current median = 5324.
+    Insert(1397) done. Current median = 5268.
+    Insert(6876) done. Current median = 5324.
+    Insert(7655) done. Current median = 5324.
+    Insert(7310) done. Current median = 5418.
+    Insert(5920) done. Current median = 5418.
+    Insert(2031) done. Current median = 5418.
+    Insert( 842) done. Current median = 5324.
+    Insert(6031) done. Current median = 5418.
+    Insert(8083) done. Current median = 5418.
+    Insert(6548) done. Current median = 5433.
+    Insert(6102) done. Current median = 5433.
+    Insert(7690) done. Current median = 5491.
+    Insert(3491) done. Current median = 5433.
+    Insert(8142) done. Current median = 5491.
+    Insert(7857) done. Current median = 5491.
+    Insert(1548) done. Current median = 5491.
+    Insert(7754) done. Current median = 5491.
+    Insert(2447) done. Current median = 5491.
+    Insert(1092) done. Current median = 5433.
+    Insert(9539) done. Current median = 5491.
+    Insert(8219) done. Current median = 5491.
+    Insert(1661) done. Current median = 5491.
+    Insert(2526) done. Current median = 5433.
+    Insert( 210) done. Current median = 5433.
+    Insert(9638) done. Current median = 5433.
+    Insert(1766) done. Current median = 5433.
+    Insert(4498) done. Current median = 5418.
+    Insert(8800) done. Current median = 5433.
+    Insert(3463) done. Current median = 5418.
+    Insert(1219) done. Current median = 5418.
+    Insert(6391) done. Current median = 5418.
+    Insert(4081) done. Current median = 5418.
+    Insert(3222) done. Current median = 5324.
+    Insert(2533) done. Current median = 5324.
+    Insert(8905) done. Current median = 5324.
+    Insert(7283) done. Current median = 5418.
+    Insert(1256) done. Current median = 5324.
+    Insert(5688) done. Current median = 5418.
+    Insert(5563) done. Current median = 5418.
+    Insert(2642) done. Current median = 5418.
+    Insert(7813) done. Current median = 5418.
+    Insert(9391) done. Current median = 5433.
+    Insert(4869) done. Current median = 5418.
+
++++ Median Heap Sort done
+      210  402  418  545  624  712  730  842 1092 1167 1219 1254 1256 1397 1427
+     1447 1476 1548 1617 1661 1693 1722 1758 1766 1780 1784 1823 1882 1884 1981
+     2031 2447 2526 2533 2642 2737 3029 3073 3094 3222 3285 3463 3491 4081 4108
+     4245 4330 4498 4860 4869 4882 4941 4998 5048 5268 5324 5418 5433 5491 5563
+     5576 5622 5688 5750 5920 5926 5967 6031 6066 6102 6390 6391 6548 6870 6876
+     6930 6975 7016 7283 7305 7309 7310 7348 7655 7690 7703 7723 7746 7754 7799
+     7813 7857 8083 8142 8219 8313 8452 8641 8800 8840 8859 8905 9088 9192 9221
+     9254 9277 9391 9512 9520 9525 9539 9543 9638

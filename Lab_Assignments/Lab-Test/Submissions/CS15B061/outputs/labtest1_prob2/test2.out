@@ -1,0 +1,31 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push b in stack 1. New stack : b_________________________________________________
+Iteration   2 : Push V in stack 2. New stack : b________________________________________________V
+Iteration   3 : Push m in stack 1. New stack : bm_______________________________________________V
+Iteration   4 : Push O in stack 2. New stack : bm______________________________________________OV
+Iteration   5 : Push F in stack 2. New stack : bm_____________________________________________FOV
+Iteration   6 : Push z in stack 1. New stack : bmz____________________________________________FOV
+Iteration   7 : Push Y in stack 2. New stack : bmz___________________________________________YFOV
+Iteration   8 : Push N in stack 2. New stack : bmz__________________________________________NYFOV
+Iteration   9 : Push U in stack 2. New stack : bmz_________________________________________UNYFOV
+Iteration  10 : Push g in stack 1. New stack : bmzg________________________________________UNYFOV
+Iteration  11 : Push m in stack 1. New stack : bmzgm_______________________________________UNYFOV
+Iteration  12 : Push p in stack 1. New stack : bmzgmp______________________________________UNYFOV
+Iteration  13 : Push w in stack 1. New stack : bmzgmpw_____________________________________UNYFOV
+Iteration  14 : Push o in stack 1. New stack : bmzgmpwo____________________________________UNYFOV
+Iteration  15 : Push o in stack 1. New stack : bmzgmpwoo___________________________________UNYFOV
+Iteration  16 : Pop    in stack 1. New stack : bmzgmpwo____________________________________UNYFOV
+Iteration  17 : Pop    in stack 1. New stack : bmzgmpw_____________________________________UNYFOV
+Iteration  18 : Pop    in stack 1. New stack : bmzgmp______________________________________UNYFOV
+Iteration  19 : Pop    in stack 1. New stack : bmzgm_______________________________________UNYFOV
+Iteration  20 : Pop    in stack 2. New stack : bmzgm________________________________________NYFOV
+Iteration  21 : Push c in stack 1. New stack : bmzgmc_______________________________________NYFOV
+Iteration  22 : Pop    in stack 1. New stack : bmzgm________________________________________NYFOV
+Iteration  23 : Pop    in stack 1. New stack : bmzg_________________________________________NYFOV
+Iteration  24 : Pop    in stack 1. New stack : bmz__________________________________________NYFOV
+Iteration  25 : Pop    in stack 2. New stack : bmz___________________________________________YFOV
+Iteration  26 : Pop    in stack 2. New stack : bmz____________________________________________FOV
+Iteration  27 : Pop    in stack 1. New stack : bm_____________________________________________FOV
+Iteration  28 : Pop    in stack 1. New stack : b______________________________________________FOV
+Iteration  29 : Pop    in stack 1. New stack : _______________________________________________FOV
+Iteration  30 : Pop    in stack 1. New stack : Error: Underflow in Stack 1

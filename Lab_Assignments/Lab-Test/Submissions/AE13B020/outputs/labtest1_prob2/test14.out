@@ -1,0 +1,90 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push u in stack 1. New stack : u_______________________________
+Iteration   2 : Push t in stack 1. New stack : u_t_____________________________
+Iteration   3 : Push e in stack 1. New stack : u_t_e___________________________
+Iteration   4 : Push O in stack 2. New stack : uOt_e___________________________
+Iteration   5 : Push x in stack 1. New stack : uOt_e_x_________________________
+Iteration   6 : Push a in stack 1. New stack : uOt_e_x_a_______________________
+Iteration   7 : Push F in stack 2. New stack : uOtFe_x_a_______________________
+Iteration   8 : Push K in stack 2. New stack : uOtFeKx_a_______________________
+Iteration   9 : Push t in stack 1. New stack : uOtFeKx_a_t_____________________
+Iteration  10 : Push e in stack 1. New stack : uOtFeKx_a_t_e___________________
+Iteration  11 : Push W in stack 2. New stack : uOtFeKxWa_t_e___________________
+Iteration  12 : Push m in stack 1. New stack : uOtFeKxWa_t_e_m_________________
+Iteration  13 : Push j in stack 1. New stack : uOtFeKxWa_t_e_m_j_______________
+Iteration  14 : Push x in stack 1. New stack : uOtFeKxWa_t_e_m_j_x_____________
+Iteration  15 : Push a in stack 1. New stack : uOtFeKxWa_t_e_m_j_x_a___________
+Iteration  16 : Push g in stack 1. New stack : uOtFeKxWa_t_e_m_j_x_a_g_________
+Iteration  17 : Pop    in stack 1. New stack : uOtFeKxWa_t_e_m_j_x_a___________
+Iteration  18 : Pop    in stack 2. New stack : uOtFeKx_a_t_e_m_j_x_a___________
+Iteration  19 : Pop    in stack 2. New stack : uOtFe_x_a_t_e_m_j_x_a___________
+Iteration  20 : Pop    in stack 2. New stack : uOt_e_x_a_t_e_m_j_x_a___________
+Iteration  21 : Pop    in stack 1. New stack : uOt_e_x_a_t_e_m_j_x_____________
+Iteration  22 : Push h in stack 1. New stack : uOt_e_x_a_t_e_m_j_x_h___________
+Iteration  23 : Pop    in stack 1. New stack : uOt_e_x_a_t_e_m_j_x_____________
+Iteration  24 : Push r in stack 1. New stack : uOt_e_x_a_t_e_m_j_x_r___________
+Iteration  25 : Pop    in stack 1. New stack : uOt_e_x_a_t_e_m_j_x_____________
+Iteration  26 : Pop    in stack 1. New stack : uOt_e_x_a_t_e_m_j_______________
+Iteration  27 : Pop    in stack 1. New stack : uOt_e_x_a_t_e_m_________________
+Iteration  28 : Push r in stack 1. New stack : uOt_e_x_a_t_e_m_r_______________
+Iteration  29 : Push N in stack 2. New stack : uOtNe_x_a_t_e_m_r_______________
+Iteration  30 : Push r in stack 1. New stack : uOtNe_x_a_t_e_m_r_r_____________
+Iteration  31 : Push e in stack 1. New stack : uOtNe_x_a_t_e_m_r_r_e___________
+Iteration  32 : Push n in stack 1. New stack : uOtNe_x_a_t_e_m_r_r_e_n_________
+Iteration  33 : Push c in stack 1. New stack : uOtNe_x_a_t_e_m_r_r_e_n_c_______
+Iteration  34 : Pop    in stack 1. New stack : uOtNe_x_a_t_e_m_r_r_e_n_________
+Iteration  35 : Push X in stack 2. New stack : uOtNeXx_a_t_e_m_r_r_e_n_________
+Iteration  36 : Pop    in stack 1. New stack : uOtNeXx_a_t_e_m_r_r_e___________
+Iteration  37 : Push B in stack 2. New stack : uOtNeXxBa_t_e_m_r_r_e___________
+Iteration  38 : Pop    in stack 2. New stack : uOtNeXx_a_t_e_m_r_r_e___________
+Iteration  39 : Pop    in stack 1. New stack : uOtNeXx_a_t_e_m_r_r_____________
+Iteration  40 : Pop    in stack 1. New stack : uOtNeXx_a_t_e_m_r_______________
+Iteration  41 : Pop    in stack 1. New stack : uOtNeXx_a_t_e_m_________________
+Iteration  42 : Pop    in stack 1. New stack : uOtNeXx_a_t_e___________________
+Iteration  43 : Push k in stack 1. New stack : uOtNeXx_a_t_e_k_________________
+Iteration  44 : Pop    in stack 1. New stack : uOtNeXx_a_t_e___________________
+Iteration  45 : Pop    in stack 2. New stack : uOtNe_x_a_t_e___________________
+Iteration  46 : Push w in stack 1. New stack : uOtNe_x_a_t_e_w_________________
+Iteration  47 : Push H in stack 2. New stack : uOtNeHx_a_t_e_w_________________
+Iteration  48 : Pop    in stack 1. New stack : uOtNeHx_a_t_e___________________
+Iteration  49 : Push z in stack 1. New stack : uOtNeHx_a_t_e_z_________________
+Iteration  50 : Pop    in stack 1. New stack : uOtNeHx_a_t_e___________________
+Iteration  51 : Pop    in stack 1. New stack : uOtNeHx_a_t_____________________
+Iteration  52 : Push i in stack 1. New stack : uOtNeHx_a_t_i___________________
+Iteration  53 : Pop    in stack 1. New stack : uOtNeHx_a_t_____________________
+Iteration  54 : Push l in stack 1. New stack : uOtNeHx_a_t_l___________________
+Iteration  55 : Push i in stack 1. New stack : uOtNeHx_a_t_l_i_________________
+Iteration  56 : Pop    in stack 1. New stack : uOtNeHx_a_t_l___________________
+Iteration  57 : Pop    in stack 1. New stack : uOtNeHx_a_t_____________________
+Iteration  58 : Pop    in stack 2. New stack : uOtNe_x_a_t_____________________
+Iteration  59 : Pop    in stack 2. New stack : uOt_e_x_a_t_____________________
+Iteration  60 : Push E in stack 2. New stack : uOtEe_x_a_t_____________________
+Iteration  61 : Pop    in stack 2. New stack : uOt_e_x_a_t_____________________
+Iteration  62 : Pop    in stack 1. New stack : uOt_e_x_a_______________________
+Iteration  63 : Pop    in stack 1. New stack : uOt_e_x_________________________
+Iteration  64 : Push l in stack 1. New stack : uOt_e_x_l_______________________
+Iteration  65 : Pop    in stack 2. New stack : u_t_e_x_l_______________________
+Iteration  66 : Push X in stack 2. New stack : uXt_e_x_l_______________________
+Iteration  67 : Pop    in stack 2. New stack : u_t_e_x_l_______________________
+Iteration  68 : Push c in stack 1. New stack : u_t_e_x_l_c_____________________
+Iteration  69 : Pop    in stack 1. New stack : u_t_e_x_l_______________________
+Iteration  70 : Push l in stack 1. New stack : u_t_e_x_l_l_____________________
+Iteration  71 : Pop    in stack 1. New stack : u_t_e_x_l_______________________
+Iteration  72 : Pop    in stack 1. New stack : u_t_e_x_________________________
+Iteration  73 : Push i in stack 1. New stack : u_t_e_x_i_______________________
+Iteration  74 : Push n in stack 1. New stack : u_t_e_x_i_n_____________________
+Iteration  75 : Pop    in stack 1. New stack : u_t_e_x_i_______________________
+Iteration  76 : Pop    in stack 1. New stack : u_t_e_x_________________________
+Iteration  77 : Pop    in stack 1. New stack : u_t_e___________________________
+Iteration  78 : Push d in stack 1. New stack : u_t_e_d_________________________
+Iteration  79 : Push s in stack 1. New stack : u_t_e_d_s_______________________
+Iteration  80 : Pop    in stack 1. New stack : u_t_e_d_________________________
+Iteration  81 : Push d in stack 1. New stack : u_t_e_d_d_______________________
+Iteration  82 : Pop    in stack 1. New stack : u_t_e_d_________________________
+Iteration  83 : Pop    in stack 1. New stack : u_t_e___________________________
+Iteration  84 : Push f in stack 1. New stack : u_t_e_f_________________________
+Iteration  85 : Pop    in stack 1. New stack : u_t_e___________________________
+Iteration  86 : Pop    in stack 1. New stack : u_t_____________________________
+Iteration  87 : Pop    in stack 2. New stack : u_t_____________________________
+Iteration  88 : Push z in stack 1. New stack : u_t_z___________________________
+Iteration  89 : Pop    in stack 2. New stack : Error: Underflow in Stack 2.

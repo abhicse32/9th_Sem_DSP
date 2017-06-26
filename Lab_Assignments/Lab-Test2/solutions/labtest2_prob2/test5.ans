@@ -1,0 +1,178 @@
+
++++ MedHeap initialized
+
++++ Going to insert elements one by one in MedHeap
+    Insert(7566) done. Current median = 7566.
+    Insert(8171) done. Current median = 7566.
+    Insert(1981) done. Current median = 7566.
+    Insert(8741) done. Current median = 7566.
+    Insert(  74) done. Current median = 7566.
+    Insert(2454) done. Current median = 2454.
+    Insert( 382) done. Current median = 2454.
+    Insert(2935) done. Current median = 2454.
+    Insert(9537) done. Current median = 2935.
+    Insert(2119) done. Current median = 2454.
+    Insert(6051) done. Current median = 2935.
+    Insert(6299) done. Current median = 2935.
+    Insert( 792) done. Current median = 2935.
+    Insert(8125) done. Current median = 2935.
+    Insert(9666) done. Current median = 6051.
+    Insert(9028) done. Current median = 6051.
+    Insert(9515) done. Current median = 6299.
+    Insert(6931) done. Current median = 6299.
+    Insert(2123) done. Current median = 6299.
+    Insert(2461) done. Current median = 6051.
+    Insert(6637) done. Current median = 6299.
+    Insert(6484) done. Current median = 6299.
+    Insert(7890) done. Current median = 6484.
+    Insert(6564) done. Current median = 6484.
+    Insert(1749) done. Current median = 6484.
+    Insert(2126) done. Current median = 6299.
+    Insert(2782) done. Current median = 6299.
+    Insert(7673) done. Current median = 6299.
+    Insert(5970) done. Current median = 6299.
+    Insert(5521) done. Current median = 6051.
+    Insert( 196) done. Current median = 6051.
+    Insert(2904) done. Current median = 5970.
+    Insert(1572) done. Current median = 5970.
+    Insert(6998) done. Current median = 5970.
+    Insert(1262) done. Current median = 5970.
+    Insert( 167) done. Current median = 5521.
+    Insert(3436) done. Current median = 5521.
+    Insert(5420) done. Current median = 5420.
+    Insert(5724) done. Current median = 5521.
+    Insert(6436) done. Current median = 5521.
+    Insert(6991) done. Current median = 5724.
+    Insert(6120) done. Current median = 5724.
+    Insert(8060) done. Current median = 5970.
+    Insert(8352) done. Current median = 5970.
+    Insert(9345) done. Current median = 6051.
+    Insert(1049) done. Current median = 5970.
+    Insert(2031) done. Current median = 5970.
+    Insert(3663) done. Current median = 5724.
+    Insert(1295) done. Current median = 5724.
+    Insert(7634) done. Current median = 5724.
+    Insert( 133) done. Current median = 5724.
+    Insert( 722) done. Current median = 5521.
+    Insert(4795) done. Current median = 5521.
+    Insert(9222) done. Current median = 5521.
+    Insert(9233) done. Current median = 5724.
+    Insert(4328) done. Current median = 5521.
+    Insert(3779) done. Current median = 5521.
+    Insert(9286) done. Current median = 5521.
+    Insert(4254) done. Current median = 5521.
+    Insert(4628) done. Current median = 5420.
+    Insert(4099) done. Current median = 5420.
+    Insert(6332) done. Current median = 5420.
+    Insert(6775) done. Current median = 5521.
+    Insert(8826) done. Current median = 5521.
+    Insert(7124) done. Current median = 5724.
+    Insert(8356) done. Current median = 5724.
+    Insert(7461) done. Current median = 5970.
+    Insert(3412) done. Current median = 5724.
+    Insert(6489) done. Current median = 5970.
+    Insert(4158) done. Current median = 5724.
+    Insert(5590) done. Current median = 5724.
+    Insert(6839) done. Current median = 5724.
+    Insert(2776) done. Current median = 5724.
+    Insert(7502) done. Current median = 5724.
+    Insert(9441) done. Current median = 5970.
+    Insert( 517) done. Current median = 5724.
+    Insert(2000) done. Current median = 5724.
+    Insert(3591) done. Current median = 5590.
+    Insert(9055) done. Current median = 5724.
+    Insert(1479) done. Current median = 5590.
+    Insert(7012) done. Current median = 5724.
+    Insert(  34) done. Current median = 5590.
+    Insert(9883) done. Current median = 5724.
+    Insert(2911) done. Current median = 5590.
+    Insert(5720) done. Current median = 5720.
+    Insert(2573) done. Current median = 5590.
+    Insert(6533) done. Current median = 5720.
+    Insert(4424) done. Current median = 5590.
+    Insert(9200) done. Current median = 5720.
+    Insert(7952) done. Current median = 5720.
+    Insert(9333) done. Current median = 5724.
+    Insert(5454) done. Current median = 5720.
+    Insert(6199) done. Current median = 5724.
+    Insert(9228) done. Current median = 5724.
+    Insert(3630) done. Current median = 5724.
+    Insert(4069) done. Current median = 5720.
+    Insert(8069) done. Current median = 5724.
+    Insert(8004) done. Current median = 5724.
+    Insert(2354) done. Current median = 5724.
+    Insert(9583) done. Current median = 5724.
+    Insert(7366) done. Current median = 5970.
+    Insert(9399) done. Current median = 5970.
+    Insert(6986) done. Current median = 6051.
+    Insert(2136) done. Current median = 5970.
+    Insert(5503) done. Current median = 5970.
+    Insert(9640) done. Current median = 5970.
+    Insert(6119) done. Current median = 6051.
+    Insert( 224) done. Current median = 5970.
+    Insert(5486) done. Current median = 5970.
+    Insert(6303) done. Current median = 5970.
+    Insert(7535) done. Current median = 6051.
+    Insert(8438) done. Current median = 6051.
+    Insert(3095) done. Current median = 6051.
+    Insert(3235) done. Current median = 5970.
+    Insert( 601) done. Current median = 5970.
+    Insert(7226) done. Current median = 5970.
+    Insert(2400) done. Current median = 5970.
+    Insert(8535) done. Current median = 5970.
+    Insert(8220) done. Current median = 6051.
+    Insert(8506) done. Current median = 6051.
+    Insert(5769) done. Current median = 6051.
+    Insert(1516) done. Current median = 5970.
+    Insert(4774) done. Current median = 5970.
+    Insert( 477) done. Current median = 5769.
+    Insert(5801) done. Current median = 5801.
+    Insert(6364) done. Current median = 5801.
+    Insert(9221) done. Current median = 5970.
+    Insert(7026) done. Current median = 5970.
+    Insert(1934) done. Current median = 5970.
+    Insert( 125) done. Current median = 5801.
+    Insert(2611) done. Current median = 5801.
+    Insert(3964) done. Current median = 5769.
+    Insert(9303) done. Current median = 5801.
+    Insert(9260) done. Current median = 5801.
+    Insert(7359) done. Current median = 5970.
+    Insert(6032) done. Current median = 5970.
+    Insert(3556) done. Current median = 5970.
+    Insert(5408) done. Current median = 5801.
+    Insert(5602) done. Current median = 5801.
+    Insert(3073) done. Current median = 5769.
+    Insert(5933) done. Current median = 5801.
+    Insert(9097) done. Current median = 5801.
+    Insert(1203) done. Current median = 5801.
+    Insert(2174) done. Current median = 5769.
+    Insert(6207) done. Current median = 5801.
+    Insert( 720) done. Current median = 5769.
+    Insert(3737) done. Current median = 5769.
+    Insert(8573) done. Current median = 5769.
+    Insert(7881) done. Current median = 5801.
+    Insert( 605) done. Current median = 5769.
+    Insert(6403) done. Current median = 5801.
+    Insert(3072) done. Current median = 5769.
+    Insert(2075) done. Current median = 5769.
+    Insert(5942) done. Current median = 5769.
+    Insert(4282) done. Current median = 5769.
+    Insert(1376) done. Current median = 5724.
+    Insert(4169) done. Current median = 5724.
+    Insert(3321) done. Current median = 5720.
+    Insert(3781) done. Current median = 5720.
+    Insert( 752) done. Current median = 5602.
+    Insert(1601) done. Current median = 5602.
+
++++ Median Heap Sort done
+       34   74  125  133  167  196  224  382  477  517  601  605  720  722  752
+      792 1049 1203 1262 1295 1376 1479 1516 1572 1601 1749 1934 1981 2000 2031
+     2075 2119 2123 2126 2136 2174 2354 2400 2454 2461 2573 2611 2776 2782 2904
+     2911 2935 3072 3073 3095 3235 3321 3412 3436 3556 3591 3630 3663 3737 3779
+     3781 3964 4069 4099 4158 4169 4254 4282 4328 4424 4628 4774 4795 5408 5420
+     5454 5486 5503 5521 5590 5602 5720 5724 5769 5801 5933 5942 5970 6032 6051
+     6119 6120 6199 6207 6299 6303 6332 6364 6403 6436 6484 6489 6533 6564 6637
+     6775 6839 6931 6986 6991 6998 7012 7026 7124 7226 7359 7366 7461 7502 7535
+     7566 7634 7673 7881 7890 7952 8004 8060 8069 8125 8171 8220 8352 8356 8438
+     8506 8535 8573 8741 8826 9028 9055 9097 9200 9221 9222 9228 9233 9260 9286
+     9303 9333 9345 9399 9441 9515 9537 9583 9640 9666 9883

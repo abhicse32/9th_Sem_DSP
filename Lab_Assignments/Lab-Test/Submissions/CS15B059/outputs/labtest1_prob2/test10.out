@@ -1,0 +1,35 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push W in stack 2. New stack : _________________________________________________W
+Iteration   2 : Push y in stack 1. New stack : y________________________________________________W
+Iteration   3 : Push u in stack 1. New stack : yu_______________________________________________W
+Iteration   4 : Push b in stack 1. New stack : yub______________________________________________W
+Iteration   5 : Push c in stack 1. New stack : yubc_____________________________________________W
+Iteration   6 : Push R in stack 2. New stack : yubc____________________________________________RW
+Iteration   7 : Push a in stack 1. New stack : yubca___________________________________________RW
+Iteration   8 : Push Z in stack 2. New stack : yubca__________________________________________ZRW
+Iteration   9 : Push P in stack 2. New stack : yubca_________________________________________PZRW
+Iteration  10 : Push b in stack 1. New stack : yubcab________________________________________PZRW
+Iteration  11 : Push c in stack 1. New stack : yubcabc_______________________________________PZRW
+Iteration  12 : Push v in stack 1. New stack : yubcabcv______________________________________PZRW
+Iteration  13 : Push W in stack 2. New stack : yubcabcv_____________________________________WPZRW
+Iteration  14 : Push y in stack 1. New stack : yubcabcvy____________________________________WPZRW
+Iteration  15 : Push g in stack 1. New stack : yubcabcvyg___________________________________WPZRW
+Iteration  16 : Push d in stack 1. New stack : yubcabcvygd__________________________________WPZRW
+Iteration  17 : Push g in stack 1. New stack : yubcabcvygdg_________________________________WPZRW
+Iteration  18 : Pop    in stack 2. New stack : yubcabcvygdg__________________________________PZRW
+Iteration  19 : Pop    in stack 2. New stack : yubcabcvygdg___________________________________ZRW
+Iteration  20 : Pop    in stack 1. New stack : yubcabcvygd____________________________________ZRW
+Iteration  21 : Pop    in stack 1. New stack : yubcabcvyg_____________________________________ZRW
+Iteration  22 : Pop    in stack 1. New stack : yubcabcvy______________________________________ZRW
+Iteration  23 : Pop    in stack 2. New stack : yubcabcvy_______________________________________RW
+Iteration  24 : Pop    in stack 1. New stack : yubcabcv________________________________________RW
+Iteration  25 : Pop    in stack 1. New stack : yubcabc_________________________________________RW
+Iteration  26 : Pop    in stack 1. New stack : yubcab__________________________________________RW
+Iteration  27 : Pop    in stack 1. New stack : yubca___________________________________________RW
+Iteration  28 : Pop    in stack 2. New stack : yubca____________________________________________W
+Iteration  29 : Pop    in stack 1. New stack : yubc_____________________________________________W
+Iteration  30 : Pop    in stack 1. New stack : yub______________________________________________W
+Iteration  31 : Pop    in stack 1. New stack : yu_______________________________________________W
+Iteration  32 : Pop    in stack 1. New stack : y________________________________________________W
+Iteration  33 : Pop    in stack 1. New stack : _________________________________________________W
+Iteration  34 : Pop    in stack 1. New stack : Error: Underflow in stack 1

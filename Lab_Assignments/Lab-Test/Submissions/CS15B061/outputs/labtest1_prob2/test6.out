@@ -1,0 +1,57 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push K in stack 2. New stack : _________________________________________________K
+Iteration   2 : Push a in stack 1. New stack : a________________________________________________K
+Iteration   3 : Push X in stack 2. New stack : a_______________________________________________XK
+Iteration   4 : Push F in stack 2. New stack : a______________________________________________FXK
+Iteration   5 : Push f in stack 1. New stack : af_____________________________________________FXK
+Iteration   6 : Push x in stack 1. New stack : afx____________________________________________FXK
+Iteration   7 : Push f in stack 1. New stack : afxf___________________________________________FXK
+Iteration   8 : Push x in stack 1. New stack : afxfx__________________________________________FXK
+Iteration   9 : Push f in stack 1. New stack : afxfxf_________________________________________FXK
+Iteration  10 : Push H in stack 2. New stack : afxfxf________________________________________HFXK
+Iteration  11 : Push s in stack 1. New stack : afxfxfs_______________________________________HFXK
+Iteration  12 : Push q in stack 1. New stack : afxfxfsq______________________________________HFXK
+Iteration  13 : Push v in stack 1. New stack : afxfxfsqv_____________________________________HFXK
+Iteration  14 : Push h in stack 1. New stack : afxfxfsqvh____________________________________HFXK
+Iteration  15 : Push A in stack 2. New stack : afxfxfsqvh___________________________________AHFXK
+Iteration  16 : Pop    in stack 2. New stack : afxfxfsqvh____________________________________HFXK
+Iteration  17 : Push w in stack 1. New stack : afxfxfsqvhw___________________________________HFXK
+Iteration  18 : Pop    in stack 1. New stack : afxfxfsqvh____________________________________HFXK
+Iteration  19 : Push V in stack 2. New stack : afxfxfsqvh___________________________________VHFXK
+Iteration  20 : Push p in stack 1. New stack : afxfxfsqvhp__________________________________VHFXK
+Iteration  21 : Push D in stack 2. New stack : afxfxfsqvhp_________________________________DVHFXK
+Iteration  22 : Pop    in stack 1. New stack : afxfxfsqvh__________________________________DVHFXK
+Iteration  23 : Pop    in stack 1. New stack : afxfxfsqv___________________________________DVHFXK
+Iteration  24 : Push s in stack 1. New stack : afxfxfsqvs__________________________________DVHFXK
+Iteration  25 : Push R in stack 2. New stack : afxfxfsqvs_________________________________RDVHFXK
+Iteration  26 : Pop    in stack 2. New stack : afxfxfsqvs__________________________________DVHFXK
+Iteration  27 : Pop    in stack 2. New stack : afxfxfsqvs___________________________________VHFXK
+Iteration  28 : Pop    in stack 1. New stack : afxfxfsqv____________________________________VHFXK
+Iteration  29 : Push q in stack 1. New stack : afxfxfsqvq___________________________________VHFXK
+Iteration  30 : Push x in stack 1. New stack : afxfxfsqvqx__________________________________VHFXK
+Iteration  31 : Pop    in stack 2. New stack : afxfxfsqvqx___________________________________HFXK
+Iteration  32 : Pop    in stack 1. New stack : afxfxfsqvq____________________________________HFXK
+Iteration  33 : Pop    in stack 1. New stack : afxfxfsqv_____________________________________HFXK
+Iteration  34 : Pop    in stack 2. New stack : afxfxfsqv______________________________________FXK
+Iteration  35 : Pop    in stack 2. New stack : afxfxfsqv_______________________________________XK
+Iteration  36 : Pop    in stack 1. New stack : afxfxfsq________________________________________XK
+Iteration  37 : Pop    in stack 2. New stack : afxfxfsq_________________________________________K
+Iteration  38 : Push k in stack 1. New stack : afxfxfsqk________________________________________K
+Iteration  39 : Push g in stack 1. New stack : afxfxfsqkg_______________________________________K
+Iteration  40 : Pop    in stack 2. New stack : afxfxfsqkg________________________________________
+Iteration  41 : Pop    in stack 1. New stack : afxfxfsqk_________________________________________
+Iteration  42 : Push D in stack 2. New stack : afxfxfsqk________________________________________D
+Iteration  43 : Push o in stack 1. New stack : afxfxfsqko_______________________________________D
+Iteration  44 : Push p in stack 1. New stack : afxfxfsqkop______________________________________D
+Iteration  45 : Pop    in stack 1. New stack : afxfxfsqko_______________________________________D
+Iteration  46 : Pop    in stack 2. New stack : afxfxfsqko________________________________________
+Iteration  47 : Push L in stack 2. New stack : afxfxfsqko_______________________________________L
+Iteration  48 : Pop    in stack 1. New stack : afxfxfsqk________________________________________L
+Iteration  49 : Push u in stack 1. New stack : afxfxfsqku_______________________________________L
+Iteration  50 : Pop    in stack 1. New stack : afxfxfsqk________________________________________L
+Iteration  51 : Pop    in stack 2. New stack : afxfxfsqk_________________________________________
+Iteration  52 : Push F in stack 2. New stack : afxfxfsqk________________________________________F
+Iteration  53 : Pop    in stack 1. New stack : afxfxfsq_________________________________________F
+Iteration  54 : Pop    in stack 1. New stack : afxfxfs__________________________________________F
+Iteration  55 : Pop    in stack 2. New stack : afxfxfs___________________________________________
+Iteration  56 : Pop    in stack 2. New stack : Error: Underflow in Stack 2

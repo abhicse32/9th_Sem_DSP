@@ -1,0 +1,108 @@
+#!/usr/bin/env python
+from random import randint,choice,uniform
+import random
+from subprocess import call,Popen,PIPE
+from string import ascii_lowercase
+import os
+
+solDir="solutions"
+testDir="testcases"
+progDir="CS12B032_HOME/Code"
+execs="executables"
+
+def gen_out(infile):
+    noext=os.path.splitext(infile)[0]
+    testPath= os.path.join(testDir,noext+".in")
+    execPath=os.path.join(execs,noext)
+    ansPath= os.path.join(solDir,noext+".ans")
+    progPath= os.path.join(progDir,infile)
+    sortPath= os.path.join(progDir,"q2_sort.c")
+    # print progPath,ansPath,execPath,testPath
+    if noext=='q1':
+        os.system("gcc -o "+execPath+" "+progPath+" -lm")
+    else:
+        os.system("gcc -o "+execPath+" "+progPath+" "+sortPath+" -lm")
+
+    with open(testPath,"r") as reader:
+        with open(ansPath,"w") as writer:
+            if noext=='q2' or noext=='q3':
+                ps= Popen("./"+execPath, stdin= PIPE, stdout= PIPE, stderr= PIPE)
+                out,err= ps.communicate(os.linesep.join([lines for lines in reader]))
+                writer.write(out)
+            else:
+                lines= int(reader.readline())
+                for i in range(lines):
+                    ps=Popen("./"+execPath, stdin=PIPE,stdout=PIPE,stderr=PIPE)
+                    lst=[reader.readline() for k in range(2)]
+                    out,err=ps.communicate(os.linesep.join(lst))
+                    writer.write(out)
+
+def aux2(w,m,n):
+    for i in range(m):
+        f=n
+        if n!=1:
+            f=random.randint(0,(n>>2))
+        lst=[randint(-100,100) for j in range(f)]+[0]*(n-f)
+        random.shuffle(lst);
+        w.write(' '.join(map(str,lst))+"\n")
+
+def create2(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        for i in range(20):
+            option= randint(1,3)
+            w.write(str(option)+"\n")
+            m,n=randint(5,15),randint(5,15)
+            w.write(str(m)+" "+str(n)+"\n")
+            if option==3:
+                aux2(w,m,n)
+                for j in range(n):
+                    w.write(str(randint(-10,10))+"\n")
+            else:
+                aux2(w,m,n)
+                aux2(w,m,n)
+        w.write("-1\n")
+
+
+def aux_fun(lst,w,times):
+    lst_size= len(lst)
+    lst_len=0
+    for i in range(times):
+        index= randint(0,lst_size-1)
+        str_=""
+        if lst[index]=='insert':
+            str_=str(randint(0,lst_len))+" "+str(randint(-50,50))
+            lst_len+=1
+        elif lst[index]=='append' or lst[index]=='prepend':
+            str_= str(randint(-50,50))
+            lst_len+=1
+        elif lst[index]=='get':
+            str_=str(randint(0,lst_len))
+        elif lst[index]=='remove':
+            str_=str(randint(0,lst_len))
+        if str_!="":
+            w.write(lst[index]+" "+str_+"\n")
+        else:
+            w.write(lst[index]+"\n") 
+
+
+def create1(infile):
+    testfile=os.path.join(testDir,infile+".in")
+    with open(testfile,"w") as w:
+        lst=["insert","append","prepend"]
+        aux_fun(lst,w,20)
+        lst=["size","prepend","get","append","insert","remove_first","append","remove","prepend","insert","remove_last",]
+        aux_fun(lst,w,80)
+
+if __name__=='__main__':
+        if not os.path.exists(solDir):
+            os.system("mkdir "+solDir)
+        if not os.path.exists(testDir):
+            os.system("mkdir "+testDir)
+        if not os.path.exists(execs):
+            os.system("mkdir "+execs)
+        # create1("q2")
+        create2("q1")
+        # create3("q3")
+        # gen_out('q2.c')
+

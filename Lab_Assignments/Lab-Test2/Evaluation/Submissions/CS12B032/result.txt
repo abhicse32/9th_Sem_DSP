@@ -1,0 +1,26 @@
+labtest2_prob2
+testcase 1(test5): passed
+testcase 2(test6): passed
+testcase 3(test4): passed
+testcase 4(test3): passed
+testcase 5(test10): passed
+testcase 6(test7): passed
+testcase 7(test9): passed
+testcase 8(test1): passed
+testcase 9(test8): passed
+testcase 10(test2): passed
+
+result: 10/10
+labtest2_prob1
+testcase 1(test5): passed
+testcase 2(test6): passed
+testcase 3(test4): passed
+testcase 4(test3): passed
+testcase 5(test10): passed
+testcase 6(test7): passed
+testcase 7(test9): passed
+testcase 8(test1): passed
+testcase 9(test8): passed
+testcase 10(test2): passed
+
+result: 10/10

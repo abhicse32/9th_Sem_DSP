@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+from random import randint,choice,uniform
+import random
+from subprocess import call,Popen,PIPE
+from string import ascii_lowercase
+import os,sys,re
+
+solDir="solutions"
+testDir="testcases"
+progDir="CS12B032_HOME/Code"
+execs="executables"
+
+def create1(infile):
+	test_dir= os.path.join(testDir,infile)
+	if not os.path.exists(test_dir):
+		os.system("mkdir -p "+test_dir)
+	for i in range(1,21):
+		test_file=os.path.join(test_dir,"test"+str(i)+".in")
+		with open(test_file,"w") as writer:
+			size= randint(10,1000)
+			writer.write(str(size)+"\n")
+			for j in range(size):
+				x,y=randint(-10**4,10**4),randint(-10**4,10**4)
+				writer.write(str(x)+" "+str(y)+"\n")
+
+
+def create_dir(root_dir):
+	files= [f for f in os.listdir(root_dir) if f.endswith(".c")]
+	for f in files:
+		roll_no= re.search(r'[A-Z0-9]+',f).group()
+		roll_path= os.path.join(root_dir,roll_no)
+		if not os.path.exists(roll_path):
+			os.system("mkdir -p "+roll_path)
+		file_path= os.path.join(root_dir,f)
+		os.system("mv "+file_path+" "+roll_path)
+
+
+def create2(infile):
+	test_dir= os.path.join(testDir,infile)
+	if not os.path.exists(test_dir):
+		os.system("mkdir -p "+test_dir)
+
+	for i in range(1,21):
+		test_file= os.path.join(test_dir,"test"+str(i)+".in")
+		lst,odd,even=[1,1,2],[0,0,0,1,1,1,1,1],[0,0,0,0,0,1,1,1]
+		with open(test_file,"w") as writer:
+			option= randint(0,1)
+			writer.write(str(option)+"\n")
+			commands= randint(100,200)
+			writer.write(str(commands)+"\n")
+			for j in range(commands):
+				which= lst[randint(0,2)]
+				if j<15:
+					writer.write(str(1)+" "+str(which)+" "+str(randint(0,25))+"\n")
+				else:
+					if i%2==1:
+						action=odd[randint(0,7)]
+					else:
+						action=even[randint(0,7)]
+				 	writer.write(str(action)+" "+str(which)+" "+str(randint(0,25))+"\n")
+
+
+if __name__=='__main__':
+        if not os.path.exists(solDir):
+            os.system("mkdir "+solDir)
+        if not os.path.exists(testDir):
+            os.system("mkdir "+testDir)
+        dir_name= sys.argv[1]
+        create_dir(dir_name)
+        # create2("labtest1_prob2")
+        # create1("labtest1_prob1")

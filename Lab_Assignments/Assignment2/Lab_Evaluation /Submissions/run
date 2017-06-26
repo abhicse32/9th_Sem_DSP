@@ -1,0 +1,52 @@
+#! /usr/bin/env python
+import  sys,os,re
+from subprocess import call,Popen,PIPE
+solDir,outDir,execDir,testDir="solutions","outputs","./submissions/","testcases"
+
+execs= [os.path.join(os.path.join(execDir,f),"q2") for f in os.listdir(execDir)\
+    if os.path.isdir(os.path.join(execDir,f)) and not f.startswith(".") and not f.startswith("~")]
+def execute(opts="all"):
+    os.system("make clean")
+    os.system("make "+opts)
+    # print execs
+    for noext in execs:
+        testPath,outPath,execPath=os.path.join(testDir,"q2.in"),noext+".out",noext
+        print "running "+execPath
+        with open(outPath,"w") as writer:
+            with open(testPath,"r") as reader:
+                inputs=int(reader.readline())
+                for i in range(inputs):
+                    lst=[reader.readline().strip() for j in range(2)]
+                    ps= Popen("./"+execPath, stdin=PIPE, stdout= PIPE, stderr=PIPE)
+                    out,err=ps.communicate(os.linesep.join(lst))
+                    writer.write(out.strip()+"\n")
+        # os.system("./"+execPath+" < "+testPath+" > "+outPath)
+
+def evaluate():
+    for noext in execs:
+        sol_path,out_path,respath= os.path.join(solDir,"q2.ans"),noext+".out",noext+".res"
+        with open(sol_path,"r") as sol_reader:
+            with open(out_path,"r") as out_reader:
+                with open(respath,"w") as res_writer:
+                    total,passed=0,0
+                    for line in sol_reader:
+                        out_line= out_reader.readline().strip().split()
+                        sol_line= line.strip().split()
+                        out_line.sort(),sol_line.sort()
+                        total+=1
+                        if out_line==sol_line:
+                            res_writer.write("testcase %d: passed\n"%total)
+                            passed+=1
+                        else:
+                            res_writer.write("testcase %d:failed\n"%total)
+                    res_writer.write("result: %d/%d passed"%(passed,total))
+
+if __name__=='__main__':
+    opts="all"
+    if len(sys.argv)>1:
+        opts=' '.join(sys.argv[1:])
+    if not os.path.exists(outDir):
+        os.system("mkdir "+outDir)
+    print opts
+    execute(opts)
+    evaluate()

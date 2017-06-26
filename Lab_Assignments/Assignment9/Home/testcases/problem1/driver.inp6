@@ -1,0 +1,102 @@
+19
+7 5 8 14 18 3 4 6 2 13 12 15 10 1 9 16 19 11 17 
+union 16 5
+union 7 6
+union 5 19
+union 15 4
+union 19 8
+printMap
+findWithPathCompression 16
+cardinality 11
+findWithPathCompression 15
+find 6
+findWithPathCompression 15
+printNode 19
+printMap
+find 5
+union 17 3
+isMember 10 11
+isMember 8 17
+findWithPathCompression 7
+findWithPathCompression 4
+printMap
+cardinality 16
+printMap
+findWithPathCompression 1
+printNode 1
+findWithPathCompression 17
+find 4
+find 14
+printMap
+isMember 17 3
+cardinality 8
+isMember 10 18
+find 2
+union 6 5
+findWithPathCompression 13
+findWithPathCompression 9
+find 1
+cardinality 14
+union 18 13
+union 9 1
+cardinality 6
+findWithPathCompression 9
+union 10 10
+printNode 3
+find 10
+printMap
+union 17 1
+cardinality 7
+printNode 6
+printMap
+printNode 8
+find 18
+find 10
+isMember 16 15
+printMap
+cardinality 5
+printNode 5
+findWithPathCompression 13
+isMember 2 3
+isMember 7 9
+findWithPathCompression 12
+isMember 2 9
+cardinality 10
+findWithPathCompression 14
+isMember 19 6
+union 9 1
+union 9 11
+printMap
+union 2 16
+union 6 5
+cardinality 12
+union 17 15
+isMember 14 5
+printMap
+printNode 19
+printNode 15
+union 16 17
+find 9
+isMember 4 1
+printNode 3
+printMap
+union 5 18
+union 13 17
+isMember 3 11
+findWithPathCompression 13
+findWithPathCompression 6
+find 18
+printMap
+printMap
+printMap
+find 2
+union 7 11
+union 3 6
+printNode 8
+findWithPathCompression 9
+printMap
+printMap
+find 10
+findWithPathCompression 15
+isMember 13 8
+isMember 19 18

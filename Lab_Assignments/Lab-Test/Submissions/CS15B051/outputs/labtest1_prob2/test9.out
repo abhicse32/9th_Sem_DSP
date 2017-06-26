@@ -1,0 +1,50 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push m in stack 1. New stack : m_________________________________________________
+Iteration   2 : Push M in stack 2. New stack : mM________________________________________________
+Iteration   3 : Push Y in stack 2. New stack : mM_Y______________________________________________
+Iteration   4 : Push C in stack 2. New stack : mM_Y_C____________________________________________
+Iteration   5 : Push k in stack 1. New stack : mMkYkC____________________________________________
+Iteration   6 : Push t in stack 1. New stack : mMkYkt_t__________________________________________
+Iteration   7 : Push G in stack 2. New stack : mMkYkt_G__________________________________________
+Iteration   8 : Push s in stack 1. New stack : mMkYkt_Gs_s_______________________________________
+Iteration   9 : Push v in stack 1. New stack : mMkYkt_Gs_sv_v____________________________________
+Iteration  10 : Push x in stack 1. New stack : mMkYkt_Gs_sv_vx_x_________________________________
+Iteration  11 : Push s in stack 1. New stack : mMkYkt_Gs_sv_vx_xs_s______________________________
+Iteration  12 : Push M in stack 2. New stack : mMkYkt_GsMsv_vx_xs_s______________________________
+Iteration  13 : Push c in stack 1. New stack : mMkYkt_GsMsv_vx_xs_sc_c___________________________
+Iteration  14 : Push w in stack 1. New stack : mMkYkt_GsMsv_vx_xs_sc_cw_w________________________
+Iteration  15 : Push r in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsv_vx_xs_sc_cw_wr_______________________
+Iteration  16 : Push t in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsv_vx_xs_sc_cw_wr_t_____________________
+Iteration  17 : Push O in stack 2. New stack : mMkYkt_GsMsO_vx_xs_sc_cw_wr_t_____________________
+Iteration  18 : Push Y in stack 2. New stack : mMkYkt_GsMsO_Yx_xs_sc_cw_wr_t_____________________
+Iteration  19 : Push e in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_Yx_xs_sc_cw_wr_t_e___________________
+Iteration  20 : Push C in stack 2. New stack : mMkYkt_GsMsO_YxCxs_sc_cw_wr_t_e___________________
+Iteration  21 : Push v in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxs_sc_cw_wr_t_e_v_________________
+Iteration  22 : Push f in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxs_sc_cw_wr_t_e_v_f_______________
+Iteration  23 : Pop    in stack 2. New stack : mMkYkt_GsMsO_YxCxs_sc_cw_wr_t_e_v_f_______________
+Iteration  24 : Push w in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxs_sc_cw_wr_t_e_v_f_w_____________
+Iteration  25 : Push W in stack 2. New stack : mMkYkt_GsMsO_YxCxW_sc_cw_wr_t_e_v_f_w_____________
+Iteration  26 : Push V in stack 2. New stack : mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_____________
+Iteration  27 : Push f in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_f___________
+Iteration  28 : Push w in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_f_w_________
+Iteration  29 : Push j in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_f_w_j_______
+Iteration  30 : Push r in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_f_w_j_r_____
+Iteration  31 : Push f in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_Vc_cw_wr_t_e_v_f_w_f_w_j_r_f___
+Iteration  32 : Push V in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcw_wr_t_e_v_f_w_f_w_j_r_f___
+Iteration  33 : Push B in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f___
+Iteration  34 : Push s in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_s_
+Iteration  35 : Pop    in stack 1. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_s_
+Iteration  36 : Pop    in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_s_
+Iteration  37 : Pop    in stack 1. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_s_
+Iteration  38 : Pop    in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_s_
+Iteration  39 : Push n in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_n_
+Iteration  40 : Push d in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_wr_t_e_v_f_w_f_w_j_r_f_n_
+Iteration  41 : Push B in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_Br_t_e_v_f_w_f_w_j_r_f_n_
+Iteration  42 : Pop    in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_Br_t_e_v_f_w_f_w_j_r_f_n_
+Iteration  43 : Push V in stack 2. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  44 : Push a in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  45 : Push r in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  46 : Pop    in stack 1. New stack : mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  47 : Push x in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  48 : Push n in stack 1. New stack : Error: Overflow in Stack 1.mMkYkt_GsMsO_YxCxW_VcVcB_BrVt_e_v_f_w_f_w_j_r_f_n_
+Iteration  49 : Push y in stack 1. New stack : 

@@ -1,0 +1,115 @@
+evaluating: hw1_1.out.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+testcase 16: passed
+testcase 17: passed
+testcase 18: passed
+testcase 19: passed
+testcase 20: passed
+result: 20/20
+
+evaluating: hw1_2.out.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+testcase 16: passed
+testcase 17: passed
+testcase 18: passed
+testcase 19: passed
+testcase 20: passed
+result: 20/20
+
+evaluating: hw1_3.out.c
+testcase 1: failed
+testcase 2: failed
+testcase 3: failed
+testcase 4: failed
+testcase 5: failed
+testcase 6: failed
+testcase 7: failed
+testcase 8: failed
+testcase 9: failed
+testcase 10: failed
+testcase 11: failed
+testcase 12: failed
+testcase 13: failed
+testcase 14: failed
+testcase 15: failed
+testcase 16: failed
+testcase 17: failed
+testcase 18: failed
+testcase 19: failed
+testcase 20: passed
+result: 1/20
+
+evaluating: hw1_4.out.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+testcase 16: passed
+testcase 17: passed
+testcase 18: passed
+testcase 19: passed
+testcase 20: passed
+result: 20/20
+
+evaluating: hw1_5.out.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+testcase 16: passed
+testcase 17: passed
+testcase 18: passed
+testcase 19: passed
+testcase 20: passed
+result: 20/20
+

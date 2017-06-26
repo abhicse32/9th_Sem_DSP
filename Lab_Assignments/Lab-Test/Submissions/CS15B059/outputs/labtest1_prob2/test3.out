@@ -1,0 +1,61 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push Q in stack 2. New stack : _Q________________________________________________
+Iteration   2 : Push p in stack 1. New stack : pQ________________________________________________
+Iteration   3 : Push f in stack 1. New stack : pQf_______________________________________________
+Iteration   4 : Push O in stack 2. New stack : pQfO______________________________________________
+Iteration   5 : Push m in stack 1. New stack : pQfOm_____________________________________________
+Iteration   6 : Push B in stack 2. New stack : pQfOmB____________________________________________
+Iteration   7 : Push o in stack 1. New stack : pQfOmBo___________________________________________
+Iteration   8 : Push M in stack 2. New stack : pQfOmBoM__________________________________________
+Iteration   9 : Push t in stack 1. New stack : pQfOmBoMt_________________________________________
+Iteration  10 : Push z in stack 1. New stack : pQfOmBoMt_z_______________________________________
+Iteration  11 : Push l in stack 1. New stack : pQfOmBoMt_z_l_____________________________________
+Iteration  12 : Push R in stack 2. New stack : pQfOmBoMtRz_l_____________________________________
+Iteration  13 : Push q in stack 1. New stack : pQfOmBoMtRz_l_q___________________________________
+Iteration  14 : Push O in stack 2. New stack : pQfOmBoMtRzOl_q___________________________________
+Iteration  15 : Push r in stack 1. New stack : pQfOmBoMtRzOl_q_r_________________________________
+Iteration  16 : Pop    in stack 1. New stack : pQfOmBoMtRzOl_q___________________________________
+Iteration  17 : Pop    in stack 2. New stack : pQfOmBoMtRz_l_q___________________________________
+Iteration  18 : Pop    in stack 1. New stack : pQfOmBoMtRz_l_____________________________________
+Iteration  19 : Push X in stack 2. New stack : pQfOmBoMtRzXl_____________________________________
+Iteration  20 : Push h in stack 1. New stack : pQfOmBoMtRzXl_h___________________________________
+Iteration  21 : Pop    in stack 2. New stack : pQfOmBoMtRz_l_h___________________________________
+Iteration  22 : Push R in stack 2. New stack : pQfOmBoMtRzRl_h___________________________________
+Iteration  23 : Push k in stack 1. New stack : pQfOmBoMtRzRl_h_k_________________________________
+Iteration  24 : Push d in stack 1. New stack : pQfOmBoMtRzRl_h_k_d_______________________________
+Iteration  25 : Push N in stack 2. New stack : pQfOmBoMtRzRlNh_k_d_______________________________
+Iteration  26 : Push v in stack 1. New stack : pQfOmBoMtRzRlNh_k_d_v_____________________________
+Iteration  27 : Push D in stack 2. New stack : pQfOmBoMtRzRlNhDk_d_v_____________________________
+Iteration  28 : Pop    in stack 1. New stack : pQfOmBoMtRzRlNhDk_d_______________________________
+Iteration  29 : Push r in stack 1. New stack : pQfOmBoMtRzRlNhDk_d_r_____________________________
+Iteration  30 : Push k in stack 1. New stack : pQfOmBoMtRzRlNhDk_d_r_k___________________________
+Iteration  31 : Push q in stack 1. New stack : pQfOmBoMtRzRlNhDk_d_r_k_q_________________________
+Iteration  32 : Pop    in stack 2. New stack : pQfOmBoMtRzRlNh_k_d_r_k_q_________________________
+Iteration  33 : Pop    in stack 1. New stack : pQfOmBoMtRzRlNh_k_d_r_k___________________________
+Iteration  34 : Pop    in stack 2. New stack : pQfOmBoMtRzRl_h_k_d_r_k___________________________
+Iteration  35 : Push B in stack 2. New stack : pQfOmBoMtRzRlBh_k_d_r_k___________________________
+Iteration  36 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBh_k_d_r_____________________________
+Iteration  37 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBh_k_d_______________________________
+Iteration  38 : Push s in stack 1. New stack : pQfOmBoMtRzRlBh_k_d_s_____________________________
+Iteration  39 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBh_k_d_______________________________
+Iteration  40 : Push x in stack 1. New stack : pQfOmBoMtRzRlBh_k_d_x_____________________________
+Iteration  41 : Pop    in stack 2. New stack : pQfOmBoMtRzRl_h_k_d_x_____________________________
+Iteration  42 : Push B in stack 2. New stack : pQfOmBoMtRzRlBh_k_d_x_____________________________
+Iteration  43 : Push J in stack 2. New stack : pQfOmBoMtRzRlBhJk_d_x_____________________________
+Iteration  44 : Push y in stack 1. New stack : pQfOmBoMtRzRlBhJk_d_x_y___________________________
+Iteration  45 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBhJk_d_x_____________________________
+Iteration  46 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBhJk_d_______________________________
+Iteration  47 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBhJk_________________________________
+Iteration  48 : Push y in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_______________________________
+Iteration  49 : Push n in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_n_____________________________
+Iteration  50 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_______________________________
+Iteration  51 : Push v in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_v_____________________________
+Iteration  52 : Pop    in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_______________________________
+Iteration  53 : Push i in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_i_____________________________
+Iteration  54 : Push r in stack 1. New stack : pQfOmBoMtRzRlBhJk_y_i_r___________________________
+Iteration  55 : Push A in stack 2. New stack : pQfOmBoMtRzRlBhJkAy_i_r___________________________
+Iteration  56 : Push q in stack 1. New stack : pQfOmBoMtRzRlBhJkAy_i_r_q_________________________
+Iteration  57 : Push x in stack 1. New stack : pQfOmBoMtRzRlBhJkAy_i_r_q_x_______________________
+Iteration  58 : Push v in stack 1. New stack : pQfOmBoMtRzRlBhJkAy_i_r_q_x_v_____________________
+Iteration  59 : Push u in stack 1. New stack : pQfOmBoMtRzRlBhJkAy_i_r_q_x_v_u___________________
+Iteration  60 : Push m in stack 1. New stack : Error: Overflow in stack 1

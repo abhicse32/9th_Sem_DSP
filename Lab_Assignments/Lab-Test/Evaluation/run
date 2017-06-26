@@ -1,0 +1,93 @@
+#!/usr/bin/env python
+import sys,re,os
+from subprocess import Popen, PIPE
+
+testDir,outDir,execDir,solDir="testcases","outputs","executables","solutions"
+root_dir='Submissions'
+dirs= [os.path.join(root_dir, file) for file in os.listdir(root_dir)\
+if os.path.isdir(os.path.join(root_dir,file))]
+
+
+pattern1=r'(\(-?\d+,-?\d+\))'
+pattern2=r'Iteration .*'
+compiled1= re.compile(pattern1)
+compiled2= re.compile(pattern2)
+
+def execute(opts):
+    os.system("make clean")
+    os.system("make "+opts)
+    for dir_ in dirs:
+        print "executing "+os.path.basename(dir_)
+        exec_dir, out_dir= os.path.join(dir_,execDir), os.path.join(dir_,outDir)
+        for execs in os.listdir(exec_dir):
+            exec_path= os.path.join(exec_dir,execs)
+            prob= re.search("labtest1_prob[1-2]",execs).group()
+            out_path= os.path.join(out_dir,prob)
+            if not os.path.exists(out_path):
+                os.system("mkdir -p "+ out_path)
+            test_dir= os.path.join(testDir,prob)
+            for file in os.listdir(test_dir):
+                outfile= os.path.join(out_path,os.path.splitext(file)[0]+".out")
+                testfile= os.path.join(test_dir,file)
+                os.system(exec_path+" < "+testfile+" > "+outfile)
+
+def get_result(file,destfile):
+    lst=[]
+    with open(destfile,"r") as reader:
+        for lines in reader:
+            str_= lines.strip()
+            if file=='labtest1_prob1':
+                match= compiled1.findall(str_)
+                if match:
+                    lst.append(str_)
+            else:
+                match= compiled2.findall(str_)
+                if match:
+                    lst.append(str_)
+    return lst
+
+
+
+def evaluate():
+    for dir_ in dirs:
+        exec_dir = os.path.join(dir_,execDir)
+        out_dir= os.path.join(dir_,outDir)
+        execs= os.listdir(exec_dir)
+        print "evaluating %s"%(dir_)
+        res_file= os.path.join(dir_,"result.txt")
+        # print res_file
+        with open(res_file,"w") as res_writer:
+            for file in execs:
+                prob= re.search("labtest1_prob[1-2]",file).group()
+                res_writer.write(prob+"\n")
+                out_path= os.path.join(out_dir,prob)
+                ans_path= os.path.join(solDir,prob)
+                out_files= os.listdir(out_path)
+                ans_files= os.listdir(ans_path)
+                passed,total=0,0
+                # print prob
+                for f in out_files:
+                    test= os.path.splitext(f)
+                    ansfile= os.path.join(ans_path,test[0]+".ans")
+                    outfile= os.path.join(out_path,f)
+                    # print ansfile,outfile
+                    out_lst= get_result(prob,outfile)
+                    ans_lst= get_result(prob,ansfile)
+                    # print len(out_lst),len(ans_lst)
+                    total+=1
+                    if out_lst==ans_lst:
+                        res_writer.write("testcase %d(%s): passed\n"%(total,test[0]))
+                        passed+=1
+                    else:
+                        res_writer.write("testcase %d(%s): failed\n"%(total,test[0]))
+                res_writer.write("\nresult: %d/%d\n"%(passed,total))
+                res_writer.write("score %.2f\n\n"%(passed*100/20.0))
+
+
+
+if __name__=='__main__':
+    opts="all"
+    if len(sys.argv)>1:
+        opts=' '.join(sys.argv[1:])
+    execute(opts)
+    evaluate()

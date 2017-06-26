@@ -1,0 +1,2 @@
+To run stack_using_queue ,compile List.c stack_using_queue.c and queue.c 
+To run queue_using_stack ,compile List.c stack_using_queue.c and stack.c 

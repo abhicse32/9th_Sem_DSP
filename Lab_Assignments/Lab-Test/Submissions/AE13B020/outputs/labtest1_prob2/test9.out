@@ -1,0 +1,29 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push m in stack 1. New stack : m_______________________________
+Iteration   2 : Push M in stack 2. New stack : mM______________________________
+Iteration   3 : Push Y in stack 2. New stack : mM_Y____________________________
+Iteration   4 : Push C in stack 2. New stack : mM_Y_C__________________________
+Iteration   5 : Push k in stack 1. New stack : mMkY_C__________________________
+Iteration   6 : Push t in stack 1. New stack : mMkYtC__________________________
+Iteration   7 : Push G in stack 2. New stack : mMkYtC_G________________________
+Iteration   8 : Push s in stack 1. New stack : mMkYtCsG________________________
+Iteration   9 : Push v in stack 1. New stack : mMkYtCsGv_______________________
+Iteration  10 : Push x in stack 1. New stack : mMkYtCsGv_x_____________________
+Iteration  11 : Push s in stack 1. New stack : mMkYtCsGv_x_s___________________
+Iteration  12 : Push M in stack 2. New stack : mMkYtCsGvMx_s___________________
+Iteration  13 : Push c in stack 1. New stack : mMkYtCsGvMx_s_c_________________
+Iteration  14 : Push w in stack 1. New stack : mMkYtCsGvMx_s_c_w_______________
+Iteration  15 : Push r in stack 1. New stack : mMkYtCsGvMx_s_c_w_r_____________
+Iteration  16 : Push t in stack 1. New stack : mMkYtCsGvMx_s_c_w_r_t___________
+Iteration  17 : Push O in stack 2. New stack : mMkYtCsGvMxOs_c_w_r_t___________
+Iteration  18 : Push Y in stack 2. New stack : mMkYtCsGvMxOsYc_w_r_t___________
+Iteration  19 : Push e in stack 1. New stack : mMkYtCsGvMxOsYc_w_r_t_e_________
+Iteration  20 : Push C in stack 2. New stack : mMkYtCsGvMxOsYcCw_r_t_e_________
+Iteration  21 : Push v in stack 1. New stack : mMkYtCsGvMxOsYcCw_r_t_e_v_______
+Iteration  22 : Push f in stack 1. New stack : mMkYtCsGvMxOsYcCw_r_t_e_v_f_____
+Iteration  23 : Pop    in stack 2. New stack : mMkYtCsGvMxOsYc_w_r_t_e_v_f_____
+Iteration  24 : Push w in stack 1. New stack : mMkYtCsGvMxOsYc_w_r_t_e_v_f_w___
+Iteration  25 : Push W in stack 2. New stack : mMkYtCsGvMxOsYcWw_r_t_e_v_f_w___
+Iteration  26 : Push V in stack 2. New stack : mMkYtCsGvMxOsYcWwVr_t_e_v_f_w___
+Iteration  27 : Push f in stack 1. New stack : mMkYtCsGvMxOsYcWwVr_t_e_v_f_w_f_
+Iteration  28 : Push w in stack 1. New stack : Error: Overflow in Stack 1.

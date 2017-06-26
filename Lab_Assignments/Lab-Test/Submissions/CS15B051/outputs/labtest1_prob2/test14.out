@@ -1,0 +1,183 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push u in stack 1. New stack : u_________________________________________________
+Iteration   2 : Push t in stack 1. New stack : u_t_t_____________________________________________
+Iteration   3 : Push e in stack 1. New stack : u_t_te_e__________________________________________
+Iteration   4 : Push O in stack 2. New stack : uOt_te_e__________________________________________
+Iteration   5 : Push x in stack 1. New stack : uOt_te_ex_x_______________________________________
+Iteration   6 : Push a in stack 1. New stack : uOt_te_ex_xa_a____________________________________
+Iteration   7 : Push F in stack 2. New stack : uOtFte_ex_xa_a____________________________________
+Iteration   8 : Push K in stack 2. New stack : uOtFtK_ex_xa_a____________________________________
+Iteration   9 : Push t in stack 1. New stack : uOtFtK_ex_xa_at_t_________________________________
+Iteration  10 : Push e in stack 1. New stack : uOtFtK_ex_xa_at_te_e______________________________
+Iteration  11 : Push W in stack 2. New stack : uOtFtK_Wx_xa_at_te_e______________________________
+Iteration  12 : Push m in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_m___________________________
+Iteration  13 : Push j in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_j________________________
+Iteration  14 : Push x in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_______________________
+Iteration  15 : Push a in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_a_____________________
+Iteration  16 : Push g in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  17 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  18 : Pop    in stack 2. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  19 : Pop    in stack 2. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  20 : Pop    in stack 2. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  21 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_g___________________
+Iteration  22 : Push h in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_a_h___________________
+Iteration  23 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_h___________________
+Iteration  24 : Push r in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_a_hr__________________
+Iteration  25 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_hr__________________
+Iteration  26 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_hr__________________
+Iteration  27 : Pop    in stack 1. New stack : uOtFtK_Wx_xa_at_te_em_mj_jx_a_hr__________________
+Iteration  28 : Push r in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_Wx_xa_at_te_em_mj_jx_a_rr__________________
+Iteration  29 : Push N in stack 2. New stack : uOtFtK_WxNxa_at_te_em_mj_jx_a_rr__________________
+Iteration  30 : Push r in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxa_at_te_em_mj_jx_a_rrr_________________
+Iteration  31 : Push e in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxa_at_te_em_mj_jx_a_rrr_e_______________
+Iteration  32 : Push n in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxa_at_te_em_mj_jx_a_rrr_e_n_____________
+Iteration  33 : Push c in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxa_at_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  34 : Pop    in stack 1. New stack : uOtFtK_WxNxa_at_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  35 : Push X in stack 2. New stack : uOtFtK_WxNxX_at_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  36 : Pop    in stack 1. New stack : uOtFtK_WxNxX_at_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  37 : Push B in stack 2. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  38 : Pop    in stack 2. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  39 : Pop    in stack 1. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  40 : Pop    in stack 1. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  41 : Pop    in stack 1. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  42 : Pop    in stack 1. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_e_n_c___________
+Iteration  43 : Push k in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_k_n_c___________
+Iteration  44 : Pop    in stack 1. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_k_n_c___________
+Iteration  45 : Pop    in stack 2. New stack : uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_k_n_c___________
+Iteration  46 : Push w in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_Bt_te_em_mj_jx_a_rrr_kwn_c___________
+Iteration  47 : Push H in stack 2. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwn_c___________
+Iteration  48 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwn_c___________
+Iteration  49 : Push z in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwz_c___________
+Iteration  50 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwz_c___________
+Iteration  51 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwz_c___________
+Iteration  52 : Push i in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwi_c___________
+Iteration  53 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwi_c___________
+Iteration  54 : Push l in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilc___________
+Iteration  55 : Push i in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilci__________
+Iteration  56 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilci__________
+Iteration  57 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilci__________
+Iteration  58 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilci__________
+Iteration  59 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHte_em_mj_jx_a_rrr_kwilci__________
+Iteration  60 : Push E in stack 2. New stack : uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  61 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  62 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  63 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  64 : Push l in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  65 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_em_mj_jx_a_rrr_kwilci__________
+Iteration  66 : Push X in stack 2. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilci__________
+Iteration  67 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilci__________
+Iteration  68 : Push c in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcc__________
+Iteration  69 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcc__________
+Iteration  70 : Push l in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccl_________
+Iteration  71 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccl_________
+Iteration  72 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccl_________
+Iteration  73 : Push i in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcci_________
+Iteration  74 : Push n in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcci_n_______
+Iteration  75 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcci_n_______
+Iteration  76 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcci_n_______
+Iteration  77 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilcci_n_______
+Iteration  78 : Push d in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidn_______
+Iteration  79 : Push s in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidns______
+Iteration  80 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidns______
+Iteration  81 : Push d in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsd_____
+Iteration  82 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsd_____
+Iteration  83 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsd_____
+Iteration  84 : Push f in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsf_____
+Iteration  85 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsf_____
+Iteration  86 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsf_____
+Iteration  87 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsf_____
+Iteration  88 : Push z in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsz_____
+Iteration  89 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsz_____
+Iteration  90 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnsz_____
+Iteration  91 : Push y in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_Xm_mj_jx_a_rrr_kwilccidnszy____
+Iteration  92 : Push X in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmj_jx_a_rrr_kwilccidnszy____
+Iteration  93 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmj_jx_a_rrr_kwilccidnszy____
+Iteration  94 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmj_jx_a_rrr_kwilccidnszy____
+Iteration  95 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmj_jx_a_rrr_kwilccidnszy____
+Iteration  96 : Push v in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmj_jx_a_rrr_kwilccidnsvy____
+Iteration  97 : Push N in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_jx_a_rrr_kwilccidnsvy____
+Iteration  98 : Push W in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_Wx_a_rrr_kwilccidnsvy____
+Iteration  99 : Push i in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_Wx_a_rrr_kwilccidnsvyi___
+Iteration 100 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_Wx_a_rrr_kwilccidnsvyi___
+Iteration 101 : Push z in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_Wx_a_rrr_kwilccidnsvyiz__
+Iteration 102 : Push y in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_Wx_a_rrr_kwilccidnsvyiz__
+Iteration 103 : Push O in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 104 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 105 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 106 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 107 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 108 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvyiz__
+Iteration 109 : Push t in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtiz__
+Iteration 110 : Push g in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtig__
+Iteration 111 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtig__
+Iteration 112 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtig__
+Iteration 113 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtig__
+Iteration 114 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtig__
+Iteration 115 : Push z in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzg__
+Iteration 116 : Push g in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 117 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 118 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 119 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 120 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 121 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 122 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 123 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 124 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOa_rrr_kwilccidnsvtzgg_
+Iteration 125 : Push Q in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 126 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 127 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 128 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 129 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 130 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 131 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 132 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 133 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 134 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 135 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 136 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kwilccidnsvtzgg_
+Iteration 137 : Push o in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koilccidnsvtzgg_
+Iteration 138 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koilccidnsvtzgg_
+Iteration 139 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koilccidnsvtzgg_
+Iteration 140 : Push w in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kowlccidnsvtzgg_
+Iteration 141 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kowlccidnsvtzgg_
+Iteration 142 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kowlccidnsvtzgg_
+Iteration 143 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kowlccidnsvtzgg_
+Iteration 144 : Push k in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koklccidnsvtzgg_
+Iteration 145 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koklccidnsvtzgg_
+Iteration 146 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koklccidnsvtzgg_
+Iteration 147 : Push g in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koglccidnsvtzgg_
+Iteration 148 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_koglccidnsvtzgg_
+Iteration 149 : Push b in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kogbccidnsvtzgg_
+Iteration 150 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kogbccidnsvtzgg_
+Iteration 151 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrrr_kogbccidnsvtzgg_
+Iteration 152 : Push U in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUr_kogbccidnsvtzgg_
+Iteration 153 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUr_kogbccidnsvtzgg_
+Iteration 154 : Push O in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkogbccidnsvtzgg_
+Iteration 155 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkogbccidnsvtzgg_
+Iteration 156 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkogbccidnsvtzgg_
+Iteration 157 : Push i in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 158 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 159 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 160 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 161 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 162 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkoibccidnsvtzgg_
+Iteration 163 : Push C in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkCibccidnsvtzgg_
+Iteration 164 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOkCibccidnsvtzgg_
+Iteration 165 : Push x in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOxCibccidnsvtzgg_
+Iteration 166 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOxCibccidnsvtzgg_
+Iteration 167 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOxCibccidnsvtzgg_
+Iteration 168 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOxCibccidnsvtzgg_
+Iteration 169 : Push d in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 170 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 171 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 172 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 173 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 174 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 175 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 176 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCibccidnsvtzgg_
+Iteration 177 : Push E in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCiEccidnsvtzgg_
+Iteration 178 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCiEccidnsvtzgg_
+Iteration 179 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCiEccidnsvtzgg_
+Iteration 180 : Pop    in stack 2. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCiEccidnsvtzgg_
+Iteration 181 : Pop    in stack 1. New stack : uOtFtK_WxNxX_BtHtE_XmXmN_WxOaQrUrOdCiEccidnsvtzgg_
+Iteration 182 : Push u in stack 1. New stack : Error: Overflow in Stack 1.uOtFtK_WxNxX_BtHtE_XmXmN_WxOaurUrOdCiEccidnsvtzgg_

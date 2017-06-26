@@ -1,0 +1,50 @@
+labtest1_prob1
+testcase 1(test5): failed
+testcase 2(test17): failed
+testcase 3(test6): failed
+testcase 4(test4): failed
+testcase 5(test3): failed
+testcase 6(test20): failed
+testcase 7(test10): failed
+testcase 8(test7): failed
+testcase 9(test9): failed
+testcase 10(test13): failed
+testcase 11(test19): failed
+testcase 12(test11): failed
+testcase 13(test18): passed
+testcase 14(test14): failed
+testcase 15(test1): failed
+testcase 16(test15): failed
+testcase 17(test8): failed
+testcase 18(test2): failed
+testcase 19(test16): failed
+testcase 20(test12): failed
+
+result: 1/20
+score 5.00
+
+labtest1_prob2
+testcase 1(test5): failed
+testcase 2(test17): passed
+testcase 3(test6): failed
+testcase 4(test4): failed
+testcase 5(test3): failed
+testcase 6(test20): failed
+testcase 7(test10): failed
+testcase 8(test7): failed
+testcase 9(test9): failed
+testcase 10(test13): failed
+testcase 11(test19): failed
+testcase 12(test11): passed
+testcase 13(test18): failed
+testcase 14(test14): failed
+testcase 15(test1): failed
+testcase 16(test15): failed
+testcase 17(test8): failed
+testcase 18(test2): failed
+testcase 19(test16): failed
+testcase 20(test12): failed
+
+result: 2/20
+score 10.00
+

@@ -1,0 +1,40 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push I in stack 2. New stack : _I______________________________
+Iteration   2 : Push x in stack 1. New stack : xI______________________________
+Iteration   3 : Push t in stack 1. New stack : xIt_____________________________
+Iteration   4 : Push n in stack 1. New stack : xIt_n___________________________
+Iteration   5 : Push v in stack 1. New stack : xIt_n_v_________________________
+Iteration   6 : Push s in stack 1. New stack : xIt_n_v_s_______________________
+Iteration   7 : Push t in stack 1. New stack : xIt_n_v_s_t_____________________
+Iteration   8 : Push k in stack 1. New stack : xIt_n_v_s_t_k___________________
+Iteration   9 : Push u in stack 1. New stack : xIt_n_v_s_t_k_u_________________
+Iteration  10 : Push K in stack 2. New stack : xItKn_v_s_t_k_u_________________
+Iteration  11 : Push g in stack 1. New stack : xItKn_v_s_t_k_u_g_______________
+Iteration  12 : Push D in stack 2. New stack : xItKnDv_s_t_k_u_g_______________
+Iteration  13 : Push l in stack 1. New stack : xItKnDv_s_t_k_u_g_l_____________
+Iteration  14 : Push t in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t___________
+Iteration  15 : Push j in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_________
+Iteration  16 : Push y in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_y_______
+Iteration  17 : Pop    in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_________
+Iteration  18 : Push o in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_o_______
+Iteration  19 : Push c in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_o_c_____
+Iteration  20 : Pop    in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_o_______
+Iteration  21 : Pop    in stack 1. New stack : xItKnDv_s_t_k_u_g_l_t_j_________
+Iteration  22 : Pop    in stack 2. New stack : xItKn_v_s_t_k_u_g_l_t_j_________
+Iteration  23 : Push i in stack 1. New stack : xItKn_v_s_t_k_u_g_l_t_j_i_______
+Iteration  24 : Pop    in stack 1. New stack : xItKn_v_s_t_k_u_g_l_t_j_________
+Iteration  25 : Push O in stack 2. New stack : xItKnOv_s_t_k_u_g_l_t_j_________
+Iteration  26 : Push o in stack 1. New stack : xItKnOv_s_t_k_u_g_l_t_j_o_______
+Iteration  27 : Push W in stack 2. New stack : xItKnOvWs_t_k_u_g_l_t_j_o_______
+Iteration  28 : Pop    in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_j_________
+Iteration  29 : Push q in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_j_q_______
+Iteration  30 : Pop    in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_j_________
+Iteration  31 : Pop    in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t___________
+Iteration  32 : Push x in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_x_________
+Iteration  33 : Push R in stack 2. New stack : xItKnOvWsRt_k_u_g_l_t_x_________
+Iteration  34 : Pop    in stack 2. New stack : xItKnOvWs_t_k_u_g_l_t_x_________
+Iteration  35 : Push o in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_x_o_______
+Iteration  36 : Push c in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_x_o_c_____
+Iteration  37 : Push g in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_x_o_c_g___
+Iteration  38 : Push d in stack 1. New stack : xItKnOvWs_t_k_u_g_l_t_x_o_c_g_d_
+Iteration  39 : Push z in stack 1. New stack : Error: Overflow in Stack 1.

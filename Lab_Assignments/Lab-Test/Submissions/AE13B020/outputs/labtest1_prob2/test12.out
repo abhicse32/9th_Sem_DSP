@@ -1,0 +1,95 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push W in stack 2. New stack : _W______________________________
+Iteration   2 : Push p in stack 1. New stack : pW______________________________
+Iteration   3 : Push r in stack 1. New stack : pWr_____________________________
+Iteration   4 : Push i in stack 1. New stack : pWr_i___________________________
+Iteration   5 : Push w in stack 1. New stack : pWr_i_w_________________________
+Iteration   6 : Push x in stack 1. New stack : pWr_i_w_x_______________________
+Iteration   7 : Push E in stack 2. New stack : pWrEi_w_x_______________________
+Iteration   8 : Push Z in stack 2. New stack : pWrEiZw_x_______________________
+Iteration   9 : Push n in stack 1. New stack : pWrEiZw_x_n_____________________
+Iteration  10 : Push X in stack 2. New stack : pWrEiZwXx_n_____________________
+Iteration  11 : Push Z in stack 2. New stack : pWrEiZwXxZn_____________________
+Iteration  12 : Push i in stack 1. New stack : pWrEiZwXxZn_i___________________
+Iteration  13 : Push r in stack 1. New stack : pWrEiZwXxZn_i_r_________________
+Iteration  14 : Push q in stack 1. New stack : pWrEiZwXxZn_i_r_q_______________
+Iteration  15 : Push Z in stack 2. New stack : pWrEiZwXxZnZi_r_q_______________
+Iteration  16 : Push g in stack 1. New stack : pWrEiZwXxZnZi_r_q_g_____________
+Iteration  17 : Pop    in stack 1. New stack : pWrEiZwXxZnZi_r_q_______________
+Iteration  18 : Push X in stack 2. New stack : pWrEiZwXxZnZiXr_q_______________
+Iteration  19 : Pop    in stack 1. New stack : pWrEiZwXxZnZiXr_________________
+Iteration  20 : Pop    in stack 2. New stack : pWrEiZwXxZnZi_r_________________
+Iteration  21 : Pop    in stack 2. New stack : pWrEiZwXxZn_i_r_________________
+Iteration  22 : Push f in stack 1. New stack : pWrEiZwXxZn_i_r_f_______________
+Iteration  23 : Pop    in stack 1. New stack : pWrEiZwXxZn_i_r_________________
+Iteration  24 : Pop    in stack 1. New stack : pWrEiZwXxZn_i___________________
+Iteration  25 : Push f in stack 1. New stack : pWrEiZwXxZn_i_f_________________
+Iteration  26 : Push l in stack 1. New stack : pWrEiZwXxZn_i_f_l_______________
+Iteration  27 : Pop    in stack 1. New stack : pWrEiZwXxZn_i_f_________________
+Iteration  28 : Pop    in stack 1. New stack : pWrEiZwXxZn_i___________________
+Iteration  29 : Push Z in stack 2. New stack : pWrEiZwXxZnZi___________________
+Iteration  30 : Pop    in stack 2. New stack : pWrEiZwXxZn_i___________________
+Iteration  31 : Pop    in stack 1. New stack : pWrEiZwXxZn_____________________
+Iteration  32 : Pop    in stack 1. New stack : pWrEiZwXxZ______________________
+Iteration  33 : Pop    in stack 1. New stack : pWrEiZwX_Z______________________
+Iteration  34 : Push H in stack 2. New stack : pWrEiZwX_Z_H____________________
+Iteration  35 : Push h in stack 1. New stack : pWrEiZwXhZ_H____________________
+Iteration  36 : Push p in stack 1. New stack : pWrEiZwXhZpH____________________
+Iteration  37 : Push a in stack 1. New stack : pWrEiZwXhZpHa___________________
+Iteration  38 : Pop    in stack 1. New stack : pWrEiZwXhZpH____________________
+Iteration  39 : Push w in stack 1. New stack : pWrEiZwXhZpHw___________________
+Iteration  40 : Push x in stack 1. New stack : pWrEiZwXhZpHw_x_________________
+Iteration  41 : Push V in stack 2. New stack : pWrEiZwXhZpHwVx_________________
+Iteration  42 : Push F in stack 2. New stack : pWrEiZwXhZpHwVxF________________
+Iteration  43 : Pop    in stack 1. New stack : pWrEiZwXhZpHwV_F________________
+Iteration  44 : Push z in stack 1. New stack : pWrEiZwXhZpHwVzF________________
+Iteration  45 : Pop    in stack 1. New stack : pWrEiZwXhZpHwV_F________________
+Iteration  46 : Push w in stack 1. New stack : pWrEiZwXhZpHwVwF________________
+Iteration  47 : Push J in stack 2. New stack : pWrEiZwXhZpHwVwF_J______________
+Iteration  48 : Push p in stack 1. New stack : pWrEiZwXhZpHwVwFpJ______________
+Iteration  49 : Pop    in stack 1. New stack : pWrEiZwXhZpHwVwF_J______________
+Iteration  50 : Pop    in stack 1. New stack : pWrEiZwXhZpHwV_F_J______________
+Iteration  51 : Pop    in stack 1. New stack : pWrEiZwXhZpH_V_F_J______________
+Iteration  52 : Pop    in stack 1. New stack : pWrEiZwXhZ_H_V_F_J______________
+Iteration  53 : Push R in stack 2. New stack : pWrEiZwXhZ_H_V_F_J_R____________
+Iteration  54 : Push i in stack 1. New stack : pWrEiZwXhZiH_V_F_J_R____________
+Iteration  55 : Push z in stack 1. New stack : pWrEiZwXhZiHzV_F_J_R____________
+Iteration  56 : Pop    in stack 1. New stack : pWrEiZwXhZiH_V_F_J_R____________
+Iteration  57 : Pop    in stack 1. New stack : pWrEiZwXhZ_H_V_F_J_R____________
+Iteration  58 : Push B in stack 2. New stack : pWrEiZwXhZ_H_V_F_J_R_B__________
+Iteration  59 : Push p in stack 1. New stack : pWrEiZwXhZpH_V_F_J_R_B__________
+Iteration  60 : Pop    in stack 1. New stack : pWrEiZwXhZ_H_V_F_J_R_B__________
+Iteration  61 : Push k in stack 1. New stack : pWrEiZwXhZkH_V_F_J_R_B__________
+Iteration  62 : Pop    in stack 1. New stack : pWrEiZwXhZ_H_V_F_J_R_B__________
+Iteration  63 : Pop    in stack 2. New stack : pWrEiZwXhZ_H_V_F_J_R____________
+Iteration  64 : Pop    in stack 2. New stack : pWrEiZwXhZ_H_V_F_J______________
+Iteration  65 : Pop    in stack 1. New stack : pWrEiZwX_Z_H_V_F_J______________
+Iteration  66 : Push X in stack 2. New stack : pWrEiZwX_Z_H_V_F_J_X____________
+Iteration  67 : Pop    in stack 2. New stack : pWrEiZwX_Z_H_V_F_J______________
+Iteration  68 : Pop    in stack 1. New stack : pWrEiZ_X_Z_H_V_F_J______________
+Iteration  69 : Pop    in stack 2. New stack : pWrEiZ_X_Z_H_V_F________________
+Iteration  70 : Push s in stack 1. New stack : pWrEiZsX_Z_H_V_F________________
+Iteration  71 : Pop    in stack 2. New stack : pWrEiZsX_Z_H_V__________________
+Iteration  72 : Push V in stack 2. New stack : pWrEiZsX_Z_H_V_V________________
+Iteration  73 : Push l in stack 1. New stack : pWrEiZsXlZ_H_V_V________________
+Iteration  74 : Pop    in stack 1. New stack : pWrEiZsX_Z_H_V_V________________
+Iteration  75 : Pop    in stack 2. New stack : pWrEiZsX_Z_H_V__________________
+Iteration  76 : Push o in stack 1. New stack : pWrEiZsXoZ_H_V__________________
+Iteration  77 : Pop    in stack 1. New stack : pWrEiZsX_Z_H_V__________________
+Iteration  78 : Pop    in stack 1. New stack : pWrEiZ_X_Z_H_V__________________
+Iteration  79 : Push e in stack 1. New stack : pWrEiZeX_Z_H_V__________________
+Iteration  80 : Push d in stack 1. New stack : pWrEiZeXdZ_H_V__________________
+Iteration  81 : Pop    in stack 1. New stack : pWrEiZeX_Z_H_V__________________
+Iteration  82 : Pop    in stack 2. New stack : pWrEiZeX_Z_H____________________
+Iteration  83 : Pop    in stack 1. New stack : pWrEiZ_X_Z_H____________________
+Iteration  84 : Push c in stack 1. New stack : pWrEiZcX_Z_H____________________
+Iteration  85 : Push P in stack 2. New stack : pWrEiZcX_Z_H_P__________________
+Iteration  86 : Pop    in stack 2. New stack : pWrEiZcX_Z_H____________________
+Iteration  87 : Push O in stack 2. New stack : pWrEiZcX_Z_H_O__________________
+Iteration  88 : Pop    in stack 1. New stack : pWrEiZ_X_Z_H_O__________________
+Iteration  89 : Pop    in stack 1. New stack : pWrE_Z_X_Z_H_O__________________
+Iteration  90 : Push w in stack 1. New stack : pWrEwZ_X_Z_H_O__________________
+Iteration  91 : Pop    in stack 1. New stack : pWrE_Z_X_Z_H_O__________________
+Iteration  92 : Pop    in stack 1. New stack : pW_E_Z_X_Z_H_O__________________
+Iteration  93 : Pop    in stack 1. New stack : _W_E_Z_X_Z_H_O__________________
+Iteration  94 : Pop    in stack 1. New stack : Error: Underflow in Stack 1.

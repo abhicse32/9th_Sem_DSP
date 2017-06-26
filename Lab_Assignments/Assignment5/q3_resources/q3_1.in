@@ -1,0 +1,10 @@
+a / ( b * c + d ) - e
+a + ( c - ( b + d ) * ( f | g ) ) & var
+( exp1 - exp2 ) & ( var1 / ( v | c * d ) )
+b % a * ( d | b % c )
+xz & yx ^ zx % ( bc / ac & ed | fg )
+b / c * d + ( ef - h & ( pq | rf ) )
+p + q - 23 / ( ty + ( xc - d / ( c * f ) ) )
+cse / ( ee * na ^ ( ch % bt * ( ce % hs ) ) )
+a * b % ( c ^ b & ( xy | cd / 34 ) )
+csv & jpg / txt * ( pdf ^ png & java | cpp )

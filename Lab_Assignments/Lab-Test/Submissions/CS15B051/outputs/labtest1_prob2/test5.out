@@ -1,0 +1,12 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push y in stack 1. New stack : y_________________________________________________
+Iteration   2 : Push E in stack 2. New stack : y_________________________________________________
+Iteration   3 : Push a in stack 1. New stack : ya________________________________________________
+Iteration   4 : Push s in stack 1. New stack : yas_______________________________________________
+Iteration   5 : Push b in stack 1. New stack : yasb______________________________________________
+Iteration   6 : Push m in stack 1. New stack : yasbm_____________________________________________
+Iteration   7 : Push S in stack 2. New stack : yasbm_____________________________________________
+Iteration   8 : Push t in stack 1. New stack : yasbmt____________________________________________
+Iteration   9 : Push c in stack 1. New stack : yasbmtc___________________________________________
+Iteration  10 : Push l in stack 1. New stack : yasbmtcl__________________________________________
+Iteration  11 : Push G in stack 2. New stack : 

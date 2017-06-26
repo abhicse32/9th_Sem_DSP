@@ -1,0 +1,126 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push y in stack 1. New stack : y_________________________________________________
+Iteration   2 : Push E in stack 2. New stack : y________________________________________________E
+Iteration   3 : Push a in stack 1. New stack : ya_______________________________________________E
+Iteration   4 : Push s in stack 1. New stack : yas______________________________________________E
+Iteration   5 : Push b in stack 1. New stack : yasb_____________________________________________E
+Iteration   6 : Push m in stack 1. New stack : yasbm____________________________________________E
+Iteration   7 : Push S in stack 2. New stack : yasbm___________________________________________SE
+Iteration   8 : Push t in stack 1. New stack : yasbmt__________________________________________SE
+Iteration   9 : Push c in stack 1. New stack : yasbmtc_________________________________________SE
+Iteration  10 : Push l in stack 1. New stack : yasbmtcl________________________________________SE
+Iteration  11 : Push G in stack 2. New stack : yasbmtcl_______________________________________GSE
+Iteration  12 : Push V in stack 2. New stack : yasbmtcl______________________________________VGSE
+Iteration  13 : Push z in stack 1. New stack : yasbmtclz_____________________________________VGSE
+Iteration  14 : Push f in stack 1. New stack : yasbmtclzf____________________________________VGSE
+Iteration  15 : Push w in stack 1. New stack : yasbmtclzfw___________________________________VGSE
+Iteration  16 : Pop    in stack 1. New stack : yasbmtclzf____________________________________VGSE
+Iteration  17 : Push p in stack 1. New stack : yasbmtclzfp___________________________________VGSE
+Iteration  18 : Pop    in stack 1. New stack : yasbmtclzf____________________________________VGSE
+Iteration  19 : Push x in stack 1. New stack : yasbmtclzfx___________________________________VGSE
+Iteration  20 : Push a in stack 1. New stack : yasbmtclzfxa__________________________________VGSE
+Iteration  21 : Push g in stack 1. New stack : yasbmtclzfxag_________________________________VGSE
+Iteration  22 : Pop    in stack 1. New stack : yasbmtclzfxa__________________________________VGSE
+Iteration  23 : Push V in stack 2. New stack : yasbmtclzfxa_________________________________VVGSE
+Iteration  24 : Push q in stack 1. New stack : yasbmtclzfxaq________________________________VVGSE
+Iteration  25 : Push l in stack 1. New stack : yasbmtclzfxaql_______________________________VVGSE
+Iteration  26 : Push D in stack 2. New stack : yasbmtclzfxaql______________________________DVVGSE
+Iteration  27 : Pop    in stack 1. New stack : yasbmtclzfxaq_______________________________DVVGSE
+Iteration  28 : Push U in stack 2. New stack : yasbmtclzfxaq______________________________UDVVGSE
+Iteration  29 : Pop    in stack 1. New stack : yasbmtclzfxa_______________________________UDVVGSE
+Iteration  30 : Push z in stack 1. New stack : yasbmtclzfxaz______________________________UDVVGSE
+Iteration  31 : Push E in stack 2. New stack : yasbmtclzfxaz_____________________________EUDVVGSE
+Iteration  32 : Push z in stack 1. New stack : yasbmtclzfxazz____________________________EUDVVGSE
+Iteration  33 : Pop    in stack 1. New stack : yasbmtclzfxaz_____________________________EUDVVGSE
+Iteration  34 : Push v in stack 1. New stack : yasbmtclzfxazv____________________________EUDVVGSE
+Iteration  35 : Push i in stack 1. New stack : yasbmtclzfxazvi___________________________EUDVVGSE
+Iteration  36 : Pop    in stack 1. New stack : yasbmtclzfxazv____________________________EUDVVGSE
+Iteration  37 : Push m in stack 1. New stack : yasbmtclzfxazvm___________________________EUDVVGSE
+Iteration  38 : Pop    in stack 2. New stack : yasbmtclzfxazvm____________________________UDVVGSE
+Iteration  39 : Pop    in stack 1. New stack : yasbmtclzfxazv_____________________________UDVVGSE
+Iteration  40 : Pop    in stack 1. New stack : yasbmtclzfxaz______________________________UDVVGSE
+Iteration  41 : Pop    in stack 1. New stack : yasbmtclzfxa_______________________________UDVVGSE
+Iteration  42 : Push p in stack 1. New stack : yasbmtclzfxap______________________________UDVVGSE
+Iteration  43 : Push c in stack 1. New stack : yasbmtclzfxapc_____________________________UDVVGSE
+Iteration  44 : Push z in stack 1. New stack : yasbmtclzfxapcz____________________________UDVVGSE
+Iteration  45 : Push B in stack 2. New stack : yasbmtclzfxapcz___________________________BUDVVGSE
+Iteration  46 : Push v in stack 1. New stack : yasbmtclzfxapczv__________________________BUDVVGSE
+Iteration  47 : Pop    in stack 1. New stack : yasbmtclzfxapcz___________________________BUDVVGSE
+Iteration  48 : Push g in stack 1. New stack : yasbmtclzfxapczg__________________________BUDVVGSE
+Iteration  49 : Pop    in stack 1. New stack : yasbmtclzfxapcz___________________________BUDVVGSE
+Iteration  50 : Push V in stack 2. New stack : yasbmtclzfxapcz__________________________VBUDVVGSE
+Iteration  51 : Pop    in stack 1. New stack : yasbmtclzfxapc___________________________VBUDVVGSE
+Iteration  52 : Push a in stack 1. New stack : yasbmtclzfxapca__________________________VBUDVVGSE
+Iteration  53 : Push j in stack 1. New stack : yasbmtclzfxapcaj_________________________VBUDVVGSE
+Iteration  54 : Push Y in stack 2. New stack : yasbmtclzfxapcaj________________________YVBUDVVGSE
+Iteration  55 : Push L in stack 2. New stack : yasbmtclzfxapcaj_______________________LYVBUDVVGSE
+Iteration  56 : Push Z in stack 2. New stack : yasbmtclzfxapcaj______________________ZLYVBUDVVGSE
+Iteration  57 : Push i in stack 1. New stack : yasbmtclzfxapcaji_____________________ZLYVBUDVVGSE
+Iteration  58 : Pop    in stack 1. New stack : yasbmtclzfxapcaj______________________ZLYVBUDVVGSE
+Iteration  59 : Pop    in stack 1. New stack : yasbmtclzfxapca_______________________ZLYVBUDVVGSE
+Iteration  60 : Push p in stack 1. New stack : yasbmtclzfxapcap______________________ZLYVBUDVVGSE
+Iteration  61 : Pop    in stack 2. New stack : yasbmtclzfxapcap_______________________LYVBUDVVGSE
+Iteration  62 : Pop    in stack 2. New stack : yasbmtclzfxapcap________________________YVBUDVVGSE
+Iteration  63 : Push K in stack 2. New stack : yasbmtclzfxapcap_______________________KYVBUDVVGSE
+Iteration  64 : Push x in stack 1. New stack : yasbmtclzfxapcapx______________________KYVBUDVVGSE
+Iteration  65 : Push K in stack 2. New stack : yasbmtclzfxapcapx_____________________KKYVBUDVVGSE
+Iteration  66 : Pop    in stack 1. New stack : yasbmtclzfxapcap______________________KKYVBUDVVGSE
+Iteration  67 : Push J in stack 2. New stack : yasbmtclzfxapcap_____________________JKKYVBUDVVGSE
+Iteration  68 : Push V in stack 2. New stack : yasbmtclzfxapcap____________________VJKKYVBUDVVGSE
+Iteration  69 : Pop    in stack 2. New stack : yasbmtclzfxapcap_____________________JKKYVBUDVVGSE
+Iteration  70 : Push w in stack 1. New stack : yasbmtclzfxapcapw____________________JKKYVBUDVVGSE
+Iteration  71 : Pop    in stack 1. New stack : yasbmtclzfxapcap_____________________JKKYVBUDVVGSE
+Iteration  72 : Push t in stack 1. New stack : yasbmtclzfxapcapt____________________JKKYVBUDVVGSE
+Iteration  73 : Push h in stack 1. New stack : yasbmtclzfxapcapth___________________JKKYVBUDVVGSE
+Iteration  74 : Pop    in stack 2. New stack : yasbmtclzfxapcapth____________________KKYVBUDVVGSE
+Iteration  75 : Push U in stack 2. New stack : yasbmtclzfxapcapth___________________UKKYVBUDVVGSE
+Iteration  76 : Push p in stack 1. New stack : yasbmtclzfxapcapthp__________________UKKYVBUDVVGSE
+Iteration  77 : Push Z in stack 2. New stack : yasbmtclzfxapcapthp_________________ZUKKYVBUDVVGSE
+Iteration  78 : Pop    in stack 1. New stack : yasbmtclzfxapcapth__________________ZUKKYVBUDVVGSE
+Iteration  79 : Pop    in stack 1. New stack : yasbmtclzfxapcapt___________________ZUKKYVBUDVVGSE
+Iteration  80 : Push v in stack 1. New stack : yasbmtclzfxapcaptv__________________ZUKKYVBUDVVGSE
+Iteration  81 : Push h in stack 1. New stack : yasbmtclzfxapcaptvh_________________ZUKKYVBUDVVGSE
+Iteration  82 : Push b in stack 1. New stack : yasbmtclzfxapcaptvhb________________ZUKKYVBUDVVGSE
+Iteration  83 : Push J in stack 2. New stack : yasbmtclzfxapcaptvhb_______________JZUKKYVBUDVVGSE
+Iteration  84 : Push j in stack 1. New stack : yasbmtclzfxapcaptvhbj______________JZUKKYVBUDVVGSE
+Iteration  85 : Push f in stack 1. New stack : yasbmtclzfxapcaptvhbjf_____________JZUKKYVBUDVVGSE
+Iteration  86 : Push s in stack 1. New stack : yasbmtclzfxapcaptvhbjfs____________JZUKKYVBUDVVGSE
+Iteration  87 : Push o in stack 1. New stack : yasbmtclzfxapcaptvhbjfso___________JZUKKYVBUDVVGSE
+Iteration  88 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjfs____________JZUKKYVBUDVVGSE
+Iteration  89 : Pop    in stack 2. New stack : yasbmtclzfxapcaptvhbjfs_____________ZUKKYVBUDVVGSE
+Iteration  90 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjf______________ZUKKYVBUDVVGSE
+Iteration  91 : Push W in stack 2. New stack : yasbmtclzfxapcaptvhbjf_____________WZUKKYVBUDVVGSE
+Iteration  92 : Push s in stack 1. New stack : yasbmtclzfxapcaptvhbjfs____________WZUKKYVBUDVVGSE
+Iteration  93 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjf_____________WZUKKYVBUDVVGSE
+Iteration  94 : Push G in stack 2. New stack : yasbmtclzfxapcaptvhbjf____________GWZUKKYVBUDVVGSE
+Iteration  95 : Push H in stack 2. New stack : yasbmtclzfxapcaptvhbjf___________HGWZUKKYVBUDVVGSE
+Iteration  96 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbj____________HGWZUKKYVBUDVVGSE
+Iteration  97 : Push w in stack 1. New stack : yasbmtclzfxapcaptvhbjw___________HGWZUKKYVBUDVVGSE
+Iteration  98 : Pop    in stack 2. New stack : yasbmtclzfxapcaptvhbjw____________GWZUKKYVBUDVVGSE
+Iteration  99 : Push y in stack 1. New stack : yasbmtclzfxapcaptvhbjwy___________GWZUKKYVBUDVVGSE
+Iteration 100 : Push q in stack 1. New stack : yasbmtclzfxapcaptvhbjwyq__________GWZUKKYVBUDVVGSE
+Iteration 101 : Push e in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqe_________GWZUKKYVBUDVVGSE
+Iteration 102 : Push y in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqey________GWZUKKYVBUDVVGSE
+Iteration 103 : Push V in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqey_______VGWZUKKYVBUDVVGSE
+Iteration 104 : Push c in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyc______VGWZUKKYVBUDVVGSE
+Iteration 105 : Push e in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyce_____VGWZUKKYVBUDVVGSE
+Iteration 106 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyc______VGWZUKKYVBUDVVGSE
+Iteration 107 : Push c in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeycc_____VGWZUKKYVBUDVVGSE
+Iteration 108 : Push B in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeycc____BVGWZUKKYVBUDVVGSE
+Iteration 109 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyc_____BVGWZUKKYVBUDVVGSE
+Iteration 110 : Push n in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeycn____BVGWZUKKYVBUDVVGSE
+Iteration 111 : Pop    in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeycn_____VGWZUKKYVBUDVVGSE
+Iteration 112 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyc______VGWZUKKYVBUDVVGSE
+Iteration 113 : Push O in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeyc_____OVGWZUKKYVBUDVVGSE
+Iteration 114 : Push E in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeyc____EOVGWZUKKYVBUDVVGSE
+Iteration 115 : Push f in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeycf___EOVGWZUKKYVBUDVVGSE
+Iteration 116 : Push R in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeycf__REOVGWZUKKYVBUDVVGSE
+Iteration 117 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqeyc___REOVGWZUKKYVBUDVVGSE
+Iteration 118 : Push S in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqeyc__SREOVGWZUKKYVBUDVVGSE
+Iteration 119 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqey___SREOVGWZUKKYVBUDVVGSE
+Iteration 120 : Pop    in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqe____SREOVGWZUKKYVBUDVVGSE
+Iteration 121 : Push L in stack 2. New stack : yasbmtclzfxapcaptvhbjwyqe___LSREOVGWZUKKYVBUDVVGSE
+Iteration 122 : Push j in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqej__LSREOVGWZUKKYVBUDVVGSE
+Iteration 123 : Push m in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqejm_LSREOVGWZUKKYVBUDVVGSE
+Iteration 124 : Push p in stack 1. New stack : yasbmtclzfxapcaptvhbjwyqejmpLSREOVGWZUKKYVBUDVVGSE
+Iteration 125 : Push i in stack 1. New stack : Error: Overflow in stack 1

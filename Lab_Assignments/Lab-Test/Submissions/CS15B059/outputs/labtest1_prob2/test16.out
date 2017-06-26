@@ -1,0 +1,44 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 1
+Iteration   1 : Push m in stack 1. New stack : m_________________________________________________
+Iteration   2 : Push f in stack 1. New stack : mf________________________________________________
+Iteration   3 : Push V in stack 2. New stack : mf_______________________________________________V
+Iteration   4 : Push w in stack 1. New stack : mfw______________________________________________V
+Iteration   5 : Push r in stack 1. New stack : mfwr_____________________________________________V
+Iteration   6 : Push b in stack 1. New stack : mfwrb____________________________________________V
+Iteration   7 : Push E in stack 2. New stack : mfwrb___________________________________________EV
+Iteration   8 : Push x in stack 1. New stack : mfwrbx__________________________________________EV
+Iteration   9 : Push s in stack 1. New stack : mfwrbxs_________________________________________EV
+Iteration  10 : Push A in stack 2. New stack : mfwrbxs________________________________________AEV
+Iteration  11 : Push t in stack 1. New stack : mfwrbxst_______________________________________AEV
+Iteration  12 : Push f in stack 1. New stack : mfwrbxstf______________________________________AEV
+Iteration  13 : Push g in stack 1. New stack : mfwrbxstfg_____________________________________AEV
+Iteration  14 : Push r in stack 1. New stack : mfwrbxstfgr____________________________________AEV
+Iteration  15 : Push p in stack 1. New stack : mfwrbxstfgrp___________________________________AEV
+Iteration  16 : Pop    in stack 1. New stack : mfwrbxstfgr____________________________________AEV
+Iteration  17 : Push i in stack 1. New stack : mfwrbxstfgri___________________________________AEV
+Iteration  18 : Pop    in stack 1. New stack : mfwrbxstfgr____________________________________AEV
+Iteration  19 : Pop    in stack 1. New stack : mfwrbxstfg_____________________________________AEV
+Iteration  20 : Pop    in stack 1. New stack : mfwrbxstf______________________________________AEV
+Iteration  21 : Pop    in stack 1. New stack : mfwrbxst_______________________________________AEV
+Iteration  22 : Pop    in stack 2. New stack : mfwrbxst________________________________________EV
+Iteration  23 : Pop    in stack 1. New stack : mfwrbxs_________________________________________EV
+Iteration  24 : Push w in stack 1. New stack : mfwrbxsw________________________________________EV
+Iteration  25 : Pop    in stack 2. New stack : mfwrbxsw_________________________________________V
+Iteration  26 : Pop    in stack 2. New stack : mfwrbxsw__________________________________________
+Iteration  27 : Push N in stack 2. New stack : mfwrbxsw_________________________________________N
+Iteration  28 : Pop    in stack 2. New stack : mfwrbxsw__________________________________________
+Iteration  29 : Push c in stack 1. New stack : mfwrbxswc_________________________________________
+Iteration  30 : Pop    in stack 1. New stack : mfwrbxsw__________________________________________
+Iteration  31 : Pop    in stack 1. New stack : mfwrbxs___________________________________________
+Iteration  32 : Pop    in stack 1. New stack : mfwrbx____________________________________________
+Iteration  33 : Pop    in stack 1. New stack : mfwrb_____________________________________________
+Iteration  34 : Push S in stack 2. New stack : mfwrb____________________________________________S
+Iteration  35 : Pop    in stack 2. New stack : mfwrb_____________________________________________
+Iteration  36 : Pop    in stack 1. New stack : mfwr______________________________________________
+Iteration  37 : Push Q in stack 2. New stack : mfwr_____________________________________________Q
+Iteration  38 : Push b in stack 1. New stack : mfwrb____________________________________________Q
+Iteration  39 : Push m in stack 1. New stack : mfwrbm___________________________________________Q
+Iteration  40 : Pop    in stack 2. New stack : mfwrbm____________________________________________
+Iteration  41 : Pop    in stack 1. New stack : mfwrb_____________________________________________
+Iteration  42 : Push r in stack 1. New stack : mfwrbr____________________________________________
+Iteration  43 : Pop    in stack 2. New stack : Error: Underflow in stack 2

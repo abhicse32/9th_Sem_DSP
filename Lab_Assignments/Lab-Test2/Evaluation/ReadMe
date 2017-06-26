@@ -1,0 +1,32 @@
+Please do following before evaluation:
+
+1. in labtest2_prob1.c, for each student program:
+	remove-
+	
+		i. printf("Inorder listing  : ");
+		ii. printf("Preorder listing  : ");
+
+
+2. In labtest2_prob2.c, for each student program:
+	replace-
+
+		i.  srand((unsigned int)time(NULL));
+   			if (argc > 1) n = atoi(argv[1]);
+   			else {
+      			printf("Enter capacity (n) of the array: "); scanf("%d", &n);
+   			}
+
+   			with -  scanf("%d", &n);
+
+   		ii. replace "x = 1 + rand() % 9999;" with "scanf("%d",&x);"
+
+
+3. Create one directory for each student with the name same as their roll number and place program files in the respective directories
+
+4. Place all the directories in the directory `Submissions` 
+
+5. type: ./run
+
+6. executables, outputs and results for each student will be generated in their respective directries
+
+7. Update the results in the moodle.

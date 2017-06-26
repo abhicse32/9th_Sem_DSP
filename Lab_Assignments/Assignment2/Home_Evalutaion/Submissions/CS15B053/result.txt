@@ -1,0 +1,61 @@
+evaluating: hw2_2.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+result: 12/12
+scroe: 100.00/100.00
+
+evaluating: hw2_1.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: failed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+testcase 16: failed
+testcase 17: passed
+testcase 18: passed
+testcase 19: passed
+testcase 20: passed
+result: 18/20
+scroe: 90.00/100.00
+
+evaluating: hw2_3.c
+testcase 1: passed
+testcase 2: passed
+testcase 3: passed
+testcase 4: passed
+testcase 5: passed
+testcase 6: passed
+testcase 7: passed
+testcase 8: passed
+testcase 9: passed
+testcase 10: passed
+testcase 11: passed
+testcase 12: passed
+testcase 13: passed
+testcase 14: passed
+testcase 15: passed
+result: 15/15
+scroe: 100.00/100.00
+
+
+final score: 96.67

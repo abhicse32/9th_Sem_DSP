@@ -1,0 +1,7 @@
+CS15B034_PA1/hw1_1.c: In function ‘main’:
+CS15B034_PA1/hw1_1.c:12:1: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+ max=nmax=intmin;                              //initialization to min possible int
+ ^
+CS15B034_PA1/hw1_1.c:45:5: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+     kn[begin]=intmin;                         //adding extra player with min value
+     ^

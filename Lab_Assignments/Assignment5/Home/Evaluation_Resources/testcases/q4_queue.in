@@ -1,0 +1,500 @@
+is_empty
+dequeue
+is_empty
+size
+enqueue 625
+enqueue 599
+enqueue 723
+dequeue
+size
+enqueue 258
+size
+enqueue -910
+dequeue
+dequeue
+size
+enqueue -449
+is_empty
+is_empty
+size
+enqueue -155
+enqueue -401
+enqueue -913
+is_empty
+enqueue 938
+is_empty
+enqueue 440
+dequeue
+is_empty
+enqueue 94
+dequeue
+enqueue 501
+size
+enqueue 744
+enqueue -428
+dequeue
+is_empty
+enqueue -444
+is_empty
+is_empty
+is_empty
+enqueue 864
+size
+enqueue -18
+enqueue -145
+enqueue -282
+size
+dequeue
+dequeue
+size
+size
+is_empty
+enqueue -981
+enqueue -852
+dequeue
+dequeue
+dequeue
+size
+dequeue
+size
+dequeue
+size
+is_empty
+dequeue
+enqueue 997
+enqueue -17
+size
+is_empty
+enqueue 125
+enqueue 946
+size
+dequeue
+dequeue
+enqueue -275
+dequeue
+enqueue -494
+is_empty
+size
+is_empty
+dequeue
+is_empty
+enqueue -689
+size
+dequeue
+size
+dequeue
+size
+enqueue 246
+dequeue
+enqueue 713
+enqueue -243
+size
+enqueue 306
+enqueue -610
+enqueue -651
+enqueue -584
+dequeue
+enqueue 166
+dequeue
+enqueue -147
+dequeue
+enqueue -874
+size
+enqueue 942
+size
+enqueue 823
+enqueue -929
+is_empty
+enqueue -10
+enqueue 45
+enqueue -889
+enqueue 678
+is_empty
+dequeue
+is_empty
+is_empty
+size
+size
+dequeue
+is_empty
+enqueue 721
+size
+dequeue
+enqueue -446
+enqueue -560
+enqueue 288
+dequeue
+enqueue -456
+enqueue -266
+dequeue
+size
+size
+is_empty
+is_empty
+enqueue 74
+enqueue -600
+enqueue -231
+is_empty
+dequeue
+dequeue
+size
+enqueue 642
+size
+enqueue 923
+dequeue
+enqueue 903
+size
+dequeue
+is_empty
+is_empty
+is_empty
+is_empty
+is_empty
+dequeue
+is_empty
+is_empty
+dequeue
+is_empty
+enqueue 731
+enqueue -426
+size
+dequeue
+dequeue
+enqueue -423
+is_empty
+enqueue -155
+size
+enqueue 545
+size
+dequeue
+is_empty
+enqueue 41
+enqueue -369
+is_empty
+enqueue 599
+enqueue -255
+dequeue
+size
+size
+enqueue -687
+is_empty
+dequeue
+enqueue 656
+dequeue
+size
+size
+is_empty
+enqueue -842
+size
+enqueue 816
+enqueue -886
+enqueue 544
+dequeue
+size
+size
+enqueue -881
+enqueue 803
+enqueue -346
+dequeue
+is_empty
+size
+size
+enqueue -888
+dequeue
+dequeue
+dequeue
+is_empty
+size
+is_empty
+enqueue -188
+dequeue
+enqueue -618
+is_empty
+dequeue
+size
+enqueue -749
+dequeue
+size
+is_empty
+enqueue 44
+dequeue
+is_empty
+dequeue
+size
+dequeue
+dequeue
+size
+enqueue 795
+is_empty
+size
+dequeue
+is_empty
+is_empty
+size
+enqueue -836
+enqueue -541
+dequeue
+is_empty
+dequeue
+enqueue 999
+enqueue -223
+size
+is_empty
+dequeue
+size
+dequeue
+is_empty
+dequeue
+size
+enqueue 228
+size
+is_empty
+enqueue -977
+is_empty
+dequeue
+is_empty
+size
+size
+size
+dequeue
+enqueue -371
+dequeue
+dequeue
+dequeue
+is_empty
+enqueue -690
+is_empty
+size
+is_empty
+enqueue -329
+is_empty
+size
+enqueue 458
+dequeue
+size
+dequeue
+enqueue -109
+enqueue -914
+is_empty
+dequeue
+dequeue
+enqueue 465
+enqueue 197
+dequeue
+dequeue
+enqueue 311
+dequeue
+enqueue 666
+dequeue
+enqueue 241
+dequeue
+dequeue
+size
+enqueue -230
+is_empty
+is_empty
+enqueue -291
+enqueue -207
+enqueue 352
+enqueue -446
+is_empty
+is_empty
+enqueue 627
+dequeue
+enqueue -821
+size
+is_empty
+dequeue
+is_empty
+size
+enqueue -844
+dequeue
+enqueue -668
+is_empty
+is_empty
+size
+size
+is_empty
+size
+is_empty
+size
+is_empty
+enqueue -15
+is_empty
+size
+size
+dequeue
+size
+dequeue
+enqueue -612
+enqueue 654
+dequeue
+size
+size
+size
+enqueue -170
+size
+dequeue
+enqueue 310
+size
+enqueue 134
+size
+dequeue
+enqueue 307
+enqueue 594
+enqueue 771
+size
+dequeue
+size
+enqueue -181
+size
+size
+dequeue
+dequeue
+is_empty
+size
+enqueue 374
+size
+dequeue
+enqueue 478
+enqueue -370
+dequeue
+enqueue 517
+dequeue
+is_empty
+dequeue
+dequeue
+is_empty
+enqueue 521
+enqueue -98
+size
+dequeue
+size
+is_empty
+is_empty
+is_empty
+dequeue
+size
+is_empty
+enqueue -378
+dequeue
+enqueue 268
+is_empty
+size
+enqueue -142
+enqueue -789
+dequeue
+enqueue 218
+size
+is_empty
+enqueue -478
+enqueue 786
+enqueue 739
+is_empty
+size
+dequeue
+enqueue 9
+size
+enqueue 737
+is_empty
+size
+size
+is_empty
+dequeue
+size
+enqueue -254
+is_empty
+is_empty
+enqueue -469
+enqueue 352
+dequeue
+enqueue 552
+size
+dequeue
+size
+dequeue
+enqueue 553
+enqueue -979
+dequeue
+enqueue 227
+enqueue 336
+dequeue
+dequeue
+enqueue 638
+enqueue 904
+enqueue -304
+enqueue 731
+dequeue
+enqueue 182
+enqueue 759
+size
+dequeue
+dequeue
+dequeue
+dequeue
+is_empty
+enqueue -807
+size
+enqueue 18
+size
+enqueue 624
+size
+is_empty
+dequeue
+enqueue -490
+size
+dequeue
+enqueue -352
+enqueue -238
+dequeue
+is_empty
+size
+enqueue 600
+enqueue 78
+enqueue -281
+enqueue 272
+dequeue
+is_empty
+enqueue 502
+dequeue
+is_empty
+dequeue
+is_empty
+size
+enqueue 879
+enqueue 894
+is_empty
+enqueue 513
+dequeue
+enqueue 366
+is_empty
+enqueue -863
+enqueue -218
+dequeue
+is_empty
+size
+enqueue 536
+enqueue 294
+enqueue 265
+size
+is_empty
+enqueue 975
+dequeue
+dequeue
+dequeue
+enqueue -743
+size
+dequeue
+is_empty
+size
+dequeue
+dequeue
+is_empty
+dequeue
+size
+size
+is_empty
+enqueue -868
+dequeue
+is_empty
+size

@@ -1,0 +1,3 @@
+submissions/CS15B051/q2.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ permutation(int k)
+ ^

@@ -1,0 +1,51 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push I in stack 2. New stack : _I________________________________________________
+Iteration   2 : Push x in stack 1. New stack : xI________________________________________________
+Iteration   3 : Push t in stack 1. New stack : xIt_t_____________________________________________
+Iteration   4 : Push n in stack 1. New stack : xIt_tn_n__________________________________________
+Iteration   5 : Push v in stack 1. New stack : xIt_tn_nv_v_______________________________________
+Iteration   6 : Push s in stack 1. New stack : xIt_tn_nv_vs_s____________________________________
+Iteration   7 : Push t in stack 1. New stack : xIt_tn_nv_vs_st_t_________________________________
+Iteration   8 : Push k in stack 1. New stack : xIt_tn_nv_vs_st_tk_k______________________________
+Iteration   9 : Push u in stack 1. New stack : xIt_tn_nv_vs_st_tk_ku_u___________________________
+Iteration  10 : Push K in stack 2. New stack : xItKtn_nv_vs_st_tk_ku_u___________________________
+Iteration  11 : Push g in stack 1. New stack : xItKtn_nv_vs_st_tk_ku_ug_g________________________
+Iteration  12 : Push D in stack 2. New stack : xItKtD_nv_vs_st_tk_ku_ug_g________________________
+Iteration  13 : Push l in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_______________________
+Iteration  14 : Push t in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_____________________
+Iteration  15 : Push j in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_j___________________
+Iteration  16 : Push y in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_y_________________
+Iteration  17 : Pop    in stack 1. New stack : xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_y_________________
+Iteration  18 : Push o in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo________________
+Iteration  19 : Push c in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_c______________
+Iteration  20 : Pop    in stack 1. New stack : xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_c______________
+Iteration  21 : Pop    in stack 1. New stack : xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_c______________
+Iteration  22 : Pop    in stack 2. New stack : xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_c______________
+Iteration  23 : Push i in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_i______________
+Iteration  24 : Pop    in stack 1. New stack : xItKtD_nv_vs_st_tk_ku_ug_gl_t_j_yo_i______________
+Iteration  25 : Push O in stack 2. New stack : xItKtD_Ov_vs_st_tk_ku_ug_gl_t_j_yo_i______________
+Iteration  26 : Push o in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_Ov_vs_st_tk_ku_ug_gl_t_j_yo_io_____________
+Iteration  27 : Push W in stack 2. New stack : xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_io_____________
+Iteration  28 : Pop    in stack 1. New stack : xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_io_____________
+Iteration  29 : Push q in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_ioq____________
+Iteration  30 : Pop    in stack 1. New stack : xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_ioq____________
+Iteration  31 : Pop    in stack 1. New stack : xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_ioq____________
+Iteration  32 : Push x in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvs_st_tk_ku_ug_gl_t_j_yo_iox____________
+Iteration  33 : Push R in stack 2. New stack : xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox____________
+Iteration  34 : Pop    in stack 2. New stack : xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox____________
+Iteration  35 : Push o in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o__________
+Iteration  36 : Push c in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c________
+Iteration  37 : Push g in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g______
+Iteration  38 : Push d in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d____
+Iteration  39 : Push z in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_z__
+Iteration  40 : Push m in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_z__
+Iteration  41 : Push z in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_z__
+Iteration  42 : Pop    in stack 1. New stack : xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_z__
+Iteration  43 : Push t in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  44 : Push c in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  45 : Push r in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  46 : Push M in stack 2. New stack : xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  47 : Push V in stack 2. New stack : xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  48 : Push a in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  49 : Push l in stack 1. New stack : Error: Overflow in Stack 1.xItKtD_OvWvR_st_tk_ku_ug_gl_t_j_yo_iox_o_c_g_d_zt_
+Iteration  50 : Push A in stack 2. New stack : 

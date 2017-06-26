@@ -1,0 +1,103 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push n in stack 1. New stack : n_________________________________________________
+Iteration   2 : Push c in stack 1. New stack : n_c_c_____________________________________________
+Iteration   3 : Push n in stack 1. New stack : n_c_cn_n__________________________________________
+Iteration   4 : Push z in stack 1. New stack : n_c_cn_nz_z_______________________________________
+Iteration   5 : Push H in stack 2. New stack : nHc_cn_nz_z_______________________________________
+Iteration   6 : Push o in stack 1. New stack : nHc_cn_nz_zo_o____________________________________
+Iteration   7 : Push D in stack 2. New stack : nHcDcn_nz_zo_o____________________________________
+Iteration   8 : Push P in stack 2. New stack : nHcDcP_nz_zo_o____________________________________
+Iteration   9 : Push o in stack 1. New stack : nHcDcP_nz_zo_oo_o_________________________________
+Iteration  10 : Push q in stack 1. New stack : nHcDcP_nz_zo_oo_oq_q______________________________
+Iteration  11 : Push M in stack 2. New stack : nHcDcP_Mz_zo_oo_oq_q______________________________
+Iteration  12 : Push y in stack 1. New stack : nHcDcP_Mz_zo_oo_oq_qy_y___________________________
+Iteration  13 : Push T in stack 2. New stack : nHcDcP_MzTzo_oo_oq_qy_y___________________________
+Iteration  14 : Push r in stack 1. New stack : nHcDcP_MzTzo_oo_oq_qy_yr_r________________________
+Iteration  15 : Push h in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzo_oo_oq_qy_yr_rh_______________________
+Iteration  16 : Push m in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzo_oo_oq_qy_yr_rh_m_____________________
+Iteration  17 : Pop    in stack 1. New stack : nHcDcP_MzTzo_oo_oq_qy_yr_rh_m_____________________
+Iteration  18 : Pop    in stack 2. New stack : nHcDcP_MzTzo_oo_oq_qy_yr_rh_m_____________________
+Iteration  19 : Push Q in stack 2. New stack : nHcDcP_MzTzQ_oo_oq_qy_yr_rh_m_____________________
+Iteration  20 : Push G in stack 2. New stack : nHcDcP_MzTzQ_Go_oq_qy_yr_rh_m_____________________
+Iteration  21 : Push g in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_Go_oq_qy_yr_rh_mg____________________
+Iteration  22 : Push P in stack 2. New stack : nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg____________________
+Iteration  23 : Push g in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g__________________
+Iteration  24 : Push q in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_q________________
+Iteration  25 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_q________________
+Iteration  26 : Push r in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_qr_______________
+Iteration  27 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_qr_______________
+Iteration  28 : Push o in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_qro______________
+Iteration  29 : Push k in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoq_qy_yr_rh_mg_g_qro_k____________
+Iteration  30 : Push U in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_qy_yr_rh_mg_g_qro_k____________
+Iteration  31 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_qy_yr_rh_mg_g_qro_k____________
+Iteration  32 : Push P in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_Py_yr_rh_mg_g_qro_k____________
+Iteration  33 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_Py_yr_rh_mg_g_qro_k____________
+Iteration  34 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_Py_yr_rh_mg_g_qro_k____________
+Iteration  35 : Push v in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_Py_yr_rh_mg_g_qrovk____________
+Iteration  36 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_Py_yr_rh_mg_g_qrovk____________
+Iteration  37 : Push V in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyr_rh_mg_g_qrovk____________
+Iteration  38 : Push j in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyr_rh_mg_g_qrovj____________
+Iteration  39 : Push g in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyr_rh_mg_g_qrovj_g__________
+Iteration  40 : Push U in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_rh_mg_g_qrovj_g__________
+Iteration  41 : Push J in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_Jh_mg_g_qrovj_g__________
+Iteration  42 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_Jh_mg_g_qrovj_g__________
+Iteration  43 : Push I in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_g__________
+Iteration  44 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_g__________
+Iteration  45 : Push z in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_________
+Iteration  46 : Push s in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_______
+Iteration  47 : Push v in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_v_____
+Iteration  48 : Push t in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_v_t___
+Iteration  49 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_v_t___
+Iteration  50 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_v_t___
+Iteration  51 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImg_g_qrovj_gz_s_v_t___
+Iteration  52 : Push X in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t___
+Iteration  53 : Push p in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  54 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  55 : Push v in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  56 : Push k in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  57 : Push d in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  58 : Push h in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  59 : Push h in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_g_qrovj_gz_s_v_t_p_
+Iteration  60 : Push F in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_qrovj_gz_s_v_t_p_
+Iteration  61 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_qrovj_gz_s_v_t_p_
+Iteration  62 : Push u in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_qrovj_gz_s_v_t_p_
+Iteration  63 : Push V in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_t_p_
+Iteration  64 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_t_p_
+Iteration  65 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_t_p_
+Iteration  66 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_t_p_
+Iteration  67 : Push g in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tgp_
+Iteration  68 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tgp_
+Iteration  69 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tgp_
+Iteration  70 : Push e in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tep_
+Iteration  71 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tep_
+Iteration  72 : Push l in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_Vrovj_gz_s_v_tel_
+Iteration  73 : Push N in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvj_gz_s_v_tel_
+Iteration  74 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvj_gz_s_v_tel_
+Iteration  75 : Push l in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvj_gz_s_v_tel_
+Iteration  76 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvj_gz_s_v_tel_
+Iteration  77 : Push H in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_gz_s_v_tel_
+Iteration  78 : Push z in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_gz_s_v_tel_
+Iteration  79 : Push N in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_Nz_s_v_tel_
+Iteration  80 : Push Q in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQs_v_tel_
+Iteration  81 : Push D in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  82 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  83 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  84 : Push e in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  85 : Push W in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  86 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  87 : Push G in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  88 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  89 : Push g in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  90 : Push b in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  91 : Push c in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  92 : Push z in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  93 : Push v in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  94 : Push f in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  95 : Pop    in stack 2. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  96 : Push o in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  97 : Pop    in stack 1. New stack : nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  98 : Push n in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration  99 : Push o in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration 100 : Push n in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration 101 : Push u in stack 1. New stack : Error: Overflow in Stack 1.nHcDcP_MzTzQ_GoPoU_PyVyU_JhImX_F_VrNvH_NzQsDv_tel_
+Iteration 102 : Push Z in stack 2. New stack : 

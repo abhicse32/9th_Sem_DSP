@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+from random import randint,choice,uniform
+import random
+from subprocess import call,Popen,PIPE
+from string import ascii_lowercase
+import os
+
+testDir="testcases"
+
+def generate2(w,size):
+    w.write(str(size)+"\n")
+    lst=[randint(-size,size) for i in range(size)]
+    lst.sort()
+    w.write(' '.join(map(str,lst))+"\n")
+
+def create_lab2(infile):
+    q_dir= os.path.join(testDir,infile)
+    if not os.path.exists(q_dir):
+        os.system("mkdir -p "+q_dir)
+    for i in range(20):
+        testfile= os.path.join(q_dir,"test"+str(i)+".in")
+        with open(testfile,"w") as w:
+            m=randint(1,10**6)  # change the second parameter to generate 
+                                # and array of desired size, currently 10**6
+            generate2(w,m)
+            m=randint(10,10**6)
+            generate2(w,m)
+
+
+def generate(w, size):
+    w.write(str(size)+"\n")
+    lst=random.sample(xrange(-size,size),size)
+    lst.sort()
+    w.write(' '.join(map(str,lst))+"\n")
+    toss=randint(0,1)
+    if toss==1:
+        k=randint(size+1,size+10)
+    else:
+        k=lst[randint(0,size-1)]
+    w.write(str(k)+"\n")
+
+def create_lab1(infile):
+    q_dir= os.path.join(testDir,infile)
+    if not os.path.exists(q_dir):
+        os.system("mkdir -p "+ q_dir)
+    for i in range(1):
+        testfile= os.path.join(q_dir,"test"+str(i)+".in")
+        commands=["insert","delete","insert","find_max","find_min","search","print_level_wise"]
+        with open(testfile,"w") as w:
+            lst= []
+            for i in range(5):
+                node= randint(0,50)
+                lst.append(node)
+                w.write("insert"+" "+str(node)+"\n")
+            for i in range(35):
+                command= commands[randint(0,len(commands)-1)]
+                if command=='insert':
+                    node= randint(0,50)
+                    lst.append(node)
+                    w.write(command+" "+str(node))
+                elif command=='search' or command=='delete':
+                    node= randint(0,len(lst))
+                    if node<len(lst):
+                        node= lst[randint(0,len(lst)-1)]
+                    w.write(command+" "+str(node))
+                else: 
+                    w.write(command)
+                w.write("\n")
+
+
+if __name__=='__main__':
+    if not os.path.exists(testDir):
+        os.system("mkdir "+testDir)
+    # uncomment these calls to create files
+    create_lab1("q1")
+    # create_lab2("q2")

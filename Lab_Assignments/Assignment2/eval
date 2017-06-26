@@ -1,0 +1,80 @@
+#!/usr/bin/env python
+import sys,re,os
+from subprocess import Popen, PIPE
+
+testDir,outDir,execDir,solDir="testcases","outputs","executables","solutions"
+def evaluate():
+	lst=os.listdir(execDir)
+	lst.sort()
+	for file in lst:
+		print "evaluating: "+file+".c"
+		passed,total=0,0
+		outfile,solfile= os.path.join(outDir,file+".out"),os.path.join(solDir,file+".ans")
+		with open(outfile,"r") as out_reader:
+			with open(solfile,"r") as sol_reader:
+				total,passed=0,0
+				if file=='hw2_3' or file=='hw2_2':
+					pattern1,pattern2= "([ABC] ?-> ?[ABC])?([\d+ ])+",'[ >|-]+'
+					compiled1,compiled2,flag = re.compile(pattern1),re.compile(pattern2),True
+					for sol_line in sol_reader:
+						out_line= out_reader.readline().strip()
+						sol_line2= sol_line.strip()
+						obj1= compiled1.match(out_line)
+						obj2= compiled1.match(sol_line2)
+						if obj1 and obj2:
+							if compiled2.split(out_line) != compiled2.split(sol_line2):
+								flag=False
+						else:
+							total+=1
+							if flag:
+								print "testcase %d: passed"%(total)
+								passed+=1
+							else:
+								print "testcase %d: failed"%(total)
+							flag=True
+				else:
+					for sol_line in sol_reader:
+						out_line= out_reader.readline()
+						lst_out,lst_sol= out_line.strip().split(),sol_line.strip().split()
+						lst_out.sort(),lst_sol.sort()
+						total+=1
+						if lst_sol==lst_out:
+							print "testcase %d: passed"%(total)
+							passed+=1
+						else:
+							print "testcase %d: failed"%(total)
+
+		print "result: %d/%d\n"%(passed,total)
+
+
+def execute(opts):
+	os.system("make clean")
+	os.system("make "+opts)
+	execs= [f for f in os.listdir(execDir) if not f.startswith(".") and not f.startswith("~")]
+	for ex in execs:
+		execPath,outPath,testPath= os.path.join(execDir,ex),os.path.join(outDir,ex+".out"),\
+		os.path.join(testDir,ex+".in")
+		with open(testPath,"r") as test_reader:
+			with open(outPath,"w") as out_writer:
+				cases= int(test_reader.readline().strip())
+				for i in range(cases):
+					ps= Popen("./"+execPath, stdin=PIPE, stdout= PIPE, stderr=PIPE)
+					lst=[test_reader.readline().strip()]
+					if ex=='hw2_1':
+						N=int(lst[0])
+						lst+=[test_reader.readline() for j in range(N)]
+
+					out,err=ps.communicate(os.linesep.join(lst))
+					out_writer.write(out.strip()+"\n")
+					if ex=='hw2_2' or ex=='hw2_3':
+						out_writer.write("\n")
+	
+
+if __name__=='__main__':
+	opts="all"
+	if len(sys.argv)>1:
+		opts=' '.join(sys.argv[1:])
+	if not os.path.exists(outDir):
+		os.system("mkdir "+outDir)
+	execute(opts)
+	evaluate()

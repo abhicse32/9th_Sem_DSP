@@ -1,0 +1,39 @@
+Enter strategy -- 0 (odd-even) or 1 (colliding) : 0
+Iteration   1 : Push T in stack 2. New stack : _T________________________________________________
+Iteration   2 : Push Z in stack 2. New stack : _T_Z______________________________________________
+Iteration   3 : Push v in stack 1. New stack : vT_Z______________________________________________
+Iteration   4 : Push J in stack 2. New stack : vT_Z_J____________________________________________
+Iteration   5 : Push k in stack 1. New stack : vTkZ_J____________________________________________
+Iteration   6 : Push a in stack 1. New stack : vTkZaJ____________________________________________
+Iteration   7 : Push e in stack 1. New stack : vTkZaJe___________________________________________
+Iteration   8 : Push A in stack 2. New stack : vTkZaJeA__________________________________________
+Iteration   9 : Push n in stack 1. New stack : vTkZaJeAn_________________________________________
+Iteration  10 : Push b in stack 1. New stack : vTkZaJeAn_b_______________________________________
+Iteration  11 : Push D in stack 2. New stack : vTkZaJeAnDb_______________________________________
+Iteration  12 : Push V in stack 2. New stack : vTkZaJeAnDbV______________________________________
+Iteration  13 : Push F in stack 2. New stack : vTkZaJeAnDbV_F____________________________________
+Iteration  14 : Push v in stack 1. New stack : vTkZaJeAnDbVvF____________________________________
+Iteration  15 : Push Y in stack 2. New stack : vTkZaJeAnDbVvF_Y__________________________________
+Iteration  16 : Push x in stack 1. New stack : vTkZaJeAnDbVvFxY__________________________________
+Iteration  17 : Push x in stack 1. New stack : vTkZaJeAnDbVvFxYx_________________________________
+Iteration  18 : Push z in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_______________________________
+Iteration  19 : Push c in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_c_____________________________
+Iteration  20 : Push H in stack 2. New stack : vTkZaJeAnDbVvFxYxHz_c_____________________________
+Iteration  21 : Pop    in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_______________________________
+Iteration  22 : Push o in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_o_____________________________
+Iteration  23 : Pop    in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_______________________________
+Iteration  24 : Push z in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_____________________________
+Iteration  25 : Push w in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_w___________________________
+Iteration  26 : Pop    in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_____________________________
+Iteration  27 : Push j in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_j___________________________
+Iteration  28 : Pop    in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_____________________________
+Iteration  29 : Push k in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_k___________________________
+Iteration  30 : Pop    in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_____________________________
+Iteration  31 : Push i in stack 1. New stack : vTkZaJeAnDbVvFxYxHz_z_i___________________________
+Iteration  32 : Pop    in stack 2. New stack : vTkZaJeAnDbVvFxYx_z_z_i___________________________
+Iteration  33 : Push k in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_z_i_k_________________________
+Iteration  34 : Push y in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_z_i_k_y_______________________
+Iteration  35 : Push k in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_z_i_k_y_k_____________________
+Iteration  36 : Push s in stack 1. New stack : vTkZaJeAnDbVvFxYx_z_z_i_k_y_k_s___________________
+Iteration  37 : Push B in stack 2. New stack : vTkZaJeAnDbVvFxYxBz_z_i_k_y_k_s___________________
+Iteration  38 : Push b in stack 1. New stack : Error: Overflow in stack 1
